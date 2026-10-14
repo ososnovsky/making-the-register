@@ -1,0 +1,228 @@
+
+# City of Bratislava
+
+- id: mesto-bratislava-podujatia
+  name: City of Bratislava — events
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://bratislava.sk/kultura-a-komunity/podujatia
+      channel: website-agenda
+    - url: https://bratislava.sk/kultura-a-komunity/podujatia/mestske-podujatia
+      channel: website-agenda
+      note: >-
+        city-organised events
+    - url: https://bratislava.sk/en/culture-and-communities/events
+      channel: website-agenda
+      note: >-
+        English version
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official events pages of the capital city (city-organised and supported events).
+
+# Boroughs (mestské časti)
+
+- id: mc-stare-mesto
+  name: Staré Mesto (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.staremesto.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; events are announced in its news feed. Agenda page not identified.
+- id: mc-ruzinov
+  name: Ružinov (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.ruzinov.sk/sk/podujatia
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough events page.
+- id: mc-vrakuna
+  name: Vrakuňa (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.vrakuna.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-podunajske-biskupice
+  name: Podunajské Biskupice (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.biskupice.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; culture and sport department pages, no events page identified.
+- id: mc-nove-mesto
+  name: Nové Mesto (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://banm.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; events are published in its news. Culture centre events are under
+    `stredisko-kultury-nove-mesto`.
+- id: mc-raca
+  name: Rača (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.raca.sk/zivot-v-raci/kulturne-strediska/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; culture centres page (German Culture House, Žárnovička).
+- id: mc-vajnory
+  name: Vajnory (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.vajnory.sk/news/kulturne-spolocenske-podujatia-oktober
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; monthly "cultural and social events" news item (October 2026 edition
+    linked).
+- id: mc-dubravka
+  name: Dúbravka (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.dubravka.sk/sk/Podujatia.html
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough events page.
+- id: mc-lamac
+  name: Lamač (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.lamac.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-devin
+  name: Devín (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.devin.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-devinska-nova-ves
+  name: Devínska Nová Ves (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.devinskanovaves.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-zahorska-bystrica
+  name: Záhorská Bystrica (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://zahorskabystrica.sk/kulturne-podujatia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough cultural events page.
+- id: mc-petrzalka
+  name: Petržalka (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.petrzalka.sk/podujatia/
+      channel: website-agenda
+    - url: https://www.petrzalka.sk/newsletter/
+      channel: newsletter
+      note: >-
+        borough newsletter signup
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Official borough events page.
+- id: mc-jarovce
+  name: Jarovce (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: http://www.jarovce.sk/?page=news
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site (news and notice board).
+- id: mc-rusovce
+  name: Rusovce (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.bratislava-rusovce.sk/kulturne-akcie
+      channel: website-agenda
+    - url: https://www.bratislava-rusovce.sk/kalendar
+      channel: website-agenda
+      note: >-
+        calendar
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough cultural events and calendar.
+- id: mc-cunovo
+  name: Čunovo (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.cunovo.eu/zivot-v-obci/aktuality
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site (cunovo.eu); news feed.
+- id: starz-bratislava
+  name: STaRZ — Správa telovýchovných a rekreačných zariadení (city sports facilities)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/podujatia
+      channel: website-agenda
+    - url: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/prevadzky-sportoviska
+      channel: website
+      note: >-
+        facilities
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City organisation running municipal pools, ice rinks and sports grounds; events such as the
+    24h swimming marathon and public skating.

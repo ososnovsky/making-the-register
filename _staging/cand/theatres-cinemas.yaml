@@ -1,0 +1,429 @@
+
+# Theatres
+
+- id: snd
+  name: Slovak National Theatre (SND)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://snd.sk/program
+      channel: website-agenda
+    - url: https://snd.sk/
+      channel: website
+    - url: https://snd.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage (SmartEmailing); no public archive found
+  venue:
+    address: OSM:Slovenské národné divadlo
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Opera, ballet and drama in the historic building and the new building; programme also lists
+    children's performances (the scanner skips those). Slovak. Address source: OpenStreetMap
+    (Nominatim).
+- id: nova-scena
+  name: Divadlo Nová scéna
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.novascena.sk/program
+      channel: website-agenda
+  venue:
+    address: Živnostenská 1, 812 14 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Musical theatre. Slovak. Address source: own site.
+- id: dpoh
+  name: Divadlo P. O. Hviezdoslava (DPOH)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://dpoh.sk/program/
+      channel: website-agenda
+    - url: https://dpoh.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage; no public archive found
+  venue:
+    address: Laurinská 20, 811 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Municipal drama theatre; several stages. Slovak. Address source: own site.
+- id: studio-ls
+  name: Štúdio L+S
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://studios.sk/repertoar/
+      channel: website-agenda
+    - url: https://studios.sk/
+      channel: website
+    - url: https://studios.sk/o-divadle/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  venue:
+    address: Námestie 1. mája 5, 811 06 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Theatre and comedy. Slovak. Address source: own site.
+- id: divadlo-arena
+  name: Divadlo Aréna
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.divadloarena.sk/program
+      channel: website-agenda
+  venue:
+    address: Viedenská cesta 10, 851 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre, dance and opera guest performances in Petržalka; Slovak with some English-surtitled
+    shows. Address source: own site.
+- id: rnd
+  name: Radošinské naivné divadlo (RND)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://rnd.sk/program/
+      channel: website-agenda
+  venue:
+    address: Záhradnícka 95, 821 08 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak satirical theatre (Stanislav Štepka); performs in Bratislava and on tour. Address as
+    published on the site's contact page. Address source: own site.
+- id: gunagu
+  name: GUnaGU
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://gunagu.sk/predstavenia/
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 7, 811 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Alternative theatre, comedy and improv. Slovak, some English-friendly shows. Address source:
+    own site.
+- id: divadlo-ivery
+  name: Divadlo Ívery
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://divadloivery.sk/repertoar/
+      channel: website-agenda
+  venue:
+    address: Ružinovská 28, 821 04 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Independent theatre at Dom kultúry Ružinov. Slovak. Address source: own site.
+- id: teatro-colorato
+  name: Teatro Colorato
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://colorato.sk/
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 2, 811 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre and cabaret; programme on the homepage. Slovak. Address source: own site.
+- id: meteorit-theatre
+  name: Meteorit Theatre
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://meteorit-theatre.com/program-divadla/
+      channel: website-agenda
+  venue:
+    address: Gajova 4, 811 09 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Independent theatre; Slovak and some English performances. Address source: own site.
+- id: divadlo-janart
+  name: Divadlo Janart
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.janartdivadlo.sk/repertoar
+      channel: website-agenda
+  venue:
+    address: Junácka 10, 831 04 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Small theatre in Nové Mesto; check for adult programme (mixed audience). Slovak. Address
+    source: own site.
+- id: divadlo-lab
+  name: Divadlo LAB (VŠMU)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://divadlolab.vsmu.sk/kalendar/
+      channel: website-agenda
+  venue:
+    address: Ventúrska 3, 813 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre of the Academy of Performing Arts (VŠMU); student and guest productions. Slovak.
+    Address source: own site.
+- id: ticho-a-spol
+  name: TICHO a spol.
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: http://www.tichoaspol.sk/vstupenky/
+      channel: ticketing
+  venue:
+    address: Školská 14, 811 07 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Space for culture with theatre, concerts and workshops; only a ticketing link found, no
+    separate agenda page. Address source: own site.
+- id: ludus
+  name: Divadlo LUDUS
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://ludus-space.sk/divadlo-ludus/repertoar
+      channel: website-agenda
+  venue:
+    address: Palackého 22, 811 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Youth theatre and drama school; part of the programme is aimed at young audiences, mixed
+    venue (the scanner skips children-only shows). Address source: own site.
+- id: funnylicious-theater
+  name: Funnylicious Theater
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://funnylicious.eu/
+      channel: website
+  venue:
+    address: Mickiewiczova 4, 811 07 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    English-language comedy and improv theatre; agenda page to be confirmed (only the homepage
+    and a private-events page were found). Address source: own site.
+- id: silne-reci-comedy-club
+  name: Silné Reči Comedy Club
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://silnereci.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Stand-up comedy club; no street address on the site's homepage, open item. Slovak.
+- id: sluk
+  name: Slovenský ľudový umelecký kolektív (SĽUK)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.sluk.sk/repertoar/
+      channel: website-agenda
+  venue:
+    address: Balkánska 31/66, 853 08 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National folk-art ensemble; performances at various Bratislava stages (address is the
+    ensemble's seat). Slovak. Address source: own site.
+- id: astorka-korzo-90
+  name: Divadlo Astorka Korzo '90
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.astorka.sk/
+      channel: website
+  venue:
+    address: OSM:Divadlo Astorka Korzo 90
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Drama theatre in the old town. Plain fetch returns 429; the site opens in Chrome (checked
+    2026-10-13) but no agenda URL was identified, so the agenda page is an open item. Slovak.
+    Address source: OpenStreetMap (Nominatim).
+
+# Cinemas
+
+- id: cinema-city-aupark
+  name: Cinema City Aupark
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.cinemacity.sk/whatson
+      channel: website-agenda
+    - url: https://newsletter.cinemacity.sk/
+      channel: newsletter
+      note: >-
+        Cinema City Slovakia newsletter signup
+  venue:
+    address: OSM:Cinema City Aupark
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Largest Cinema City in Slovakia (4DX, Superscreen). Address source: OpenStreetMap
+    (Nominatim).
+- id: cinema-city-eurovea
+  name: Cinema City Eurovea
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.cinemacity.sk/whatson
+      channel: website-agenda
+    - url: https://newsletter.cinemacity.sk/
+      channel: newsletter
+      note: >-
+        Cinema City Slovakia newsletter signup
+  venue:
+    address: OSM:Cinema City Eurovea
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Cinema City at the Eurovea mall. Address source: OpenStreetMap (Nominatim).
+- id: kino-lumiere
+  name: Kino Lumière
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.kino-lumiere.sk/
+      channel: website-agenda
+  venue:
+    address: Špitálska 4, 811 08 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Art-house cinema run by the Slovak Film Institute. Address source: own site.
+- id: kino-mladost
+  name: Kino Mladosť
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.kinomladost.sk/
+      channel: website-agenda
+  venue:
+    address: Hviezdoslavovo námestie 17, 811 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cinema (programme and online tickets on the site). Address source: own site.
+- id: kino-film-europe
+  name: Kino Film Europe
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.filmeurope.sk/sk
+      channel: website
+  venue:
+    address: OSM:Kino Film Europe
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Art-house cinema and festival film distributor; programme pages to be checked. Address
+    source: OpenStreetMap (Nominatim).
+- id: kino-usmev
+  name: Kino Úsmev
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://kinousmev.sk/program/
+      channel: website-agenda
+  venue:
+    address: OSM:Kino Úsmev
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cinema in Bratislava; programme page on the site. Address source: OpenStreetMap (Nominatim).
+
+# Festivals and further venues
+
+- id: febiofest
+  name: Febiofest (international film festival)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://febiofest.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    International film festival in Bratislava (Slovak and Czech editions); programme pages on
+    the site.
+- id: be2can
+  name: Be2Can (festival film showcase)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://be2can.sk
+      channel: website
+  venue:
+    address: Matúškova 2148/10, 831 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Showcase of films from the major festivals in Bratislava cinemas (14–18 October 2026);
+    address is the organiser's. Address source: own site.
+- id: red-cat-cabaret
+  name: Red Cat Cabaret
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://redcatcabaret.com/
+      channel: website
+  venue:
+    address: Obchodná 17, 811 06 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cabaret theatre and night club; erotic show format, 18+. Address source: Visit Bratislava
+    place page.

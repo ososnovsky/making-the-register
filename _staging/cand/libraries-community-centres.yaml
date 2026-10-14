@@ -1,0 +1,125 @@
+- id: mestska-kniznica-bratislava
+  name: Mestská knižnica v Bratislave
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.mestskakniznica.sk/zazite/podujatia
+      channel: website-agenda
+  venue:
+    address: OSM:Mestská knižnica Klariská
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City library network with events, lectures and workshops; also hosts a Ukrainian library
+    fund and community use of premises. Address source: OpenStreetMap (Nominatim).
+- id: kniznica-ruzinov
+  name: Knižnica Ružinov
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kniznica-ruzinov.sk/kalendar/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough library with an events calendar.
+- id: staromestska-kniznica
+  name: Staromestská knižnica
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://starlib.sk/
+      channel: website
+    - url: https://starlib.sk/odber-newslettra/
+      channel: newsletter
+      note: >-
+        signup page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Old Town borough library network; announcements category.
+- id: kniznica-nove-mesto
+  name: Knižnica Bratislava – Nové Mesto
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.kbnm.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Nové Mesto library with events.
+- id: bod-kulturno-komunitne-centrum
+  name: BOD — Kultúrno-komunitné centrum
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kulturnybod.sk/bod/podujatia
+      channel: website-agenda
+    - url: https://preview.mailerlite.io/forms/2414471/189695534004438306/share
+      channel: newsletter
+      note: >-
+        MailerLite signup form
+  venue:
+    address: Hraničná 38, 841 05 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Cultural and community centre in Podunajské Biskupice with a dated events calendar. Address
+    source: own site.
+- id: klub-machovisko
+  name: Klub Machovisko
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.klubmachovisko.sk/program-klubu-machovisko/
+      channel: website-agenda
+  venue:
+    address: Na vŕšku 6, 811 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Club space with a programme page. Address source: own site.
+- id: kreativny-klub-luna
+  name: Kreatívny klub Luna
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://klubluna.sk/131/kalendar.html
+      channel: website-agenda
+  venue:
+    address: OSM:Kreatívny klub Luna Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Creative club with a calendar of courses and events. Address source: OpenStreetMap
+    (Nominatim).
+- id: kpbunt
+  name: kpBUNT — komunitný priestor
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kpbunt.org/
+      channel: website
+    - url: https://kpbunt.org/newsletter/prihlasit-sa/
+      channel: newsletter
+      note: >-
+        signup page
+    - url: https://kpbunt.org/newsletter/
+      channel: website
+      note: >-
+        public newsletter archive (monthly issues)
+  venue:
+    address: OSM:kpBUNT Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Community space; no agenda page identified. Address source: OpenStreetMap (Nominatim).

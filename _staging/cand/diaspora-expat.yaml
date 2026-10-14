@@ -1,0 +1,120 @@
+- id: internationals-bratislava
+  name: Internationals Bratislava
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://internationals.sk/events/
+      channel: website-agenda
+    - url: https://internationals.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Non-profit connecting internationals and locals: social nights, International Night, speed
+    dating in English.
+- id: events-in-bratislava-meetup
+  name: Events in Bratislava (Meetup group)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava/events/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    International-community social events group on Meetup.
+- id: slovak-friends
+  name: Slovak Friends Language school — monthly event
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://slovakfriends.com/monthly-event/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Language school with a monthly community event for internationals.
+- id: mareena
+  name: Mareena
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://mareena.sk/podujatia-update
+      channel: website-agenda
+    - url: https://mareena.sk/kurzy
+      channel: website-agenda
+      note: >-
+        courses
+    - url: https://mareena.sk/workshopy
+      channel: website-agenda
+      note: >-
+        workshops
+  venue:
+    address: Kýčerského 8, 811 05 Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Community events, courses and workshops for people from abroad (including Ukrainians) and
+    locals. No 2026 dates in the plain HTML of the events pages (checked 2026-10-13); events
+    probably render client-side, browser check pending. Checked in Chrome 2026-10-13: the page
+    lists regular events with weekly or fortnightly patterns (e.g. Language café every second
+    Wednesday 17:00 at Staré lýceum, Konventná 15), not dated items; full dates are on its
+    Facebook page. Address source: own site.
+- id: ukrajinske-kulturne-centrum
+  name: Ukrajinské kultúrne centrum (UKC)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.ukc.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Independent Ukrainian cultural centre (founded 2022): exhibitions, literary readings, film
+    evenings, Ukrainian classes. Events listed as dated posts; no agenda page found. Ukrainian
+    community.
+- id: sme-spolu
+  name: SME SPOLU o.z. (Ukrainian and Slovak House)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://smespolu.org/events/
+      channel: website-agenda
+  venue:
+    address: Ovručská 5, 831 02 Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Association of Ukrainians in Slovakia running the Ukrainian-Slovak community house in Nové
+    Mesto (about 200 events a month for children and adults, per the site). Ukrainian community.
+    No 2026 dates in the plain HTML of the events page (checked 2026-10-13); browser check
+    pending. Checked in Chrome 2026-10-13: the events page describes the Ukrainian school in
+    evacuation; no dated agenda found. Address source: own site.
+- id: adra-komunitne-centrum-ukrajina
+  name: ADRA Slovensko — community centre for people from Ukraine
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.adra.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    ADRA community centre in Bratislava (conversation clubs, workshops, counselling); no
+    separate events page identified. Ukrainian community.
+- id: expatsk-quiz-night
+  name: ExpatSK — Bratislava Pub Quiz Night
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://expatsk.com/quiz-night/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    English pub quiz nights run by an expat services agency.

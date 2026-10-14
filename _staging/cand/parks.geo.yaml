@@ -1,0 +1,37 @@
+- id: zoo-bratislava
+  name: ZOO Bratislava
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://www.zoobratislava.sk/kalendar-podujati/
+      channel: website-agenda
+  venue:
+    address: Mlynská dolina 1A, 842 27 Bratislava
+    coords: [48.164186, 17.067868]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Zoo with an events calendar (mixed audience; kids-only items are skipped). Address source:
+    own site.
+- id: mestske-lesy-bratislava
+  name: Mestské lesy v Bratislave
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://www.mestskelesy.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Manager of the Bratislava forest park (Koliba, Kamzík, Železná studnička); announcements.
+- id: rybnik-raca
+  name: Rybník Rača
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://rybnikraca.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Park and fishing pond in Rača; corporate and sport events page.

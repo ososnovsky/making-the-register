@@ -1,0 +1,232 @@
+
+# City agendas and tourism (tie-break: foundation, platform or city organisation → aggregators)
+
+- id: visit-bratislava
+  name: Visit Bratislava (Bratislava Tourist Board)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/podujatia/
+      channel: website-agenda
+    - url: https://www.visitbratislava.com/sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City tourism events calendar run by the Bratislava Tourist Board (Slovak and English
+    versions of the site).
+- id: bkis-bratislava
+  name: BKIS — Bratislavské kultúrne a informačné stredisko
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.bkis.sk/podujatia/
+      channel: website-agenda
+    - url: https://www.bkis.sk/
+      channel: website
+    - url: https://www.bkis.sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City-run cultural and information centre; lists its own festivals and city events
+    (Bratislava Cultural Summer, Christmas markets and similar) and other organisers' events.
+    Slovak.
+
+# Ticketing and event platforms
+
+- id: goout-bratislava
+  name: GoOut Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/bratislava/akcie/lezxefnnne/
+      channel: aggregator-page
+    - url: https://goout.net/sk/bratislava/parties/lezxefnnnezj/
+      channel: aggregator-page
+      note: >-
+        Parties only
+    - url: https://goout.net/en/bratislava/events/lezxefnnne/
+      channel: aggregator-page
+      note: >-
+        English version
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cultural listing and ticketing platform (CZ/SK), city page for Bratislava. Slovak and
+    English.
+- id: eventbrite-bratislava
+  name: Eventbrite Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.eventbrite.com/d/slovakia--bratislava/all-events/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Platform city page; mixed local and international-community events (language exchanges, tech
+    mixers). Use the city-filtered URL.
+- id: meetup-bratislava
+  name: Meetup Bratislava (city search)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/find/sk--bratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Meetup groups and events near Bratislava. The international community group "Events in
+    Bratislava" has its own entry.
+- id: ra-bratislava
+  name: Resident Advisor — Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://ra.co/events/sk/bratislava
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Electronic music and club events in Bratislava; page renders in a browser only (checked in
+    Chrome 2026-10-13: 15 upcoming events). Plain fetch gets 403.
+- id: ticketportal-sk
+  name: Ticketportal.sk
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ticketportal.sk/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticket shop, many Bratislava venues; no Bratislava-only URL found, the
+    scanner filters by city.
+- id: predpredaj-sk
+  name: Predpredaj.sk (Zoznam)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://predpredaj.zoznam.sk/sk/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticket shop (Zoznam); no Bratislava-only URL found, the scanner filters by
+    city.
+- id: ticketlive-sk
+  name: TicketLIVE
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ticketlive.sk/sk
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticketing and promoter site; event titles carry the city, the scanner
+    filters for Bratislava.
+
+# Local event listing sites
+
+- id: eventland-bratislava
+  name: Eventland Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://eventland.eu/bratislava/
+      channel: website-agenda
+    - url: https://eventland.eu/bratislava/weekend/
+      channel: aggregator-page
+      note: >-
+        weekend view
+    - url: https://eventland.eu/bratislava/#footer-newsletter
+      channel: newsletter
+      note: >-
+        signup form in the page footer; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Daily event tips for Bratislava (concerts, theatre, exhibitions, workshops); organisers can
+    add events free. English and Slovak.
+- id: codnes-bratislava
+  name: Čo dnes? Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://bratislava.codnes.sk/
+      channel: website-agenda
+    - url: https://bratislava.codnes.sk/koncerty
+      channel: aggregator-page
+      note: >-
+        concerts
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Regional listing of concerts, parties, films, exhibitions, festivals and sports in
+    Bratislava and surroundings; user-submitted items, sparse (a few live items among old ones).
+- id: bratislavak-podujatia
+  name: Bratislavak.sk — Podujatia
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.bratislavak.sk/clanky/podujatia
+      channel: website-agenda
+    - url: https://www.bratislavak.sk/newsletter
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Local news site with an events section (theatre, cinema, concert programmes). Slovak.
+- id: citylife-bratislava
+  name: CityLife.sk
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.citylife.sk/
+      channel: website-agenda
+    - url: https://mailchi.mp/citylife/citylife-newsletter
+      channel: newsletter
+      note: >-
+        Mailchimp newsletter page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    "Čo sa deje v Bratislave a okolí": local events and city life magazine. Slovak.
+- id: kamdomesta-bratislava
+  name: KamDoMesta.sk — Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://kamdomesta.sk/bratislava/predstavenia
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Listing of performances and entertainment in Bratislava. Slovak.
+- id: ajdnes-bratislavsky-kraj
+  name: Ajdnes.sk — Bratislavský kraj
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ajdnes.sk/bratislavsky-kraj/r4
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Regional listing of events, festivals and celebrations in the Bratislava region (includes
+    places outside the municipality; the scanner keeps Bratislava only).

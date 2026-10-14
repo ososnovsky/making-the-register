@@ -1,0 +1,12 @@
+mmb | https://muzeumbratislava.sk/sluzby
+mmb-hrad-devin | https://muzeumbratislava.sk/hrad-devin
+sng | https://sng.sk/sk/sng-bratislava/navsteva
+gmb | https://gmb.sk/navsteva
+snm | https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte
+zoya | https://zoyamuseum.sk/
+kunsthalle | https://kunsthallebratislava.sk/
+muzeum-obchodu | https://muzeumobchodu.sk/
+synagogue | https://www.synagogue.sk/en/home/
+bs6 | http://www.bs6.eu/
+danubiana | https://danubiana.sk/navsteva
+snd | https://snd.sk/sluzby

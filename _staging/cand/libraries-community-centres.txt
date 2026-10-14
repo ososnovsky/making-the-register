@@ -1,0 +1,8 @@
+mestska-kniznica-bratislava | Mestská knižnica v Bratislave | https://www.mestskakniznica.sk/zazite/podujatia@a | OSM:Mestská knižnica Klariská | - | - | City library network with events, lectures and workshops; also hosts a Ukrainian library fund and community use of premises. |
+kniznica-ruzinov | Knižnica Ružinov | https://kniznica-ruzinov.sk/kalendar/@a | | - | - | Borough library with an events calendar. |
+staromestska-kniznica | Staromestská knižnica | https://starlib.sk/@w ; https://starlib.sk/odber-newslettra/@n~signup page | | - | - | Old Town borough library network; announcements category. |
+kniznica-nove-mesto | Knižnica Bratislava – Nové Mesto | https://www.kbnm.sk/@w | | - | - | Nové Mesto library with events. |
+bod-kulturno-komunitne-centrum | BOD — Kultúrno-komunitné centrum | https://kulturnybod.sk/bod/podujatia@a ; https://preview.mailerlite.io/forms/2414471/189695534004438306/share@n~MailerLite signup form | Hraničná 38, 841 05 Bratislava | - | - | Cultural and community centre in Podunajské Biskupice with a dated events calendar. |
+klub-machovisko | Klub Machovisko | https://www.klubmachovisko.sk/program-klubu-machovisko/@a | Na vŕšku 6, 811 01 Bratislava | - | - | Club space with a programme page. |
+kreativny-klub-luna | Kreatívny klub Luna | https://klubluna.sk/131/kalendar.html@a | OSM:Kreatívny klub Luna Bratislava | - | - | Creative club with a calendar of courses and events. |
+kpbunt | kpBUNT — komunitný priestor | https://kpbunt.org/@w ; https://kpbunt.org/newsletter/prihlasit-sa/@n~signup page ; https://kpbunt.org/newsletter/@w~public newsletter archive (monthly issues) | OSM:kpBUNT Bratislava | - | - | Community space; no agenda page identified. |

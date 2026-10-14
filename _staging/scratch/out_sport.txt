@@ -1,0 +1,86 @@
+Športová hala Trnávka ~leisure=sports_centre   | 200 |  | [RUŽINOVSKÝ ŠPORTOVÝ KLUB] | y=38 IGFB | addr: Mierová 21, 827 05 Bratislava | AG: https://www.rskruzinov.sk/novinky/podujatia-na-mesiac-september-2026-1 https://www.rskruzinov.sk/novinky/podujatia-na-mesiac-september-2026 | NL: 
+Plaváreň FEI STU ~leisure=swimming_pool   | 200 |  | [Plaváreň a sauna FEI STU] | y=1 FB | addr:  | AG:  | NL: 
+Aikido dojo Genkan ~leisure=sports_centre Račianska 151 | 200 |  | [Aikido Dojo GENKAN Bratislava | Domov] | y=0 IGFB | addr:  | AG:  | NL: 
+Futbalový klub BCT Bratislava ~leisure=sports_centre Tomášikova 12444 | 200 | https://www.nsk1922.sk/ | [NŠK 1922 Bratislava] | y=107 IGFB | addr: NŠK 1922 Bratislava NŠK 1922 Bratislava | AG: https://www.nsk1922.sk/aktuality https://www.nsk1922.sk/aktuality/vysledky-vevericiek-a-tim-zdolal-rovinku-becko-ziskalo-bod-proti-mostu https://www.nsk1922.sk/aktuality/zapasy-vevericiek-a-tim-privita-rovinku-becko-most-a-vsetky-timy-pripraviek-v-akcii | NL: 
+Plaváreň Pasienky ~leisure=swimming_pool   | 200 | https://bratislava.sk/vzdelavanie-a-volny-cas/starz | [STaRZ – Mesto Bratislava] | y=54 IGFB | addr: Primaciálne námestie 1 814 99 Bratislava | AG: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/podujatia https://bratislava.sk/mesto-bratislava/transparentne-mesto/aktuality?author=starz https://bratislava.sk/vzdelavanie-a-volny-cas/starz/podujatia/silvestrovsky-beh | NL: 
+Plavecká akadémia ~leisure=swimming_pool   | 200 |  | [Plavecká Akadémia | Plávanie a plavecké kurzy pre deti] | y=25 IGFB | addr: Banšelova 4, Bratislava | AG: https://plaveckaakademia.sk/novinky/zapis-na-jesenne-kurzy-plavanie-pre-babatka-je-tu https://plaveckaakademia.sk/novinky/velky-zapis-na-jesenne-plavecke-kurzy-2026-je-za-dverami https://plaveckaakademia.sk/kurzy/pre-babatka | NL: 
+The Little Gym ~amenity=kindergarten   | 200 |  | [The Little Gym | Bratislava] | y=0  | addr:  | AG: https://bratislava.thelittlegym.eu/classes | NL: 
+TJ Sokol ~leisure=sports_centre   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Lezecké centrum Vertigo ~leisure=sports_centre   | 200 |  | [Vertigo - Lezecké centrum] | y=14 IGFB | addr: Trenčianska 47 821 09 Bratislava | AG: https://lezeckecentrum.sk/kurzy/ https://lezeckecentrum.sk/kalendar/ https://lezeckecentrum.sk/kurzy | NL: 
+FYZIO KLINIK ~leisure=sports_centre   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Kart One Arena ~leisure=sports_centre Kopčianska 82A | 200 | https://www.kartonearena.sk/ | [Kart One Arena | Bratislava - Petržalka] | y=1 IGFB | addr:  | AG: https://www.kartonearena.sk/podujatia https://www.kartonearena.sk/podujatia/aktualne-podujatia/sprint-mondays-2024 https://www.kartonearena.sk/jazdy/firemne-akcie | NL: 
+Spartans Club Bratislava ~leisure=sports_centre Mlynské nivy 54 | 200 | https://www.spartans.sk/sk | [Spartans Muay Thai Bratislava | Deti, Dospelí, VIP & Súkromn] | y=0 IGFB | addr:  | AG:  | NL: 
+expreska ~leisure=sports_centre   | 200 |  | [Expreska | Expreska Prešov je po novom Medicc Lady Fitness] | y=0  | addr:  | AG:  | NL: 
+MOL fit ~leisure=sports_centre   | 200 |  | [Registrácia domén, hosting a servery :: Websupport.sk] | y=0  | addr:  | AG:  | NL: 
+Yoga Lates ~leisure=sports_centre   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+iCombat ~leisure=sports_centre   | 200 |  | [Laser aréna | Najlepší LASER game v Bratislave | iCOMBAT Bra] | y=0 IGFB | addr:  | AG:  | NL: 
+Aikido San Shin Kai ~amenity=dojo   | 200 | https://aikidoskolabratislava.sk/ | [Domov] | y=0 FB | addr: Záhradnícka 95, 821 08 Bratislava | AG:  | NL: 
+Fitclub Bezinka ~leisure=sports_centre   | 200 |  | [Žiadny obsah | WebHouse] | y=0  | addr:  | AG:  | NL: 
+Yoga House ~leisure=sports_centre   | 200 |  | [YogaHouse – Priestor Vo Vnútri] | y=16 IGFB | addr:  | AG: https://www.yogahouse.sk/kurzy-courses/ https://www.yogahouse.sk/workshopy https://www.yogahouse.sk/events/joga-a-kvety/ | NL: 
+Ferrata club ~club=sport   | 200 |  | [ferrata.sk je na predaj | Prémiová internetová doména] | y=1  | addr:  | AG:  | NL: 
+Bratislava Shooting Club ~leisure=sports_centre   | 200 | https://bratislavashootingclub.com/ | [Bratislava Shooting Range | Ultimate Shooting Experience] | y=4 IGFB | addr: Obchodná st. 68 Bratislava | AG:  | NL: 
+Laser Arena ~leisure=sports_centre   | 200 |  | [Laser Aréna Bratislava] | y=2 IGFB | addr:  | AG: https://www.laserarena.sk/domov/hry-atrakcie https://www.laserarena.sk/domov/hry-atrakcie/neon-city-arena https://www.laserarena.sk/domov/hry-atrakcie/pixel-games | NL: 
+Hero Factory Area ~leisure=sports_centre Vajnorská 108 | 200 |  | [HERO FACTORY - Epický Paintball v Bratislave 17000m² Airsoft] | y=1 IGFB | addr:  | AG:  | NL: 
+MANDIRA JOGA CENTRUM ~leisure=sports_centre   | 200 |  | [Mystérium – Mystérium, škola jogy a tantry] | y=1  | addr:  | AG: https://www.joga-ezoterika.sk/rozvrh-cennik/ https://www.joga-ezoterika.sk/integralna-joga/ https://www.joga-ezoterika.sk/tantra/ | NL: 
+~leisure=swimming_pool   | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Block Dock ~leisure=sports_centre   | 200 | https://www.blockdock.me/ | [BLOCK DOCK] | y=0 IGFB | addr: Púchovská 14, 831 06 Bratislava | AG:  | NL: 
+Baletné štúdio ART Pointe ~amenity=dancing_school   | 200 | https://www.artpointe.sk/ | [Baletne studio - artpointe.sk] | y=4 IGFB | addr:  | AG:  | NL: 
+Trias Performance Center ~leisure=sports_centre   | 200 |  | [Funkčný a silový tréning v Bratislave — TRIAS Performance Ce] | y=5 IGFB | addr: Jadrová 3228/4 821 02 Bratislava | AG:  | NL: 
+Santosha Yoga Studio ~leisure=sports_centre   | 200 |  | [Santosha yoga studio] | y=0  | addr:  | AG:  | NL: 
+WOLF Aréna Petržalka ~leisure=sports_hall   | 200 |  | [Wolfarena] | y=0 FB | addr: Kopčianska 6211, 851 01 Bratislava | AG: https://www.wolfarena.sk/oslavy-a-akcie/ | NL: 
+Žabiatko Babyswimming ~leisure=sports_centre   | 200 |  | [Domov - Žabiatko] | y=45 FB | addr:  | AG: https://www.zabiatko.sk/nase-kurzy/ https://zabiatko.auksysportal.com/shop/courses/list/kurzy https://www.zabiatko.sk/kurzy/ | NL: 
+Movement institute ~leisure=sports_centre   | 200 |  | [Fyzioterapia Bratislava * Osobné tréningy * Masáž] | y=13 IGFB | addr:  | AG:  | NL: 
+HOCKEY HOUSE ~leisure=sports_hall   | 200 |  | [Home page -] | y=1 IGFB | addr: Galvaniho 16 921 04 Bratislava | AG:  | NL: 
+Kamenné srdce ~   | 200 |  | [Lezenie Bratislava: Kamenné srdce, Devínska Nová Ves | ZAGUR] | y=2 IGFB | addr:  | AG:  | NL: 
+YOGO CITY ~leisure=sports_centre   | 200 |  | [YOGO CITY – tvoje joga štúdio v centre Bratislavy] | y=44 IGFB | addr:  | AG:  | NL: 
+International table tennis center ~leisure=sports_centre   | 200 |  | [ŠKST Bratislava Aréna] | y=0  | addr:  | AG:  | NL: 
+Hot yoga centrum ~leisure=sports_centre   | 200 |  | [HYC - Hot Yoga Centrum / Bratislava - Ružinov | HYC.sk] | y=7 IGFB | addr: Kopčianska 8 851 01 Bratislava | AG: https://www.hyc.sk/reservations/new?event_id=90213 https://www.hyc.sk/reservations/new?event_id=90217 https://www.hyc.sk/reservations/new?event_id=90221 | NL: 
+BigHugGym ~leisure=sports_centre   | 200 | https://bighuggym.sk/site/ | [BigHugGym – Gymnastics for Kids] | y=0 IGFB | addr:  | AG: https://bighuggym.sk/site/kurzy/ | NL: 
+Superbaby - kurzy plávania pre bábätká a deti ~leisure=sports_centre Bárdošova 2722/26 | 200 |  | [Plávanie pre bábätká a deti Bratislava – Kramáre | Superbaby] | y=8 IGFB | addr:  | AG: https://www.superbaby.sk/rozvrh https://www.superbaby.sk#prihlaska | NL: 
+aerialemotion ~leisure=sports_centre   | 200 |  | [Aerialemotion - Domovská stránka] | y=2  | addr:  | AG: http://aerialemotion.sk/štúdio/kurzy | NL: 
+Hunter Club ~leisure=sports_centre Kamenné námestie 2392/1A | 200 |  | [Hunter Club Bratislava | Profesionálna Strelnica] | y=0 IGFB | addr:  | AG:  | NL: 
+DOBRO room ~leisure=sports_centre   | 200 |  | [Home | dobroroom.sk] | y=13 IG | addr: Adresa Dobrovičova 3 Bratislava | AG: https://www.dobroroom.sk | NL: 
+Gopass aréna ~leisure=sports_centre Trnavská cesta 1373 | 200 |  | [Kontakt | Gopass arena] | y=0 IGFB | addr:  | AG:  | NL: 
+Národné tenisové centrum ~leisure=sports_centre   | 200 |  | [NTC - Národné tenisové centrum] | y=8 IGFB | addr: Príkopova 6 831 03 Bratislava | AG: https://www.ntc.sk/podujatia.html https://www.ntc.sk/podujatie/horkyze-slize-carovne-tour-2026.html https://www.ntc.sk/podujatie/sarah-brightman.html | NL: 
+BMX klub Rača ~leisure=sports_centre   | 200 |  | [] | y=0  | addr:  | AG:  | NL: 
+Športový areál Mladá garda STU ~leisure=sports_centre   | 200 | https://registracia.ikmg.sk/prihlasenie | [Registracia Garda] | y=2  | addr:  | AG:  | NL: 
+Športová hala Mladosť ~leisure=sports_centre Trnavská cesta 3421/39 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Športová hala Prokofievova ~leisure=sports_centre Prokofievova 998/2 | 0 | http://www.hala.rsulak.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+BILIARDOVÝ KLUB predator ~leisure=sports_centre Budatínska 3328/1A | 200 |  | [Biliard Bratislava Petržalka | Biliard Klub Predator] | y=1 IGFB | addr:  | AG:  | NL: 
+Lanoland ~leisure=sports_centre   | 200 |  | [Lanoland lanové centrum na Kolibe] | y=4 IGFB | addr:  | AG: https://www.lanoland.sk/teambuilding/ https://www.eventonline.sk | NL: 
+Kúpalisko Mičurin ~leisure=swimming_pool   | 200 |  | [Mestské kúpalisko Mičurin – Mesto Bratislava] | y=27 IGFB | addr: Primaciálne námestie 1 814 99 Bratislava | AG: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/podujatia https://bratislava.sk/mesto-bratislava/transparentne-mesto/aktuality?author=starz https://www.bratislava.sk/api/feed | NL: 
+RELAXX ~leisure=sports_centre Einsteinova 3734/7 | 200 |  | [RELAXX] | y=0 FB | addr: Einsteinova ulica 9, 851 01 Bratislava | AG:  | NL: 
+Max 60 ~leisure=sports_centre Vajnorská 11868/127A | 200 |  | [Motokárová hala] | y=0 IGFB | addr:  | AG:  | NL: 
+Plaváreň Slovnaft ~leisure=sports_centre Vlčie hrdlo 5868/50A | 0 | https://www.slovnaft.sk/sk/o-nas/sprava-nehnutelnosti/sportoviska/plavaren/ | [] | y=0  | addr:  | AG:  | NL: 
+Lezecká Stena K2 ~leisure=sports_centre Stará Ivanská cesta 631/1B | 200 |  | [Lezecká stena K2 - Bratislava | Lezecké kurzy | Požičovňa | ] | y=58 IGFB | addr:  | AG: https://www.lezeckastena.sk/aktuality/ https://www.lezeckastena.sk/lezecke-kurzy/ https://www.lezeckastena.sk/lezecky-kurz-pre-pokrocilych/ | NL: 
+FanatiX Squash & Fitness Center ~leisure=sports_centre Dunajská 2295/23 | 200 |  | [Fitness | Fanatix | Bratislavský kraj] | y=6 IGFB | addr:  | AG:  | NL: 
+Zimný štadión Lamač ~leisure=sports_centre  6764 | 200 |  | [ICE Arena | Zimný štadion Lamač] | y=2 FB | addr:  | AG: http://www.icearena.sk/ponuka/firemne-akcie/ | NL: 
+Pengym ~leisure=sports_centre Wolkrova 3437/47 | 500 |  | [] | y=0  | addr:  | AG:  | NL: 
+Squash Centrum Pionierska ~leisure=sports_centre Legerského 10797/3 | 200 | https://squashcentrum.sk/ | [Sport Centrum Pionierska | Squash · hala · fitko] | y=21 IGFB | addr: Legerského 3 Bratislava | AG: https://squashcentrum.sk/services/hall#kalendar https://squashcentrum.sk/events https://squashcentrum.sk/events#futbal | NL: 
+Plaváreň Majerníkova ~leisure=swimming_pool Majerníkova 62 | 200 |  | [Plaváreň Majerníkova 62] | y=8  | addr:  | AG:  | NL: 
+TJ Polygraf ~leisure=sports_centre Pri Seči 1 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Dúbravské športové centrum ~leisure=sports_centre   | 200 |  | [DÚBRAVSKÉ ŠPORTOVÉ CENTRUM] | y=1 IGFB | addr: Lysákova 1, Bratislava | AG:  | NL: 
+Tenisový klub Lokomotíva ~leisure=sports_centre Žabotova 5 | 200 |  | [Tenisový klub Lokomotíva 1927] | y=9 IG | addr: TENISOVÝ KLUB LOKOMOTÍVA Žabotova 5 811 04 Bratislava | AG: https://www.lokomotiva1927.sk/aktuality/ | NL: 
+Závodisko Bratislava ~leisure=sports_centre Starohájska 29 | 200 | https://zavodisko.sk/ | [zavodisko.sk - Dostihy sú náš život] | y=225 IGFB | addr: Starohájska 29 852 69 Bratislava | AG: https://zavodisko.sk/terminy-dostihov-2026/ https://zavodisko.enigoo.cz/app/tickets/events https://zavodisko.sk/kalendar-udalosti/ | NL: 
+Areál Divoká voda ~leisure=sports_centre   | 200 |  | [Divoká voda | Divokavoda.sk] | y=0 FB | addr:  | AG: https://www.divokavoda.sk/kalendar-vody/ https://www.divokavoda.sk/sluzby/firemne-akcie/ https://www.divokavoda.sk/sluzby/pre-deti/ | NL: 
+Strelnica Jarovce ~leisure=sports_centre Jantárová 48 | 200 |  | [Stránky sú blokované] | y=0  | addr:  | AG:  | NL: 
+Tenisová škola Petržalka ~leisure=sports_centre   | 200 | https://www.tkp.sk/ | [Domov] | y=33 IGFB | addr:  | AG: https://www.tkp.sk/novinky/kalendar-tkp | NL: 
+Aircraft Sport House ~leisure=sports_centre Ivanská cesta 17730/30D | 200 |  | [Aircraft Sport House] | y=1 IGFB | addr: B 821 04 Bratislava | AG:  | NL: 
+~leisure=sports_centre   | 200 |  | [TK SLÁVIA STU BRATISLAVA | Úvod] | y=5 IGFB | addr:  | AG: https://www.tkslaviastu.sk/aktuality https://www.tkslaviastu.sk/firemne-akcie | NL: 
+Paintball Záhorská ~leisure=sports_centre Československých tankistov 1B | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Športové centrum Dúbravka ~leisure=sports_centre   | 200 |  | [Športové centrum Dúbravka] | y=0  | addr:  | AG:  | NL: 
+Simba swim & move ~leisure=sports_centre   | 200 |  | [Domov - Simba Centrum] | y=20 IGFB | addr: Zuzany Chalupovej 5 851 07 Bratislava | AG: https://www.simbacentrum.sk/aktuality/ https://www.simbacentrum.sk/kurzy-pre-skoly/ https://www.simbacentrum.sk/plavanie/ | NL: 
+Národný futbalový štadión ~leisure=stadium Viktora Tegelhoffa 4 | 200 |  | [Národný futbalový štadión Bratislava - Tehelné pole] | y=260 IGFB | addr: Sasinkova 5 811 08 Bratislava | AG: https://www.narodnyfutbalovystadion.sk/nadchadzajuce-eventy/ https://www.narodnyfutbalovystadion.sk/priestory/ https://www.narodnyfutbalovystadion.sk/hostili-sme/lovestream-festival/ | NL: 
+Platňa ~   | 200 |  | [Platňa - climb.sk/] | y=11  | addr:  | AG:  | NL: 
+Hangair ~leisure=sports_centre Pri starom letisku 10851/3B | 200 |  | [Hangair - Akadémia akčných športov v Bratislave] | y=43 IGFB | addr: Vajnory 831 07 Bratislava | AG: https://hangair.sk/detske-kurzy-v-bratislave/ https://hangair.sk/event-kalendar/ https://hangair.sk/kurz_parkour/ | NL: https://hangair.sk/newsletter/
+TIPOS ARENA ~leisure=stadium   | 530 |  | [] | y=0  | addr:  | AG:  | NL: 
+Wake Lake ~leisure=sports_centre   | 200 |  | [Wakelake | Everyday Holiday - To chceš zažiť!] | y=10 IGFB | addr: Cesta na Senec 12, 821 04 Bratislava | AG: https://wakelake.sk/aktivity/workshops/ https://wakelake.sk/specialne/ https://wakelake.sk/aktuality/hello-vino-je-spat-%f0%9f%91%bb/ | NL: 
+Športové centrum polície ~leisure=sports_centre   | 200 |  | [Športové centrum polície] | y=595 IGFB | addr:  | AG: https://www.scpolicie.sk/aktuality https://www.scpolicie.sk/podujatia | NL: 
+Športový areál Draždiak ~leisure=sports_centre   | 200 |  | [Domov | Petržalka športuje] | y=17 IGFB | addr:  | AG: https://petrzalkasportuje.sk/events/arena-drazdiak-korculovanie/ https://petrzalkasportuje.sk/events/futbalovy-kruzok-petrzalka-united/ https://petrzalkasportuje.sk/events/hokejovy-kruzok-oktober-2026/ | NL: https://petrzalkasportuje.sk/newsletter/
+Tenisový areál PRO SET ~leisure=sports_centre   | 200 | https://tenisova-akademia.com/ | [Tenisová Akadémia Edmund Pavlík | Tenis pre deti BA a BB] | y=3 IGFB | addr:  | AG: https://tenisova-akademia.com/aktuality/ https://tenisova-akademia.com/aktuality/#zimnaliga1 https://tenisova-akademia.com/aktuality/#registracnypoplatok | NL: 
+Tenisová škola Jozefa Mikovíniho ~leisure=sports_centre   | 200 |  | [Tenisová škola Jozefa Mikovíniho | Bratislava | TK Tennis Cl] | y=14 IGFB | addr:  | AG:  | NL: 
+Národné centrum kanoistiky a veslovania Zemník, Bratislava ~leisure=sports_centre   | 200 |  | [Národné centrum rýchlostnej kanoistiky a veslovania] | y=32 IGFB | addr:  | AG: https://www.startitup.sk/bratislavsky-downtown-sa-stahuje-okolie-kuchajdy-caka-masivna-vystavba-a-obrovsky-20-hektarovy-park/ | NL: 
+~leisure=sports_centre M. Schneidra Trnavského 3204/2B | 200 | https://squash-imet.sk/ | [Go4Games Casino – Online Hry a Bonusy 2026] | y=5  | addr: Križkovej 949/9, Bratislava | AG:  | NL: 
+Leon sport club ~leisure=sports_centre   | 200 |  | [Leon Tennis Academy – Tenisové tréningy pre deti a dospelých] | y=1 IGFB | addr: Cintorínska 2368/22 811 08 Bratislava | AG:  | NL: 
+Iuventa ~leisure=sports_centre   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Beach Club Draždiak ~leisure=sports_centre   | 200 |  | [Úvod | beachdrazdiak.sk] | y=7 IGFB | addr: Tematínska 10 851 05 Bratislava | AG:  | NL: 

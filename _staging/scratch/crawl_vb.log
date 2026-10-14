@@ -1,0 +1,7 @@
+stop 23 404
+651
+Traceback (most recent call last):
+  File "C:\Users\olegs\OneDrive\Dokumenty\Projects\making-the-register\_staging\crawl_vb.py", line 26, in <module>
+    json.dump(out,open("vb_places.json","w",encoding="utf-8"),ensure_ascii=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'vb_places.json'

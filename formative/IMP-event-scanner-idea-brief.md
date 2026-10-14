@@ -8,15 +8,15 @@ Consumed verbatim by Development Pipeline stage 1 (`build-spec-writer`). One ite
 | Provenance | Lane C direct (stages 1–2 never ran). Decision reason: the owner repeatedly learns about local events only after they happen, if at all, and wants to socialise and meet new people. |
 | Flags carried | None (stages 1–2 not run). |
 | Companion artefact | `IMP-event-scanner-source-taxonomy.md` — source categories, event categories, and the register entry schema. Where this brief lists categories or fields, the taxonomy doc is the fuller definition. |
-| Amendments | 1 October 2026 (owner, during register building): newsletter scanning through a separate, isolated routine, and a Bookings view for activities arranged on request or by appointment. 1 October 2026 (owner): the culture family of sources (theatres and cinemas, museums, event venues, other culture) extended to three culture-only scan areas, Leiden, Amsterdam, and Utrecht, together with the aggregators that list their culture. 3 October 2026 (owner): kids-only sources, events, and bookables are out of scope; adult-only (18+) ones are in scope in every category; walk-in activities separate from ordinary admission (e.g. tower climbs) count as bookables; a 21st source category, activity venues (escape rooms, shooting ranges, bowling, karting and similar; full scan areas only), with its own event category. 4 October 2026 (owner): men-only sources, events, and bookables, and those primarily based on queer, drag, or LGBTQ+ identity or culture, are out of scope (applied retroactively to the register); a per-event "likely international" flag next to the social flag. |
+| Amendments | 1 October 2026 (owner, during register building): newsletter scanning through a separate, isolated routine, and a Bookings view for activities arranged on request or by appointment. 3 October 2026 (owner): kids-only sources, events, and bookables are out of scope; adult-only (18+) ones are in scope in every category; walk-in activities separate from ordinary admission (e.g. tower climbs) count as bookables; a 21st source category, activity venues (escape rooms, shooting ranges, bowling, karting and similar), with its own event category. 4 October 2026 (owner): men-only sources, events, and bookables, and those primarily based on queer, drag, or LGBTQ+ identity or culture, are out of scope (applied retroactively to the register); a per-event "likely international" flag next to the social flag. 13 October 2026 (owner): a per-event "likely Ukrainian" flag, separate from likely-international. |
 
 ## 1. Concept
 
-A personal web app that shows what is happening in Rotterdam (including Schiedam), The Hague (including Rijswijk), and Delft, plus cultural venues and organisers in Leiden, Amsterdam, and Utrecht, over at least the next 30 days. A weekly automated scan compiles the events from a curated register of local sources: venue websites, aggregators, community channels, and similar. The app displays them as a chronological agenda linked two-way with a map. A separate, isolated routine adds events announced in newsletters the owner has subscribed to. A second view lists bookables: activities that can be arranged on request or by appointment, such as private tastings or workshops. The core value is to stop discovering events after they have happened, and to surface occasions to meet new people.
+A personal web app that shows what is happening in Bratislava (the whole municipality, all 17 boroughs), over at least the next 30 days. A weekly automated scan compiles the events from a curated register of local sources: venue websites, aggregators, community channels, and similar. The app displays them as a chronological agenda linked two-way with a map. A separate, isolated routine adds events announced in newsletters the owner has subscribed to. A second view lists bookables: activities that can be arranged on request or by appointment, such as private tastings or workshops. The core value is to stop discovering events after they have happened, and to surface occasions to meet new people.
 
 ## 2. Who and why
 
-- **Target user**: the owner — a single person living in Rotterdam who uses the app on phone and laptop to decide what to attend, with a particular interest in events where meeting new people is likely. Occasionally shares the password with a friend.
+- **Target user**: the owner — a single person living in Bratislava who uses the app on phone and laptop to decide what to attend, with a particular interest in events where meeting new people is likely. Occasionally shares the password with a friend.
 - **Need**: event information is scattered across venue sites, aggregators, and community channels; the owner finds out too late or never.
 - **Why now**: the owner wants to socialise and meet new people more. Also, Claude Code routines make an unattended scanner possible on an existing Claude subscription, without paid API billing.
 
@@ -64,6 +64,7 @@ Slice-1 tracer (walking skeleton): one register source → routine run → inges
   - event category
   - social flag
   - likely-international flag
+  - likely-Ukrainian flag
 - Any field the source does not state is recorded as `unknown`; the scanner never guesses values.
 - Coordinates come from the register entry when the event is at that venue; other addresses are geocoded by the routine using a keyless geocoding service.
 - The event category is assigned by the scanner from the fixed event-category list in the taxonomy doc.
@@ -71,6 +72,7 @@ Slice-1 tracer (walking skeleton): one register source → routine run → inges
 - The scanner drops events that are men-only or primarily based on queer, drag, or LGBTQ+ identity or culture (e.g. queer club nights, drag shows, ballroom/kiki nights, Pride events), also at venues that are otherwise in scope.
 - The social flag is assigned per event by the scanner. It starts from the register entry's default and is adjusted by event type (e.g. meetups and networking events flagged; screenings and exhibitions not). Rules are in the taxonomy doc.
 - The likely-international flag is assigned per event by the scanner using its best judgement: set when non-local people are likely to be among the audience (e.g. internationals, expats, tourists, or people travelling in from other cities); they need not be the majority. Guidance is in the taxonomy doc.
+- The likely-Ukrainian flag is assigned per event by the scanner using its best judgement: set when Ukrainians are likely to be among the audience or the event is about Ukraine or Ukrainian culture (e.g. organised by a Ukrainian community, held in Ukrainian, Ukrainian music, film, or food, fundraisers for Ukraine). It is independent of the likely-international flag; an event can carry both. Guidance is in the taxonomy doc.
 - Before delivery, the routine merges duplicate events that match on title, date, and venue.
 - The routine delivers results only through the app's ingest endpoint (§4 security).
 - The routine reports the scan's status as `running` at start and `complete` or `failed` at end.
@@ -97,6 +99,7 @@ Slice-1 tracer (walking skeleton): one register source → routine run → inges
 - Each agenda item shows title, English line, venue, date, time, ticket required, and price.
 - Each agenda item shows the social flag when set.
 - Each agenda item shows the likely-international flag when set.
+- Each agenda item shows the likely-Ukrainian flag when set.
 - Each agenda item has a Directions link that opens Google Maps at the event's location (deep link; no API key).
 - Each agenda item links to the event's source page.
 - The map uses Leaflet with OpenStreetMap tiles.
@@ -107,6 +110,7 @@ Slice-1 tracer (walking skeleton): one register source → routine run → inges
 - Category toggles filter both agenda and map by event category.
 - A social toggle filters both agenda and map to socially flagged events.
 - A likely-international toggle filters both agenda and map to events with the likely-international flag.
+- A likely-Ukrainian toggle filters both agenda and map to events with the likely-Ukrainian flag.
 - A Scan now button triggers the routine through a server-side function; the routine token never reaches the browser.
 - A scan status line shows either "scanning since [time]", "last scan [day, time]", or "last scan failed [time]".
 - The layout is usable on phone and laptop browsers.
@@ -168,7 +172,7 @@ Slice-1 tracer (walking skeleton): one register source → routine run → inges
 ### Could
 
 - In-app register editing.
-- Cities beyond the six scan areas, and non-culture sources in Leiden, Amsterdam, and Utrecht.
+- Cities beyond the Bratislava scan area.
 - Switching the map to Google Maps (Maps JavaScript API).
 
 ## 5. Success criteria
@@ -201,7 +205,7 @@ These are checks on the product itself. Thresholds marked (T) are confirmed or a
 - Routines are subject to a daily run cap per account, in addition to subscription usage limits.
 - Map tiles are Leaflet + OpenStreetMap: no map API key, OpenStreetMap attribution displayed, and use stays within OpenStreetMap's tile usage policy.
 - Directions use a Google Maps deep link with no API key.
-- Geography is six scan areas. Three are full scan areas, covering every source category: Rotterdam (including Schiedam), The Hague (including Rijswijk), and Delft. Three are culture-only, covering only the culture source categories (`theatres-cinemas`, `museums`, `event-venues`, `culture-other`) plus aggregators that list culture: Leiden, Amsterdam, and Utrecht, each the municipality alone. Each event and register entry is tagged with one of these areas; its address keeps the actual municipality.
+- Geography is one full scan area, covering every source category: Bratislava, the whole municipality (all 17 boroughs). Each event and register entry is tagged `bratislava`; its address keeps the borough.
 - The minimum scan horizon is 30 days; events listed further ahead on fetched pages are kept.
 - No history is kept; previous scans are overwritten.
 - The scanner never logs in to any third-party site.
@@ -254,9 +258,10 @@ These are checks on the product itself. Thresholds marked (T) are confirmed or a
 - An Agenda / Bookings switch next to the Today / Week / Month / All view switch; Bookings items are visually distinct from dated events (no date column).
 - The social flag as a distinct icon on agenda items and pins.
 - The likely-international flag as its own distinct icon on agenda items and pins.
+- The likely-Ukrainian flag as its own distinct icon on agenda items and pins.
 - Optional: pin colour by event category.
 - No audio.
-- Asset needs: an app icon for the iPhone home screen, in the sizes the web app manifest and iOS require, plus icons for the social and likely-international flags and event categories.
+- Asset needs: an app icon for the iPhone home screen, in the sizes the web app manifest and iOS require, plus icons for the social, likely-international and likely-Ukrainian flags and event categories.
 
 ## 10. Out of scope
 
@@ -272,7 +277,7 @@ These are checks on the product itself. Thresholds marked (T) are confirmed or a
 - Discovering bookables automatically; they are curated in the register.
 - Calendar sync or export.
 - Personalised recommendations or ranking beyond category toggles and the social flag.
-- Cities beyond the six scan areas in v1, and non-culture sources in Leiden, Amsterdam, and Utrecht.
+- Cities beyond the Bratislava scan area in v1.
 - Google Maps JavaScript API in v1.
 - A native mobile app in v1; the architecture must allow one later (§6).
 - Tracking whether the owner attends events.

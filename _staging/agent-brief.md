@@ -5,13 +5,13 @@ Project folder (READ-ONLY for you): the root of this repo
 
 Read first:
 1. `formative/IMP-event-scanner-source-taxonomy.md` — §2 categories, §5 entry schema, §6 channels and fetch rules, §8 bookables. Follow exactly.
-2. `coverage.md` — "Carry-over rules" (BASH, Luma, newsletters, bookables, hijacked domains, rate limits), "Leads for later families", and "Rejected sources (don't re-research)".
-3. `sources.yaml` — existing 211 entries. Match their style (notes wording, `Address source:`, "Dates in HTML"). Never duplicate an existing source: if a place already exists (e.g. under restaurants), report it as "already in register" and suggest any extra links/bookables for it instead.
+2. `coverage.md` and `examples/coverage.md` — "Carry-over rules" (BASH, Luma, newsletters, bookables, hijacked domains, rate limits), "Leads for later families", and "Rejected sources (don't re-research)".
+3. `sources.yaml` — existing entries (none yet in a fresh register; the worked example in `examples/sources.yaml` shows the style). Match their style (notes wording, `Address source:`, "Dates in HTML"). Never duplicate an existing source: if a place already exists (e.g. under restaurants), report it as "already in register" and suggest any extra links/bookables for it instead.
 
 Do NOT edit anything in the project folder. Write only to your output files (paths given in your task).
 
 ## Scan areas
-`rotterdam` (incl. Schiedam), `the-hague` (incl. Rijswijk), `delft`, `leiden` (municipality only), `amsterdam` (municipality only; NOT Amstelveen, Zaandam, Diemen), `utrecht` (municipality only; NOT Nieuwegein, Houten, Zeist). Leiden, Amsterdam and Utrecht: culture categories and culture-listing aggregators only.
+`bratislava` only: the whole municipality, all 17 boroughs (Staré Mesto, Ružinov, Vrakuňa, Podunajské Biskupice, Nové Mesto, Rača, Vajnory, Karlova Ves, Dúbravka, Lamač, Devín, Devínska Nová Ves, Záhorská Bystrica, Petržalka, Jarovce, Rusovce, Čunovo). NOT places outside the municipality (e.g. Stupava, Senec, Pezinok). Culture categories and all other categories are in scope.
 
 ## Category boundaries (one per entry)
 - `theatres-cinemas`: venues whose programme is mainly theatre, cabaret, comedy, dance performance, or film; comedy clubs; cinemas (incl. chains like Pathé, one entry per cinema); film festivals.
@@ -22,7 +22,7 @@ Borderline cases: pick per the rule, and flag in your report.
 
 ## Verification rules (strict)
 - Never invent a URL or address. Record only what you fetched and checked.
-- Check every link with curl (`curl -sL -o /dev/null -w "%{http_code} %{url_effective}" -A "Mozilla/5.0 (EventScanner register curation; contact <your-email>)" URL`, and fetch the body to confirm events/dates are present). Space requests to any one domain (≥2 s apart); DJGuide blocks fast clients.
+- Check every link with curl (`curl -sL -o /dev/null -w "%{http_code} %{url_effective}" -A "Mozilla/5.0 (EventScanner register curation; contact dsosnovsky@gmail.com)" URL`, and fetch the body to confirm events/dates are present). Space requests to any one domain (≥2 s apart); DJGuide blocks fast clients.
 - Check each page's `<title>`: a domain now serving gambling/casino/parking/for-sale content is never recorded (note it in the report).
 - Plain fetch first. If a page needs rendering (shell only, no events in HTML), use the headless browser helper the lead curator names in your task, if any; otherwise record the entry with `reading_hint: browser` and say in `notes` "events not in plain HTML; browser check pending". Sites that block headless browsers go to `local-browser-checks.md` via the lead curator.
 - Never open Instagram or Facebook. You may record an IG/FB URL as a reference-only link only if the source's own site links to it.
@@ -40,14 +40,14 @@ Borderline cases: pick per the rule, and flag in your report.
 
 ## Sweep depth (owner rule): proper, exhaustive, lean to inclusion
 1. Owner-named places (given in your task).
-2. Systematic lists: city uit-agenda venue/location directories, Filmladder city cinema lists, Podiuminfo/Cabaretinfo venue lists, theatre-sector directories (e.g. VSCD/Theaterkrant venue lists), Wikipedia "list of theatres/cinemas in X" (as a discovery aid only — verify each venue's own site).
-3. Open searches per city.
+2. Systematic lists: find the Slovak/Bratislava equivalents of a city culture agenda with venue directories, a cinema listing site, concert and theatre listing sites, and theatre-sector directories; Wikipedia lists of theatres/cinemas in Bratislava (sk and en) (as a discovery aid only — verify each venue's own site).
+3. Open searches (in Slovak and English) per borough or area.
 No count targets. Include small venues (fringe theatres, comedy rooms, filmhuizen, student theatres open to the public).
 
 ## Output
-1. `<prefix>-entries.yaml`: a YAML list of entries in §5 schema (same field order and style as sources.yaml; use `>-` folded notes). Group by city with comment headers. Every note ends with `Address source: <site>.` for venues. Note the check date (2026-10-01) only if it differs.
+1. `<prefix>-entries.yaml`: a YAML list of entries in §5 schema (same field order and style as sources.yaml; use `>-` folded notes). Group by borough with comment headers. Every note ends with `Address source: <site>.` for venues. Note the check date (2026-10-01) only if it differs.
 2. `<prefix>-report.md` with:
-   - Sources covered for discovery and how completely (e.g. "Filmladder Amsterdam cinema list: all 38 checked").
+   - Sources covered for discovery and how completely (e.g. "<cinema listing site> Bratislava cinema list: all 20 checked").
    - Rejected candidates table (source, city, reason) — closed, no events, hijacked, out of area, duplicate.
    - Open items (browser checks pending, BASH candidates, unclear category).
    - Leads for other families/categories (museums, event-venues, culture-other, and anything for non-culture families), with URL if verified.
@@ -56,7 +56,7 @@ Return a short summary (counts per city, top open items) as your final message.
 
 ## Museums addendum (checkpoint 2)
 - Category `museums`, default `social_default: false`. Include every museum open to the public with any events, exhibitions agenda, late openings, talks, tours or workshops — large and small (house museums, university museums, castles that operate as museums, science centres). Lean to inclusion.
-- Best link: the museum's activities/agenda page ("agenda", "activiteiten", "programma", "evenementen", "what's on"), not the exhibitions overview, unless that's all there is. Record both if both carry dates.
-- Bookables (§8) are common here: guided tours on request for groups ("rondleiding op aanvraag", "groepsrondleiding"), private tours, workshops for groups. Record them with link and price/group size if stated. Ticketed public tours on fixed dates are events, not bookables.
-- Systematic sources: museum.nl (Museumvereniging; city filters), the city uit-agendas' museum lists, Wikipedia "lijst van musea in <stad>" (discovery only), Museumnacht organisers (each city's Museumnacht is also an organiser entry — category museums, no venue).
-- Already in sources.yaml: check before adding (e.g. Eye is a cinema entry there; mention it, don't duplicate — suggest extra links instead).
+- Best link: the museum's activities/agenda page (Slovak: "program", "podujatia", "kalendár", "aktuálne"; English: "what's on", "events"), not the exhibitions overview, unless that's all there is. Record both if both carry dates.
+- Bookables (§8) are common here: guided tours on request for groups (Slovak: e.g. "prehliadka na objednávku", "skupinová prehliadka"; English: "guided tour on request"), private tours, workshops for groups. Record them with link and price/group size if stated. Ticketed public tours on fixed dates are events, not bookables.
+- Systematic sources: find the Slovak/Bratislava equivalents of a national museum directory, the city culture agenda's museum list, Wikipedia lists of museums in Bratislava (discovery only), and the Museum Night / Night of Museums and Galleries organisers (an organiser entry — category museums, no venue).
+- Already in sources.yaml: check before adding (e.g. a museum that is already a cinema or venue entry; mention it, don't duplicate — suggest extra links instead).

@@ -1,0 +1,13 @@
+gmb | https://gmb.sk
+mmb | https://muzeumbratislava.sk
+snm-zid | https://www.snm.sk/muzea-snm/muzeum-zidovskej-kultury/muzeum-zidovskej-kultury/navstivte
+kunst | https://kunsthallebratislava.sk
+zoya | https://zoyamuseum.sk
+stm | https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/kontakt
+vodar | https://www.bvsas.sk/vodarenske-muzeum/
+bs6 | http://www.bs6.eu
+zel | https://www.zeleznicnemuzeum.sk
+msap | http://www.msap.sk
+snm-hrad | https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte
+snm-pri | https://www.snm.sk/muzea-snm/prirodovedne-muzeum/prirodovedne-muzeum/navstivte
+danubiana | https://danubiana.sk

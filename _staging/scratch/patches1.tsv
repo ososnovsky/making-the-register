@@ -1,0 +1,23 @@
+devops-slovensko	hint	browser
+cloud-native-bratislava	hint	browser
+agile-bratislava	hint	browser
+bratislava-hacking-infosec	hint	browser
+lfdt-slovakia	hint	browser
+pycon-sk	hint	browser
+bratislava-rust-meetup	hint	browser
+pydata-slovakia-bratislava	hint	browser
+bratislava-strategic-management-meetup	hint	browser
+events-in-bratislava-meetup	hint	browser
+meetup-bratislava	hint	browser
+blabla-bratislava	hint	browser
+esn-slovakia	hint	browser
+bisla	hint	browser
+mareena	hint	browser
+sme-spolu	hint	browser
+devops-slovensko	notes+	Events render client-side; no 2026 dates in plain HTML (checked 2026-10-13).
+mareena	notes+	No 2026 dates in the plain HTML of the events pages (checked 2026-10-13); events probably render client-side, browser check pending.
+sme-spolu	notes+	No 2026 dates in the plain HTML of the events page (checked 2026-10-13); browser check pending.
+ponton	notes+	The events page showed no 2026 dates in plain HTML (checked 2026-10-13); open item.
+hostinec-opapa	notes+	The beer-festivals page lists no dated 2026 events in plain HTML (checked 2026-10-13); open item.
+sundeck	notes+	Seasonal summer venue; the events page had no 2026 dates in plain HTML on 2026-10-13.
+vrba-vr-bar	notes+	The events page had no 2026 dates in plain HTML on 2026-10-13; open item.

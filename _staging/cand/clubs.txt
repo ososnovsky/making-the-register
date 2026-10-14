@@ -1,0 +1,21 @@
+aldea-club | Aldea Club | https://aldeaclub.eu/program@a | VB:Františkánske námestie 3, 811 01 Bratislava | - | - | Electronic music club in the old town (techno, house); weekend nights. |
+majestic-music-club | Majestic Music Club (MMC) | https://majestic.sk/program/@a | Karpatská 3089/2, 811 05 Bratislava | - | - | Concerts and club nights; shares the building with Randal. |
+randal-club | Randal Club | http://www.randalclub.eu/@w | Karpatská 2, 811 05 Bratislava | - | - | Student-oriented club in the same building as Majestic; homepage only, no agenda page found. |
+subdeck | SUBDECK | https://subdeck.sk/events@a | OSM:Subdeck Bratislava | - | - | Riverside club on the Danube (Petržalka bank); seasonal. |
+great-club | GREAT Club | https://www.greatbratislava.sk/party-kalendar/@a | VB:Suché mýto 6, 811 03 Bratislava | - | - | Nightclub with a party calendar; house and commercial music. |
+safko-klub | ŠAFKO Klub | https://www.safkoklub.sk/@a | Šafárikovo námestie 7, 811 02 Bratislava | - | - | Club with a programme on the homepage (nights, concerts). |
+nu-spirit-club | Nu Spirit Club | https://nuspirit.sk/@a | Medená 16, 811 02 Bratislava | - | - | Club and bar with concerts, jazz and funk sessions, quizzes and parties; programme on the homepage. |
+kacecko | Kácečko | https://www.kacecko.sk/@a | Staré Grunty 211/36, 841 04 Bratislava | - | - | Club and culture space (formerly KC Dunaj, now at the Mlyny campus); concerts and parties. The site carries many Facebook event links. |
+good-life-club | Good Life Club | https://www.goodlifebratislava.com@w | VB:Námestie SNP 1, 811 06 Bratislava | - | - | Nightclub in the centre; no agenda page found. |
+the-club-bratislava | The Club Bratislava | https://www.theclubbratislava.com/@a | Rybné námestie 1, 811 02 Bratislava | - | - | Nightclub with dated events on the homepage. |
+trafo-music-bar | Trafo Music Bar | https://www.trafo.sk/program@a | VB:Ventúrska 1, 811 01 Bratislava | - | - | Music bar and club; programme and rules page. |
+barrock | Barrock | https://www.barrock.sk/en/program-2/@a | Svätoplukova 2A, 821 08 Bratislava | - | - | Rock bar and club with a programme page. |
+luna-bar | Luna Bar | https://www.lunabar.sk/@w | OSM:Luna bar Rajská | - | - | Bar-club in the old town; homepage only. |
+fuga | Fuga | https://goout.net/sk/fuga/vzjevc/@g | OSM:Fuga Bratislava | - | - | Club in the Forum Absurdum / creative centre (GoOut venue page; the old site fuga.forumabsurdum.sk is now a hosting placeholder). |
+subclub | Subclub | https://www.facebook.com/subclubbratislava/@f | OSM:Subclub Bratislava | - | - | Legendary techno club in a tunnel under the castle hill. Website not found; Facebook reference only. |
+pink-whale | Pink Whale | https://goout.net/sk/pink-whale/vzxmte/@g | Nábrežie armádneho generála Ľudvíka Svobodu 1868rkm, Bratislava | - | - | Riverside concert and club venue (GoOut venue page; own site not reachable). Address as listed on GoOut; river-kilometre location, no house number. |
+teleport-club | Teleport | https://goout.net/sk/teleport/vzanod/@g | Michalská 10, Bratislava | - | - | Club in the old town; programme via GoOut venue page. |
+radost-music-club | Radosť Music Club | https://goout.net/sk/radost-music-club/vzlwid/@g | Obchodná 48, 811 06 Bratislava | - | - | Small club on Obchodná (own site mojaradost.sk showed only a placeholder page on 2026-10-13); promoter nights on GoOut. |
+v-klub | V-klub | https://goout.net/sk/v-klub/vzuyid/@g | Námestie SNP 12, 812 34 Bratislava | - | - | Club-concert space at Námestie SNP 12 (GoOut venue page). |
+klub-pod-lampou | .klub pod lampou | https://www.tyzden.sk/klubpodlampou/@a ; https://goout.net/sk/klub-pod-lampou/vzyoid/@g ; https://www.tyzden.sk/klubpodlampou/newsletter/@n~club newsletter page | OSM:Klub pod lampou Bratislava | - | - | Concert and discussion club run by the weekly .týždeň; has a newsletter page on the site. |
+fog-bratislava | FOG Bratislava | https://www.fogbratislava.sk@w | Kúpeľná 1, Bratislava | - | - | Concert and club venue (entrance from Palackého street); homepage only, programme to be confirmed. |

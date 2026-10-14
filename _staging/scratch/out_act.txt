@@ -1,0 +1,38 @@
+Minigolf Štrkovec ~amenity=restaurant   | 200 |  | [Domov - Minigolf Štrkovec] | y=1 IGFB | addr: Drieňová 1476/9 821 01 Bratislava | AG:  | NL: 
+Machnáč ~amenity=restaurant   | 200 |  | [Machnáč] | y=0 IGFB | addr:  | AG:  | NL: 
+Centrálna klubovňa ~amenity=restaurant   | 200 | https://www.klubovna.sk/ | [Klubovňa – remeselné pivo a jedlo | Bratislava a Banská Byst] | y=38 IGFB | addr: Starohájska 2, Bratislava | AG: https://www.medusacard.sk/ https://www.medusarestaurants.sk/medusa-catering/ | NL: 
+Bakalar Pub ~amenity=pub   | 200 |  | [Bakalar Pub] | y=2 IGFB | addr: Blagoevova 26, 851 04 Bratislava | AG:  | NL: 
+VRBA ~leisure=amusement_arcade   | 200 |  | [Virtuálna Realita Bratislava – VR bar, 3D hry, teambuilding] | y=0 FB | addr:  | AG: https://www.vrbratislava.sk/events.html https://www.pohodafestival.sk | NL: 
+Billiard Club Lavos ~leisure=pitch   | 200 |  | [Biliardový klub LAVOS – Najvačší Biliardový klub na Slovensk] | y=1 IGFB | addr: Plynárenská 6, Bratislava | AG: https://lavos.sk/oslavy-events/ | NL: 
+THEROOM ~leisure=escape_game Martinengova 2A | 200 |  | [Registrácia domén, hosting a servery :: Websupport.sk] | y=0  | addr:  | AG:  | NL: 
+Puzzler ~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+CRIME CASE ~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Brainteaselava ~leisure=escape_game   | 200 |  | [Mystery Dinner, Escape Room & Teambuilding Bratislava | Brai] | y=5 IGFB | addr:  | AG:  | NL: 
+PREŽILSOMPEKLO ~leisure=escape_game   | 200 |  | [Zahraničné Online Casina – Výherné Automaty s Vysokým RTP] | y=43  | addr:  | AG:  | NL: 
+R.I.P. Bunker ~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Undead arena ~leisure=escape_game   | 200 |  | [UNDEADARENA] | y=0  | addr:  | AG:  | NL: 
+Izba číslo 13 ~leisure=escape_game   | 200 |  | [Escape room Izba číslo 13 v Bratislave | Escape room, oslavy] | y=3 IGFB | addr: Cintorínska 7 811 08 Bratislava | AG:  | NL: 
+Colt Club ~leisure=pitch   | 200 | https://www.coltclub-strelnica.sk/sk | [Colt Club Strelnica - Home] | y=3  | addr: Colt Club Nábr. arm. gen. L.Svobodu 811 02 Bratislava | AG:  | NL: 
+Xquests Bratislava ~leisure=escape_game Jungmannova 12 | 0 | https://www.x-quests.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Escape Zone ~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Bowlingové Národné Centrum ~leisure=bowling_alley   | 200 |  | [Bowling | Bowlingové Národné Centrum] | y=2 IGFB | addr:  | AG:  | NL: 
+~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+LeavingRoom ~leisure=escape_game   | 200 |  | [Escape room pre deti Bratislava | LeavingRoom] | y=24 IGFB | addr: LeavingRoom Kopčianska 20 Bratislava | AG:  | NL: 
+Trapped ~leisure=escape_game   | 200 |  | [Únikové miestnosti Bratislava | Escape Room TRAPPED] | y=36 IGFB | addr: Rybarska brana 1, Bratislava | AG:  | NL: 
+Asylum ~leisure=escape_game   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Divný bus ~leisure=escape_game   | 200 |  | [Divný bus - escape hra Bratislava | Zazito.ooo] | y=24 IGFB | addr:  | AG:  | NL: 
+Virtuálna realita Bratislava ~leisure=amusement_arcade   | 200 |  | [Virtuálna realita Bratislava | Mobilná VR na akcie] | y=0 IGFB | addr:  | AG:  | NL: 
+Plzenská brána ~amenity=restaurant   | 200 |  | [www.plzenskabrana.sk] | y=2 IGFB | addr: Hálkova 1, Bratislava | AG:  | NL: 
+Klub u Klima ~shop=vacant   | 200 | https://app.foursquare.com/login?continue=%2Fv%2Fklub-u-klima%2F4f678127e4b0e78c035552fc | [Log in to Foursquare] | y=0  | addr:  | AG:  | NL: 
+MARS arena ~leisure=amusement_arcade   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+QUESTUM ~leisure=escape_game   | 200 | https://questum.sk/sk/ | [Questum Escape Room v Bratislave | Questum.sk Escape Room in] | y=0 IGFB | addr:  | AG: https://questum.sk/sk/news | NL: 
+Timeshift ~leisure=amusement_arcade   | 200 |  | [TimeShift Bratislava | VR Grosslingova 7] | y=4 IGFB | addr:  | AG: https://timeshift.space/corporate-event | NL: 
+Gamestate ~leisure=amusement_arcade   | 200 | https://www.gamestate.com/sk | [Gamestate | Ultimátny arcade zážitok vo vašom okolí] | y=1 IGFB | addr:  | AG: https://www.gamestate.com/sk/propagacne-akcie https://www.gamestate.com/sk/propagacne-akcie/beat-the-heat | NL: 
+GamersLab ~leisure=amusement_arcade   | 200 |  | [GamersLab - play your way! VIP gamers club in Bratislava] | y=27 IG | addr: Dunajská 7495/14, Bratislava | AG:  | NL: 
+GoEscape.sk ~leisure=escape_game   | 200 |  | [Escape room Bratislava (virtuálna realita) | GoEscape] | y=1 IGFB | addr:  | AG:  | NL: https://goescape.sk/sk/odber-noviniek
+BullsEye ~club=sport   | 200 |  | [Bullseye - Športový strelecký klub v Bratislave] | y=3 IGFB | addr:  | AG: https://bullseye.sk/strelecky-kurz-zaklady-pistol/ https://bullseye.sk/strelecky-kurz-zaklady-puska/ https://bullseye.sk/strelecky-kurz-sniper/ | NL: 
+Mystery Room ~leisure=escape_game Kupeckého 526/17 | 200 |  | [Mystery room - najlepšia escape room] | y=0  | addr:  | AG:  | NL: 
+GALAXIA centrum zábavy ~amenity=bar Studená 4/B | 200 |  | [Galaxia – Biliard, VR Escape Room & Teambuilding Bratislava] | y=5 IGFB | addr:  | AG:  | NL: 
+Petržalka Bowling Center ~leisure=bowling_alley Tupolevova 3291/7A | 200 | https://bowlingpbc.sk/ | [PBC] | y=0 IGFB | addr:  | AG:  | NL: 
+Strelnica Chicago ~leisure=pitch Kukučínova 50 | 200 |  | [CHICAGO - Nová prvotriedna strelnica v Bratislave 🎯] | y=2 IGFB | addr:  | AG:  | NL: 
+Minigolf Karlovka ~leisure=miniature_golf Janotova 12 | 200 |  | [Minigolf Karlovka – Minigolf Karlovka by irongym] | y=0 IGFB | addr:  | AG:  | NL: 

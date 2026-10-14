@@ -1,0 +1,352 @@
+
+# National and municipal museums and galleries
+
+- id: sng-bratislava
+  name: Slovak National Gallery (SNG)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://sng.sk/sk/sng-bratislava/vystavy-programy
+      channel: website-agenda
+    - url: https://sng.sk/sk/sng-bratislava
+      channel: website
+  venue:
+    address: Rázusovo nábrežie 2, 815 13 Bratislava
+    coords: [48.140268, 17.109025]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Main SNG building (Esterházy Palace and Water Barracks branch); exhibitions, public
+    programmes and tours. Slovak and English. Address source: own site.
+- id: galeria-mesta-bratislavy
+  name: Galéria mesta Bratislavy (GMB)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://gmb.sk/vystavy
+      channel: website-agenda
+    - url: https://gmb.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage; no public archive found
+  venue:
+    address: Františkánske námestie 11, 815 35 Bratislava
+    coords: [48.144805, 17.107778]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City gallery in Mirbach Palace; further venues (Pálffy Palace, Pasáž Mateja Kréna).
+    Exhibitions plus guided tours, concerts and education programmes. Address source: Visit
+    Bratislava place page.
+- id: muzeum-mesta-bratislavy
+  name: Múzeum mesta Bratislavy (Bratislava City Museum)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumbratislava.sk/prehlad-udalosti/aktualne-programy
+      channel: website-agenda
+    - url: https://muzeumbratislava.sk/prehlad-udalosti/aktualne-vystavy
+      channel: website-agenda
+      note: >-
+        exhibitions
+    - url: https://muzeumbratislava.sk/
+      channel: website
+  venue:
+    address: Primaciálne námestie 3, 811 01 Bratislava
+    coords: [48.143755, 17.108792]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City museum with the Old Town Hall, Apponyi Palace, Pharmacy at the Red Crayfish, Michael's
+    Tower, Gerulata (Rusovce) and other branches. Family programmes exist; adult programmes
+    stay. Slovak. Address source: own site.
+- id: hrad-devin
+  name: Devín Castle (Múzeum mesta Bratislavy)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumbratislava.sk/hrad-devin
+      channel: website
+  venue:
+    address: Muránska 10, 841 10 Bratislava
+    coords: [48.174548, 16.981109]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Guided talk for groups on request
+      link: https://muzeumbratislava.sk/hrad-devin
+      event_category: exhibitions
+      note: >-
+        lecturer-led talk on request for groups of up to 40 people: 25 EUR (free lecturer talk
+        for school groups on request); admission extra.
+  notes: >-
+    National cultural monument run by the City Museum; events and exhibitions are announced on
+    the museum's programme page (`muzeum-mesta-bratislavy`). Address source: Visit Bratislava
+    place page.
+- id: snm-historicke-muzeum-hrad
+  name: SNM — Historical Museum (Bratislava Castle)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte
+      channel: website
+  venue:
+    address: Bratislavský hrad, 811 06 Bratislava
+    coords: [48.142587, 17.100469]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch in Bratislava Castle (Treasury, exhibitions and events).
+    Address source: OpenStreetMap (Nominatim).
+- id: snm-muzeum-zidovskej-kultury
+  name: SNM — Museum of Jewish Culture
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-zidovskej-kultury/muzeum-zidovskej-kultury/navstivte
+      channel: website
+  venue:
+    address: Židovská 17, 811 01 Bratislava
+    coords: [48.144039, 17.103517]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch; programme announced on snm.sk. Address source: own site.
+- id: snm-archeologicke-muzeum
+  name: SNM — Archaeological Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/archeologicke-muzeum/archeologicke-muzeum/navstivte
+      channel: website
+  venue:
+    address: Žižkova 12, 810 06 Bratislava
+    coords: [48.140657, 17.097589]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch (entrance Žižkova 16). Address source: Visit Bratislava place
+    page.
+- id: snm-muzeum-kultury-madarov
+  name: SNM — Museum of Hungarian Culture in Slovakia
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-madarov-na-slovensku/muzeum-kultury-madarov-na-slovensku/navstivte
+      channel: website
+  venue:
+    address: Žižkova 18, 811 01 Bratislava
+    coords: [48.140647, 17.09706]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch. Address source: Visit Bratislava place page.
+- id: snm-muzeum-kultury-karpatskych-nemcov
+  name: SNM — Museum of Carpathian German Culture
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/muzeum-kultury-karpatskych-nemcov/navstivte
+      channel: website
+  venue:
+    address: Žižkova 14, 810 06 Bratislava
+    coords: [48.140581, 17.097387]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch. Address source: Visit Bratislava place page.
+- id: snm-muzeum-kultury-chorvatov
+  name: SNM — Museum of Croatian Culture in Slovakia
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-chorvatov-na-slovensku/muzeum-kultury-chorvatov-na-slovensku/navstivte
+      channel: website
+  venue:
+    address: Istrijská 68, 841 07 Bratislava
+    coords: [48.212283, 16.973673]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch in Devínska Nová Ves; also runs Croatian cultural events.
+    Address source: Visit Bratislava place page.
+- id: snm-prirodovedne-muzeum
+  name: SNM — Natural History Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/prirodovedne-muzeum/prirodovedne-muzeum/navstivte
+      channel: website
+  venue:
+    address: Vajanského nábrežie 2, 810 06 Bratislava
+    coords: [48.140203, 17.112876]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch with exhibitions and events. Address source: own site.
+- id: snm-hudobne-muzeum
+  name: SNM — Music Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/hudobne-muzeum/hudobne-muzeum/navstivte
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch (concerts and exhibitions). Address not confirmed, open item.
+- id: danubiana
+  name: Danubiana Meulensteen Art Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://danubiana.sk/vystavy/aktualne
+      channel: website-agenda
+  venue:
+    address: Poľná, 900 43 Bratislava
+    coords: [48.034896, 17.232195]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Modern art museum on the Danube peninsula in Čunovo. Address source: OpenStreetMap
+    (Nominatim).
+- id: kunsthalle-bratislava
+  name: Kunsthalle Bratislava (Dom umenia)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://kunsthallebratislava.sk/program/
+      channel: website-agenda
+  venue:
+    address: Námestie SNP 12, 812 34 Bratislava
+    coords: [48.145301, 17.111991]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary art exhibitions and events. Address source: own site.
+- id: muzeum-obchodu
+  name: Múzeum obchodu Bratislava
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumobchodu.sk/muzeum/archiv-vystav/
+      channel: website-agenda
+    - url: https://muzeumobchodu.sk/rock-v-muzeu/kalendar-koncertov/
+      channel: website-agenda
+      note: >-
+        concert calendar (Rock v múzeu)
+  venue:
+    address: Linzbothova 16, 821 06 Bratislava
+    coords: [48.128998, 17.20472]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Trade museum with exhibitions and a concert series. Address source: own site.
+- id: zoya-museum
+  name: ZOYA Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://zoyamuseum.sk/eventy
+      channel: website-agenda
+  venue:
+    address: Ventúrska 1, 811 01 Bratislava
+    coords: [48.142101, 17.106092]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Interactive art museum; events page. Address source: Visit Bratislava place page.
+- id: zidovske-komunitne-muzeum
+  name: Jewish Community Museum (Židovské komunitné múzeum)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.synagogue.sk/en/home/
+      channel: website
+  venue:
+    address: Kozia 18, 814 47 Bratislava
+    coords: [48.147015, 17.102412]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Museum of the Bratislava Jewish community; no agenda page found. Address source: own site.
+- id: b-s-6-vrba
+  name: Private military museum B-S 6 Vrba
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.bs6.eu/akcie/
+      channel: website-agenda
+    - url: http://www.bs6.eu/odber-noviniek/
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: OSM:B-S 6 Vrba Bratislava
+    coords: MISSING
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Fortification (bunker) museum with a dated events page (open days and tours). Address to be
+    added. Address source: OpenStreetMap (Nominatim).
+- id: muzeum-skolstva-a-pedagogiky
+  name: Múzeum školstva a pedagogiky
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.msap.sk/vystavy/aktualne
+      channel: website-agenda
+  venue:
+    address: Charkovská 1, 841 07 Bratislava
+    coords: [48.211511, 16.977029]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Museum of schooling and pedagogy; current exhibitions page. Mixed audience (the museum runs
+    school programmes; the scanner skips children-only items). Address source: own site.
+- id: muzeum-dopravy
+  name: Múzeum dopravy v Bratislave
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/aktualne-vystavy
+      channel: website-agenda
+  venue:
+    address: Šancová 6419/1B, 811 04 Bratislava
+    coords: [48.156098, 17.10613]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Transport museum (branch of the Slovak Technical Museum). Address source: OpenStreetMap
+    (Nominatim).
+- id: vodarenske-muzeum
+  name: Vodárenské múzeum (BVS)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.vodarenskemuzeum.sk
+      channel: website
+  venue:
+    address: Devínska cesta 1, 841 04 Bratislava
+    coords: [48.147691, 17.062765]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Waterworks museum in Karlova Ves. Address source: own site.
+- id: zeleznicne-muzeum
+  name: Železničné múzeum SR
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.zeleznicnemuzeum.sk/
+      channel: website
+  venue:
+    address: Rušňová, 832 02 Bratislava
+    coords: [48.199514, 17.15971]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Railway museum; open days and special trains; agenda page to be found. Address source:
+    OpenStreetMap (Nominatim).

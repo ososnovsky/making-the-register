@@ -1,0 +1,81 @@
+- id: quiznight-sk
+  name: Quiz Night.SK
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://quiznight.sk/category/upcoming-events/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Organiser of pub quiz nights in Bratislava (English quizzes at U Zlatého Bažanta and other
+    venues, roughly monthly).
+- id: blabla-bratislava
+  name: BlaBla and Make Friends Bratislava
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.blablacommunity.com/events/blabla-and-make-friends-bratislava
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Language-exchange and mingling nights run by BlaBla Community. Dates are announced on
+    Telegram and Facebook only (links not found in the plain HTML; page opened in Chrome
+    2026-10-13).
+- id: bratislava-social-language-exchange
+  name: Bratislava Social and Language Exchange (Make New Friends)
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.eventbrite.com/e/bratislava-social-and-language-exchange-make-new-friends-tickets-1992611547779
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Recurring Friday social and language exchange on Eventbrite (also a Tech/AI mixer series).
+- id: toastmasters-slovensko
+  name: Toastmasters Slovensko
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://toastmasters.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Public-speaking clubs; Bratislava clubs listed on the site.
+- id: literarny-klub
+  name: Literárny klub
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://literarnyklub.sk/kalendar
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Literary events and festivals (Month of Author Reading and others).
+- id: kst-klub-slovenskych-turistov
+  name: Klub slovenských turistov (KST)
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.kst.sk
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Hiking club with group hikes; Bratislava branches.
+- id: cyklokoalicia
+  name: Cyklokoalícia
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://cyklokoalicia.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Cycling advocacy group; group rides and events.

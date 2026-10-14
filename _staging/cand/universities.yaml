@@ -1,0 +1,87 @@
+- id: uniba
+  name: Comenius University in Bratislava (UK)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://uniba.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Largest university; public lectures and events are spread over faculty sites and the news
+    portal.
+- id: stuba
+  name: Slovak University of Technology (STU)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.stuba.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Technical university; events on faculty sites.
+- id: euba
+  name: University of Economics in Bratislava (EUBA)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.euba.sk/aktivity-a-media/aktuality
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    News and events of the economics university.
+- id: vsmu
+  name: Academy of Performing Arts (VŠMU) — student presentations
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.vsmu.sk/umenie-veda-a-vyskum/prezentacia-studentskej-tvorby/koncertna-sien-dvorana/
+      channel: website-agenda
+  venue:
+    address: Ventúrska 3, 813 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Concerts, theatre and film presentations by students. Address source: own site.
+- id: vsvu
+  name: Academy of Fine Arts and Design (VŠVU)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.vsvu.sk/sk/
+      channel: website
+    - url: https://www.vsvu.sk/sk/o-nas/media/newsletter/
+      channel: newsletter
+      note: >-
+        newsletter page; archive status unknown
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Exhibitions and events of the art academy.
+- id: bisla
+  name: Bratislava International School of Liberal Arts (BISLA)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.bisla.sk/events/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    English-language liberal arts college; public events page.
+- id: paneuropska-vysoka-skola
+  name: Paneuropean University
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.paneurouni.com/aktuality/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Private university; news and events.

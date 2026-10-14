@@ -1,0 +1,30 @@
+## Theatres
+snd | Slovak National Theatre (SND) | https://snd.sk/program@a ; https://snd.sk/@w ; https://snd.sk/#newsletter@n~signup form on the homepage (SmartEmailing); no public archive found | OSM:Slovenské národné divadlo | - | - | Opera, ballet and drama in the historic building and the new building; programme also lists children's performances (the scanner skips those). Slovak. |
+nova-scena | Divadlo Nová scéna | https://www.novascena.sk/program@a | Živnostenská 1, 812 14 Bratislava | - | - | Musical theatre. Slovak. |
+dpoh | Divadlo P. O. Hviezdoslava (DPOH) | https://dpoh.sk/program/@a ; https://dpoh.sk/#newsletter@n~signup form on the homepage; no public archive found | Laurinská 20, 811 01 Bratislava | - | - | Municipal drama theatre; several stages. Slovak. |
+studio-ls | Štúdio L+S | https://studios.sk/repertoar/@a ; https://studios.sk/@w ; https://studios.sk/o-divadle/newsletter/@n~signup page; no public archive found | Námestie 1. mája 5, 811 06 Bratislava | - | - | Theatre and comedy. Slovak. |
+divadlo-arena | Divadlo Aréna | https://www.divadloarena.sk/program@a | Viedenská cesta 10, 851 01 Bratislava | - | - | Theatre, dance and opera guest performances in Petržalka; Slovak with some English-surtitled shows. |
+rnd | Radošinské naivné divadlo (RND) | https://rnd.sk/program/@a | Záhradnícka 95, 821 08 Bratislava | - | - | Slovak satirical theatre (Stanislav Štepka); performs in Bratislava and on tour. Address as published on the site's contact page. |
+gunagu | GUnaGU | https://gunagu.sk/predstavenia/@a | Františkánske námestie 7, 811 01 Bratislava | - | - | Alternative theatre, comedy and improv. Slovak, some English-friendly shows. |
+divadlo-ivery | Divadlo Ívery | https://divadloivery.sk/repertoar/@a | Ružinovská 28, 821 04 Bratislava | - | - | Independent theatre at Dom kultúry Ružinov. Slovak. |
+teatro-colorato | Teatro Colorato | https://colorato.sk/@a | Františkánske námestie 2, 811 01 Bratislava | - | - | Theatre and cabaret; programme on the homepage. Slovak. |
+meteorit-theatre | Meteorit Theatre | https://meteorit-theatre.com/program-divadla/@a | Gajova 4, 811 09 Bratislava | - | - | Independent theatre; Slovak and some English performances. |
+divadlo-janart | Divadlo Janart | https://www.janartdivadlo.sk/repertoar@a | Junácka 10, 831 04 Bratislava | - | - | Small theatre in Nové Mesto; check for adult programme (mixed audience). Slovak. |
+divadlo-lab | Divadlo LAB (VŠMU) | https://divadlolab.vsmu.sk/kalendar/@a | Ventúrska 3, 813 01 Bratislava | - | - | Theatre of the Academy of Performing Arts (VŠMU); student and guest productions. Slovak. |
+ticho-a-spol | TICHO a spol. | http://www.tichoaspol.sk/vstupenky/@t | Školská 14, 811 07 Bratislava | - | - | Space for culture with theatre, concerts and workshops; only a ticketing link found, no separate agenda page. |
+ludus | Divadlo LUDUS | https://ludus-space.sk/divadlo-ludus/repertoar@a | Palackého 22, 811 02 Bratislava | - | - | Youth theatre and drama school; part of the programme is aimed at young audiences, mixed venue (the scanner skips children-only shows). |
+funnylicious-theater | Funnylicious Theater | https://funnylicious.eu/@w | Mickiewiczova 4, 811 07 Bratislava | - | - | English-language comedy and improv theatre; agenda page to be confirmed (only the homepage and a private-events page were found). |
+silne-reci-comedy-club | Silné Reči Comedy Club | https://silnereci.sk/@w | | - | - | Stand-up comedy club; no street address on the site's homepage, open item. Slovak. |
+sluk | Slovenský ľudový umelecký kolektív (SĽUK) | https://www.sluk.sk/repertoar/@a | Balkánska 31/66, 853 08 Bratislava | - | - | National folk-art ensemble; performances at various Bratislava stages (address is the ensemble's seat). Slovak. |
+astorka-korzo-90 | Divadlo Astorka Korzo '90 | https://www.astorka.sk/@w | OSM:Divadlo Astorka Korzo 90 | - | browser | Drama theatre in the old town. Plain fetch returns 429; the site opens in Chrome (checked 2026-10-13) but no agenda URL was identified, so the agenda page is an open item. Slovak. |
+## Cinemas
+cinema-city-aupark | Cinema City Aupark | https://www.cinemacity.sk/whatson@a ; https://newsletter.cinemacity.sk/@n~Cinema City Slovakia newsletter signup | OSM:Cinema City Aupark | - | - | Largest Cinema City in Slovakia (4DX, Superscreen). |
+cinema-city-eurovea | Cinema City Eurovea | https://www.cinemacity.sk/whatson@a ; https://newsletter.cinemacity.sk/@n~Cinema City Slovakia newsletter signup | OSM:Cinema City Eurovea | - | - | Cinema City at the Eurovea mall. |
+kino-lumiere | Kino Lumière | https://www.kino-lumiere.sk/@a | Špitálska 4, 811 08 Bratislava | - | - | Art-house cinema run by the Slovak Film Institute. |
+kino-mladost | Kino Mladosť | https://www.kinomladost.sk/@a | Hviezdoslavovo námestie 17, 811 02 Bratislava | - | - | Cinema (programme and online tickets on the site). |
+kino-film-europe | Kino Film Europe | https://www.filmeurope.sk/sk@w | OSM:Kino Film Europe | - | - | Art-house cinema and festival film distributor; programme pages to be checked. |
+kino-usmev | Kino Úsmev | https://kinousmev.sk/program/@a | OSM:Kino Úsmev | - | - | Cinema in Bratislava; programme page on the site. |
+## Festivals and further venues
+febiofest | Febiofest (international film festival) | https://febiofest.sk/@w | | - | - | International film festival in Bratislava (Slovak and Czech editions); programme pages on the site. |
+be2can | Be2Can (festival film showcase) | https://be2can.sk@w | Matúškova 2148/10, 831 01 Bratislava | - | - | Showcase of films from the major festivals in Bratislava cinemas (14–18 October 2026); address is the organiser's. |
+red-cat-cabaret | Red Cat Cabaret | https://redcatcabaret.com/@w | VB:Obchodná 17, 811 06 Bratislava | - | - | Cabaret theatre and night club; erotic show format, 18+. |

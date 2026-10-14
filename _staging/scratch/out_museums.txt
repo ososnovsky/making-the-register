@@ -1,0 +1,51 @@
+Hudobné múzeum SNM ~tourism=museum   | 200 |  | [Úvod | Slovenské národné múzeum] | y=85 IGFB | addr:  | AG: https://www.snm.sk/muzea-snm/prirodovedne-muzeum/prirodovedne-muzeum/navstivte/vystavy?clanok=obnova-sa-zacina-pribehom#menu https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte/podujatia?clanok=radikalizacia-mladych-ktora-zacina-na-internete-prednaska-a-diskusia-pre-stredoskolske-skupiny#menu https://www.snm.sk/muzea-snm/hudobne-muzeum/kastiel-v-dolnej-krupej/navstivte/podujatia?clanok=koncert-kastiel-virtuozov#menu | NL: https://www.youtube.com/channel/UCmKY4tUQATwe19RdD-5xTXQ?view_as=subscriber https://www.youtube.com/channel/UCOhvwFbnXBljkhhMGbyqFqA?view_as=subscriber
+Múzeum mesta Bratislavy ~tourism=museum Radničná 1 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Open Gallery ~tourism=gallery   | 200 |  | [Open gallery | CITYLIFE] | y=70 FB | addr:  | AG: https://www.citylife.sk/vystavy https://www.citylife.sk/koncerty https://www.citylife.sk/ine-akcie | NL: https://mailchi.mp/citylife/citylife-newsletter
+Galéria Medium ~tourism=gallery   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Múzeum polície Slovenskej republiky ~tourism=museum   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Antická Gerulata Rusovce ~tourism=museum   | 200 |  | [Antická Gerulata | Múzeum mesta Bratislavy] | y=2 IGFB | addr: Radničná ul. č. 1 815 18 Bratislava | AG: https://muzeumbratislava.sk/externa-spolupraca-s-mmb-podpora-podujati https://muzeumbratislava.sk/prehlad-udalosti/aktualne-vystavy https://muzeumbratislava.sk/prehlad-udalosti/aktualne-programy | NL: 
+Galéria 19 ~tourism=gallery Lazaretská 2402/19 | 200 |  | [Galéria 19] | y=63 IGFB | addr:  | AG:  | NL: https://mailchi.mp/fc67a9b9962f/galeria19-newsletter
+Galéria RD 21 ~tourism=museum Dvořákovo nábrežie 7571/8 | 200 | https://gallery21-fineart.com/ | [Home - Gallery 21] | y=0 IG | addr: Dvorákovo nábrezie 8 811 02 Bratislava | AG:  | NL: 
+Múzeum židovskej kultúry ~tourism=museum   | 200 |  | [Múzeá, galérie, hrady, zámky, kaštiele a pamiatky na Slovens] | y=48 IGFB | addr:  | AG: https://www.muzeum.sk/-akcie-.html https://www.muzeum.sk/?obj=muzeum&ix=mzk_snm#m_548354 | NL: 
+Múzeum obchodu Bratislava ~tourism=museum   | 200 |  | [Liečba erektilnej dysfunkcie -] | y=29  | addr:  | AG:  | NL: 
+Vodárenské múzeum ~tourism=museum Devínska cesta 1 | 200 |  | [Hlavná stránka | BVS a. s.] | y=0 FB | addr:  | AG:  | NL: 
+Antimúzeum JK ~tourism=museum Zámočnícka 400/13 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Gagarinka ~tourism=gallery   | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+KOCKY ~tourism=gallery   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Galeria UAT2 ~tourism=gallery   | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Galéria Michalský dvor ~tourism=gallery   | 200 |  | [Úvod - Galéria Michalský Dvor] | y=3 IGFB | addr: Ventúrska 5, 811 01 Bratislava | AG: https://gallery.sk/aktualna-vystava | NL: 
+Národný salón vín Slovenskej republiky ~tourism=museum   | 200 |  | [Kalórie a zdravý sexuálny život] | y=5  | addr:  | AG:  | NL: 
+Krása vesmírna ~tourism=gallery   | 200 |  | [Krása Vesmírna] | y=0  | addr:  | AG:  | NL: 
+Aurelium Zážitkové centrum vedy ~tourism=museum   | 0 | http://www.aurelium.sk | [] | y=0  | addr:  | AG:  | NL: 
+Židovské komunitné múzeum ~tourism=museum   | 200 | https://www.synagogue.sk/en/home/ | [Home - Židovské komunitné múzeum, Bratislava] | y=19 FB | addr: Kozia 18, 814 47 Bratislava | AG:  | NL: 
+Galéria Statua ~tourism=gallery Zámocká  | 200 |  | [Galéria Statua | Galéria Statua] | y=12  | addr:  | AG:  | NL: 
+Multium ~tourism=gallery   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Galéria Satelit ~tourism=gallery Kollárovo námestie 10 | 200 | https://scd.sk/galeria-satelit/ | [Galéria dizajnu SATELIT — Slovenské centrum dizajnu] | y=7 IGFB | addr: Kollárovo námestie 10, 811 07 Bratislava | AG: https://scd.sk/kalendar/ https://scd.sk/vystava/mirroring/ https://scd.sk/kalendar/?post_type=scd_vystava | NL: 
+Staromestská galéria ZICHY ~tourism=gallery   | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Súkromné vojenské múzeum B-S 6 Vrba ~tourism=museum   | 200 |  | [B-S 6 Vrba] | y=191 FB | addr:  | AG: http://www.bs6.eu/akcie/ http://www.bs6.eu/wp-content/uploads/2026/10/vystava-MMBA.jpeg | NL: http://www.bs6.eu/odber-noviniek/
+Zoya Gallery ~tourism=gallery   | 200 | https://zoyamuseum.sk/ | [ZOYA Museum] | y=13 IG | addr:  | AG: https://zoyamuseum.sk/eventy https://zoyamuseum.sk/vystavy/aktualne-vystavy https://zoyamuseum.sk/vystavy/archiv-vystav | NL: 
+Tenisové múzeum ~tourism=museum   | 200 | http://tenisovemuzeum.sk/sk | [O múzeu | Tenisové Múzeum] | y=0 FB | addr:  | AG: http://tenisovemuzeum.sk/sk/news | NL: 
+Tripland ~tourism=museum   | 200 | https://tripland.sk/ | [Zahraničné Online Kasína 2026 – Porovnanie pre Slovákov] | y=8  | addr:  | AG:  | NL: 
+Dom umenia Kunsthalle Bratislava ~tourism=gallery   | 200 |  | [Kunsthalle Bratislava - KunstHalle Bratislava] | y=1 IGFB | addr: KUNSTHALLE BRATISLAVA Nám. SNP 12, Bratislava | AG: https://kunsthallebratislava.sk/program/ https://kunsthallebratislava.sk/program/?stat=future https://kunsthallebratislava.sk/program/?stat=past&ex_year=2022 | NL: 
+3D LAND ~tourism=gallery   | 200 |  | [Home Page] | y=0 IGFB | addr:  | AG:  | NL: 
+ATELIER XIII ~tourism=gallery   | 200 |  | [ATELIER XIII] | y=2 IGFB | addr:  | AG: https://www.atelierxiii.com/category/events/ | NL: https://www.atelierxiii.com/newsletter/
+Múzeum colníctva a finančnej správy ~tourism=museum   | 200 |  | [Ekocentrum -TIK - Bratislava-Devínska Nová Ves] | y=243 IGFB | addr: Istrijská 49 841 07 Bratislava | AG: https://tikdnv.sk/muzeum-kultury-chorvatov-na-slovensku-pozyva-na-vystavu-bohyna-si-ty-bohyne-su-v-nas/ https://tikdnv.sk/novootvorene-ekocentrum-v-stupave-chysta-vystavu-fotografii/ https://tikdnv.sk/vzdelavacie-programy-ekocentra-a-exkurzie/ | NL: 
+Fog ~tourism=gallery   | 200 |  | [Domov - FOG Bratislava] | y=9 IG | addr: Kúpeľná 1, Bratislava | AG: https://www.fogbratislava.sk/wp-content/themes/softkoncertfog/inc/assets/pdf/PRIVACY.pdf | NL: 
+TOTO! je galéria ~tourism=gallery   | 200 |  | [TOTO! je galéria |] | y=2  | addr:  | AG:  | NL: 
+Dúbravské múzeum ~tourism=museum   | 200 |  | [Dúbravské múzeum | dubravka.sk] | y=2 FB | addr: Žatevná 2, 844 02 Bratislava | AG:  | NL: 
+Ekocentrum Čunovo ~tourism=museum Petržalská 12 | 200 | https://kastielcunovo.sk/ | [Domov - Ekocentrum Čunovo] | y=67  | addr:  | AG: https://kastielcunovo.sk/aktuality/ https://kastielcunovo.sk/ponuka-podujati/ https://kastielcunovo.sk/programy-pre-materske-skoly/ | NL: 
+Dot ~tourism=gallery   | 500 |  | [] | y=0  | addr:  | AG:  | NL: 
+Flatgallery ~tourism=gallery   | 200 |  | [DOMOV | Flatgallery] | y=7 IGFB | addr: Baštová 1, Bratislava | AG: https://www.flatgallery.sk/stretnutia-nikola-susovicova-vystava | NL: 
+BIBIANA, Medzinárodný dom umenia pre deti ~amenity=community_centre Panská 161/41 | 200 | https://www.bibiana.sk/sk | [BIBIANA] | y=575 IGFB | addr: Kontakt Panská 41, 815 39 Bratislava | AG: https://www.bibiana.sk/vystavy https://www.bibiana.sk/vystavy/v-bibiane https://www.bibiana.sk/vystavy/mimo-bibiany | NL: https://www.youtube.com/channel/UCmWDwssU7fgli7nazJoh_zg?view_as=subscriber
+Galéria Nedbalka ~tourism=gallery Nedbalova 459/17 | 200 |  | [Moderné obrazy a sochy slovenských autorov | galéria Nedbalk] | y=11 FB | addr: Nedbalova ulica 17 811 01 Bratislava | AG: https://www.nedbalka.sk/aktualne-vystavy/ https://www.nedbalka.sk/vzdelavacie-programy/ http://www.nedbalka.sk/aktualne-vystavy/ | NL: 
+Galéria mesta Bratislavy ~tourism=gallery   | 200 |  | [Domov – Galéria mesta Bratislavy] | y=20 IGFB | addr:  | AG: https://www.gmb.sk/vystavy https://www.gmb.sk/detail/konvergencie-2026-koncert-pri-svieckovej https://www.gmb.sk/detail/komentovany-sprievod-vystavou-umenie-interakcie-vzdelavaci-program-pre-deti | NL: https://www.gmb.sk/#newsletter https://mailchi.mp/4baafa9f1047/newsletter-gmb
+Stredoeurópsky dom fotografie ~tourism=museum Prepoštská 2087/4 | 200 |  | [Vitajte - SEDF] | y=4 IGFB | addr: P.O.Box 290 814 99 Bratislava | AG: https://www.sedf.sk/vystavy-v-stredoeuropskom-dome-fotografie/ https://www.sedf.sk/aktualne-vystavy/ https://www.sedf.sk/vystavy-v-sedf/ | NL: 
+Múzeum Jána Cikkera ~tourism=museum Fialkové údolie 1864/2 | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Slovenské plynárenské múzeum ~tourism=museum  5501 | 200 | https://www.spp.sk/o-spp/podporujeme/slovenske-plynarenske-muzeum/ | [Slovenské plynárenské múzeum - SPP | Váš dodávateľ energií] | y=2 IGFB | addr:  | AG:  | NL: 
+Design Factory ~tourism=gallery  6005 | 200 |  | [design factory | Námestie pri sýpke 6, Jarovce, Bratislava] | y=24 IGFB | addr:  | AG: https://www.designfactory.sk/podujatia/ | NL: 
+Hřbitov ~tourism=museum   | 200 | https://www.facebook.com/BunkerBS8/ | [Bunker B-S 8 Hřbitov | Bratislava] | y=5 FB | addr:  | AG:  | NL: 
+Múzeum školstva a pedagogiky ~tourism=museum Charkovská 5551/1 | 200 |  | [Múzeum školstva a pedagogiky] | y=8 IGFB | addr:  | AG: http://www.msap.sk/vystavy/aktualne http://www.msap.sk/aktuality http://www.msap.sk/vystava/1 | NL: 
+Múzeum dopravy v Bratislave ~tourism=museum   | 200 | https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/zakladne-informacie | [Múzeum dopravy v Bratislave | Základné informácie | Slovensk] | y=3 IGFB | addr:  | AG: https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/aktualne-vystavy https://stm-ke.sk/sk/program https://stm-ke.sk/sk/program/mesiac-v-muzeu | NL: 
+Železničné múzeum ~tourism=museum   | 200 |  | [Železničné múzeum Slovenskej republiky] | y=63  | addr: Slovenskej republiky Dopravná ulica 831 06 Bratislava | AG: https://www.zeleznicnemuzeum.sk/pages/SLUG.html | NL: 
+Galéria Horský park ~tourism=gallery   | 200 |  | [Galéria Horský park – SNG] | y=1 FB | addr: Majakovského 13, 811 04 Bratislava | AG: http://2011.sng.sk/en/uvod/vystavy/mimo-sng/archiv/galeria-horsky-park http://2011.sng.sk/sk/uvod/vystavy http://2011.sng.sk/sk/uvod/sprievodne-programy | NL: http://2011.sng.sk/newsletter
+Stála výstava dejín výpočtovej techniky na Slovensku ~tourism=museum  5793 | 0 | https://www.vystava.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 

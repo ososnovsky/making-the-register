@@ -1,0 +1,85 @@
+- id: coworking-cvernovka
+  name: Coworking Cvernovka
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://novacvernovka.eu/atelier/coworking-cvernovka
+      channel: website
+  venue:
+    address: Račianska 78, 831 02 Bratislava
+    coords: [48.183115, 17.131825]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking in Nová Cvernovka; events are on the Cvernovka programme (`nova-cvernovka`).
+    Address source: own site.
+- id: space-up
+  name: SPACE UP coworking & events
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.space-up.sk/
+      channel: website
+  venue:
+    address: Záhradnícka 95, 821 08 Bratislava
+    coords: [48.156098, 17.140239]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking and event space; workshop and event hire. Address source: own site.
+- id: the-spot-cowork
+  name: The Spot cowork
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://thespotcowork.com/
+      channel: website
+  venue:
+    address: OSM:The Spot cowork Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking with community events. Address source: OpenStreetMap (Nominatim).
+- id: hubhub
+  name: HubHub (event space)
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.hubhub.com/event-space/
+      channel: website
+  venue:
+    address: Mlynské nivy 18890/5, 821 09 Bratislava
+    coords: [48.146162, 17.129794]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    One of the largest coworking spaces in Bratislava; event space page. Address source:
+    OpenStreetMap (Nominatim).
+- id: campus-cowork
+  name: Campus Cowork (Campus Mlyny and Campus City)
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.campus-cowork.com/
+      channel: website
+  venue:
+    address: OSM:Campus Mlyny Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Startup campus with coworking at two sites (Staré Grunty). Address source: OpenStreetMap
+    (Nominatim).
+- id: startup-centrum-uvp
+  name: Startup centrum UVP Technicom
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://startupcentrum.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    University science park startup centre with startup workshops (product development, company
+    setup). Address to be added.

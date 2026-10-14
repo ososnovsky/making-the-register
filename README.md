@@ -1,6 +1,6 @@
 # Making the register
 
-A kit for building a curated register of local event sources (venues, aggregators, community groups, newsletters, bookable activities) with Claude Code. The included register covers Rotterdam, The Hague, and Delft, plus culture venues in Leiden, Amsterdam, and Utrecht. Use it as a worked example for your own city.
+A kit for building a curated register of local event sources (venues, aggregators, community groups, newsletters, bookable activities) with Claude Code. This copy is set up for Bratislava (the whole municipality, 17 boroughs). The worked example from the original Rotterdam/The Hague/Delft build is in `examples/`; use it as a style reference.
 
 ## What's here
 
@@ -11,9 +11,11 @@ A kit for building a curated register of local event sources (venues, aggregator
 | `taxonomy creation prompt.md` | The prompt that started the original session |
 | `_staging/agent-brief.md` | Brief used for sub-agents researching one category family |
 | `_staging/geocode.py` | Fills `coords: TODO` via OpenStreetMap Nominatim |
+| `_staging/` (other tools) | Curation tooling used for the Bratislava pass: `build.py` (compact candidate lines in `cand/` to schema YAML), `verify.py` (link checks), `merge.py` (assembles `sources.yaml`), `nl_pass.py` (newsletter links), `gen_coverage.py` (writes `coverage.md`) |
 | `validate_sources.py` | Checks `sources.yaml` against §5; regenerates `newsletters.md` and `bookables.md` |
-| `sources.yaml` | The register (example data) |
-| `coverage.md`, `newsletters.md`, `bookables.md`, `local-browser-checks.md` | Coverage table and generated or working lists |
+| `sources.yaml` | The register (Bratislava, first full pass, awaiting owner review) |
+| `coverage.md`, `newsletters.md`, `bookables.md` | Coverage table and generated lists (a `local-browser-checks.md` is added only if a session has no Chrome) |
+| `examples/` | The original register files (Rotterdam/The Hague/Delft), kept as a style reference |
 
 Requires Python 3 with PyYAML (`pip install pyyaml`).
 

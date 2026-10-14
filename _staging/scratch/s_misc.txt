@@ -1,0 +1,17 @@
+LepiLand ~tourism=zoo   | https://www.lepiland.sk/
+Mini ZOO ~tourism=zoo   | https://rybnikraca.sk/
+Faxcopy ~amenity=marketplace Galvaniho 7B  | https://www.faxcopy.sk/
+Tržnica ~amenity=marketplace Šancová 3132/112 | https://www.ekovps.sk/strediska/trznica
+Stará tržnica ~amenity=marketplace Námestie SNP 484/25 | https://staratrznica.sk/
+Trhovisko Miletičova ~amenity=marketplace   | http://mileticka.com
+Zoo Bratislava ~tourism=zoo Mlynská dolina 1A | https://www.zoobratislava.sk/
+Trhovisko Žilinská ~amenity=marketplace   | https://trhoviskozilinska.wordpress.com
+Petržalská tržnica ~amenity=marketplace Bratská 3506/3 | https://www.petrzalskatrznica.sk
+Parná lokomotíva ČSD 310.507 ~tourism=attraction   | https://www.zeleznicnipoklady.cz/produkt/310-507/
+ ~tourism=attraction   | http://www.bobodraha.sk/
+Fresh Market ~amenity=marketplace Rožňavská 13740/1A | http://www.freshmarket.sk/
+Park Josepha Poppera v Slnečniciach ~leisure=park   | https://www.slnecnice.sk/park
+Bratislavský hrad ~tourism=attraction   | http://www.bratislava-hrad.sk/
+Henčekova záhrada ~leisure=garden   | http://www.zizkova24.sk/
+Stredomorský park ~leisure=garden   | https://www.evergreengarden.sk/
+Katedrála svätého Martina ~amenity=place_of_worship Rudnayovo námestie 4549/1 | https://dom.fara.sk/

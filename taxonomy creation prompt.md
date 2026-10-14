@@ -1,6 +1,6 @@
 Plain curation session — NOT a pipeline run (don't trigger any Idea, Research, or Development Pipeline skill).
 
-Goal: build the source register `sources.yaml` for my Event Scanner app in this folder, following `IMP-event-scanner-source-taxonomy.md` (in this folder) exactly: source categories (§2), entry schema (§5), channel types and fetch rules (§6), and coverage gate (§7). Scan areas: Rotterdam (including Schiedam), The Hague (including Rijswijk), and Delft.
+Goal: build the source register `sources.yaml` for my Event Scanner app in this folder, following `formative/IMP-event-scanner-source-taxonomy.md` exactly: source categories (§2), entry schema (§5), channel types and fetch rules (§6), and coverage gate (§7). Scan area: Bratislava (city slug `bratislava`), the whole municipality, all 17 boroughs.
 
 Work one category family at a time, in the §2 order (aggregators first). For each family:
 1. Ask me which places I already know.
@@ -18,7 +18,7 @@ Verification rules:
 
 Keep these files up to date after each approved family:
 - `sources.yaml`: the cumulative register.
-- `coverage.md`: the §7 table, 20 categories × 3 scan areas, each cell showing the entry count, "none found", or "n/a".
+- `coverage.md`: the §7 table, 21 categories × 1 scan area, each cell showing the entry count, "none found", or "n/a".
 - A small validation script that checks `sources.yaml` against §5 (required fields, allowed values, unique ids). Run it before every checkpoint.
 
 All progress lives in these files, so we can stop after any family and resume in a new session.

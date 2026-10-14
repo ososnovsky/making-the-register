@@ -1,0 +1,551 @@
+- id: galeria-satelit-scd
+  name: Slovak Design Centre — Galéria Satelit
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://scd.sk/kalendar/
+      channel: website-agenda
+  venue:
+    address: Kollárovo námestie 10, 811 07 Bratislava
+    coords: [48.14912, 17.113869]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Design gallery and event programme of the Slovak Design Centre. Address source: own site.
+- id: sedf
+  name: Stredoeurópsky dom fotografie (SEDF)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.sedf.sk/vystavy-v-stredoeuropskom-dome-fotografie/
+      channel: website-agenda
+  venue:
+    address: Prepoštská 4, 811 01 Bratislava
+    coords: [48.143304, 17.106016]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Photography gallery with exhibitions and talks. Address source: Visit Bratislava place page.
+- id: galeria-19
+  name: Galéria 19
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.galeria19.sk
+      channel: website
+    - url: https://mailchi.mp/fc67a9b9962f/galeria19-newsletter
+      channel: newsletter
+      note: >-
+        Mailchimp newsletter page
+  venue:
+    address: Lazaretská 19, 811 09 Bratislava
+    coords: [48.145258, 17.120416]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Gallery; no separate agenda page found. Address source: Visit Bratislava place page.
+- id: atelier-xiii
+  name: ATELIER XIII
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.atelierxiii.com/category/events/
+      channel: website-agenda
+    - url: https://www.atelierxiii.com/newsletter/
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Panská 13, 811 01 Bratislava
+    coords: [48.142473, 17.107883]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Art space and gallery with an events page. Address source: Visit Bratislava place page.
+- id: galeria-michalsky-dvor
+  name: Galéria Michalský dvor
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://gallery.sk/aktualna-vystava
+      channel: website-agenda
+  venue:
+    address: Ventúrska 5, 811 01 Bratislava
+    coords: [48.14275, 17.106083]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery in the old town; current exhibition page. Address source: own site.
+- id: galeria-nedbalka
+  name: Galéria Nedbalka
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.nedbalka.sk
+      channel: website
+  venue:
+    address: Nedbalova 459/17, 811 01 Bratislava
+    coords: [48.144276, 17.111246]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery of modern Slovak art; no agenda page identified. Address source: OpenStreetMap
+    (Nominatim).
+- id: galeria-uluv
+  name: Galéria ÚĽUV
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://uluv.sk
+      channel: website
+  venue:
+    address: Obchodná 64, 816 11 Bratislava
+    coords: [48.148389, 17.112502]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery and shop of the Centre for Folk Art Production; exhibitions and workshops. Address
+    source: own site.
+- id: refinery-gallery
+  name: Refinery Gallery
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.refinerygallery.sk/
+      channel: website
+  venue:
+    address: OSM:Refinery Gallery Bratislava
+    coords: MISSING
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery and event space in the Vlčie hrdlo industrial area. Address source: OpenStreetMap
+    (Nominatim).
+- id: institut-francais-slovaquie
+  name: Institut français de Slovaquie
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://institutfrancais.sk/
+      channel: website
+  venue:
+    address: Hlavné námestie, 812 83 Bratislava
+    coords: [48.143481, 17.10772]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    French cultural institute: events, cinema evenings and French courses. Address source:
+    OpenStreetMap (Nominatim).
+- id: bulharsky-kulturny-institut
+  name: Bulharský kultúrny inštitút (Bulkis)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bulkis.sk/
+      channel: website
+  venue:
+    address: Jesenského 7, 811 01 Bratislava
+    coords: [48.143191, 17.11241]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Bulgarian cultural institute with events. Address source: own site.
+- id: italsky-kulturny-institut
+  name: Istituto Italiano di Cultura Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://iicbratislava.esteri.it/it/
+      channel: website
+  venue:
+    address: Kapucínska 7, 811 03 Bratislava
+    coords: [48.144592, 17.104411]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Italian cultural institute: events and courses. Address source: own site.
+- id: rakuske-kulturne-forum
+  name: Rakúske kultúrne fórum Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bmeia.gv.at/kf-pressburg/
+      channel: website
+    - url: https://www.bmeia.gv.at/kf-pressburg/newsletter-und-kontakt
+      channel: newsletter
+      note: >-
+        newsletter signup (Mailchimp)
+  venue:
+    address: Hodžovo námestie, 811 06 Bratislava
+    coords: [48.148265, 17.106779]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Austrian Cultural Forum: events, concerts, talks. Address source: OpenStreetMap (Nominatim).
+- id: tranzit-sk
+  name: tranzit.sk
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://sk.tranzit.org/sk/kalendar/0
+      channel: website-agenda
+    - url: https://sk.tranzit.org/sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Beskydská 12, Bratislava
+    coords: [48.158002, 17.113861]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Contemporary art organisation with exhibitions, talks and screenings. Address source: own
+    site.
+- id: galeria-umelka-svu
+  name: Galéria Umelka (Slovenská výtvarná únia)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://svu.sk/sk/akcie/
+      channel: website-agenda
+  venue:
+    address: Dostojevského rad 2, 811 09 Bratislava
+    coords: [48.1411, 17.117567]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery of the Slovak Union of Visual Artists; exhibitions and events. Address source: own
+    site.
+
+# Guided tour operators (listed in the Visit Bratislava services directory; no venue, bookables only)
+
+- id: authentic-slovakia
+  name: Authentic Slovakia
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.authenticslovakia.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Identity Bike Tour (guided cycling tour of Bratislava)
+      link: https://www.visitbratislava.com/sk/sluzby/cyklovylet-k-zeleznej-opone/
+      event_category: exhibitions
+      note: >-
+        with a local guide; 10% discount with Bratislava Card; price on the page.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Post-communist tour of Bratislava (car or minivan)
+      link: https://www.visitbratislava.com/sk/sluzby/postkomunisticka-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        concrete estates, abandoned factories, bunkers; 10% discount with Bratislava Card.
+      address: Bratislava (meeting point on booking)
+    - name: Devín hike and drink tour
+      link: https://www.visitbratislava.com/sk/sluzby/bratislava-hike-and-drink-tour/
+      event_category: exhibitions
+      note: >-
+        2.5–3 hours at Devín Castle and the former Iron Curtain zone.
+      address: Devín, Bratislava (meeting point on booking)
+    - name: Hike to the Carpathian castle ruins (Pajštún and Plavecký hrad)
+      link: https://www.visitbratislava.com/sk/sluzby/vylet-po-ruinach-karpatskych-hradov/
+      event_category: exhibitions
+      note: >-
+        year-round by arrangement, reservation required; from 50 EUR per person; 10% discount
+        with Bratislava Card.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Tour operator with private guided tours; bookables only (no dated events). Listed in the
+    Visit Bratislava services directory.
+- id: taste-bratislava
+  name: Taste Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.taste-bratislava.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Walking tour of Bratislava (2 h)
+      link: https://www.visitbratislava.com/sk/sluzby/pesia-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        with a local guide; price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Walking tour of Bratislava and the castle (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/pesia-prehliadka-bratislavy-a-hradu/
+      event_category: exhibitions
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Complete tour of Bratislava (7 h)
+      link: https://www.visitbratislava.com/sk/sluzby/kompletna-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        includes the castle, Devín Castle and a coffee or lunch break; price in the booking
+        flow.
+      address: Bratislava (meeting point on booking)
+    - name: Traditional Slovak specialities food tour (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-tradicnych-slovenskych-specialit/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Culinary tour with Slovak wine tasting
+      link: https://www.visitbratislava.com/sk/sluzby/kulinarska-prehliadka-s-ochutnavkou-slovenskych-vin/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Culinary tour with beer tasting
+      link: https://www.visitbratislava.com/sk/sluzby/kulinarska-prehliadka-s-pivnou-ochutnavkou/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak craft beer tasting (10 beers at 2 craft pubs, 3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-slovenskych-remeselnych-piv/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak wine tasting (8 wines)
+      link: https://www.visitbratislava.com/sk/sluzby/wine-tasting-tour-taste-bratislava/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak spirits tasting
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-slovenskych-destilatov/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Brewery tour with beer tasting (private, 3 h, Kláštorný pivovar cellar)
+      link: https://www.visitbratislava.com/sk/sluzby/prehliadka-pivovaru-s-ochutnavkou-piva/
+      event_category: food-drink
+      note: >-
+        behind the scenes with the brewmaster and 6 craft beers; price in the booking flow; 18+.
+      address: Námestie SNP 8, Bratislava
+    - name: Small Carpathians wine tour with a guide
+      link: https://www.visitbratislava.com/sk/sluzby/vinna-cesta-do-malych-karpat-so-sprievodcom/
+      event_category: food-drink
+      note: >-
+        visits a historic cellar and two winemakers; price in the booking flow; 18+.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Food, beer and wine tour operator with local guides; bookables only. Listed in the Visit
+    Bratislava services directory.
+- id: ms-agency-bratislava-guide
+  name: MS Agency (Bratislava Guide)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bratislava-guide.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Coronation Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/korunovacna-bratislava/
+      event_category: exhibitions
+      note: >-
+        guided procession route from the castle to the Old Town; price on request.
+      address: Bratislava (meeting point on booking)
+    - name: Beer circuit through Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/pivny-okruh-bratislavou/
+      event_category: food-drink
+      note: >-
+        commented walk including the Michael's Gate tower; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Wine tour of Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/vinna-prehliadka-bratislavy/
+      event_category: food-drink
+      note: >-
+        historic courtyards and cellars with a tasting; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Musical Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/hudobna-bratislava/
+      event_category: exhibitions
+      note: >-
+        in the footsteps of Hummel, Liszt, Haydn and others.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Sightseeing tour by car or bus
+      link: https://www.visitbratislava.com/sk/sluzby/vyhliadkova-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        panoramic viewpoints and villa quarter.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Guided tour agency; bookables only. Listed in the Visit Bratislava services directory.
+- id: plus-tour-bratislava
+  name: PLUS TOUR
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bratislava-tours.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Legends of Bratislava (evening walk, 2 h)
+      link: https://www.visitbratislava.com/sk/sluzby/legends-of-bratislava/
+      event_category: exhibitions
+      note: >-
+        ends at the UFO; admission to the UFO not included.
+      address: SND old building, Hviezdoslavovo námestie, Bratislava
+    - name: Danubiana modern art museum trip (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/modern-art-museum-danubiana/
+      event_category: exhibitions
+      note: >-
+        from 40 EUR per person (entrances included, min. 2); meets at the Opera on
+        Hviezdoslavovo námestie at 14:00.
+      address: Hviezdoslavovo námestie, Bratislava
+    - name: Jewish Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/jewish-bratislava-2/
+      event_category: exhibitions
+      note: >-
+        Chatam Sofer mausoleum, Jewish museum and former Jewish quarter; price on request.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Tour operator; bookables only. Listed in the Visit Bratislava services directory.
+- id: tour4u
+  name: TOUR4U (Prešporáčik tourist train and excursions)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.tour4u.sk/
+      channel: website
+  venue:
+    address: Panská 37, 811 01 Bratislava
+    coords: [48.141378, 17.105415]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Castle circuit by Prešporáčik Oldtimer tourist train
+      link: https://www.visitbratislava.com/sk/sluzby/hradny-okruh-presporacikom-oldtimer/
+      event_category: exhibitions
+      note: >-
+        train ride with a 20-minute stop at the castle courtyard; price on the page.
+    - name: Panoramic circuit by Prešporáčik
+      link: https://www.visitbratislava.com/sk/sluzby/panoramaticky-okruh-presporacik/
+      event_category: exhibitions
+      note: >-
+        viewpoints incl. Slavín.
+    - name: Devín Castle and Marianka pilgrimage site trip
+      link: https://www.visitbratislava.com/sk/sluzby/devin-history-slovak-religion/
+      event_category: exhibitions
+      note: >-
+        includes blackcurrant wine tasting; specialities on request.
+    - name: Speedboat ride on the Danube
+      link: https://www.visitbratislava.com/sk/sluzby/speedboat/
+      event_category: games-activities
+      note: >-
+        10% discount with Bratislava Card; price per boat on the page.
+  notes: >-
+    Operator of the Prešporáčik Oldtimer tourist train, speedboat rides and day trips. Listed in
+    the Visit Bratislava services directory. Address source: own site.
+- id: secret-city-trails
+  name: Secret City Trails
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.secretcitytrails.com/
+      channel: website
+  venue:
+    address: Hviezdoslavovo námestie 20, 811 02 Bratislava
+    coords: [48.142119, 17.107892]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Riddles through the Old Town (phone game for small teams)
+      link: https://www.visitbratislava.com/sk/sluzby/hadanky-mestom-hrane-v-malych-timoch-cez-telefon/
+      event_category: games-activities
+      note: >-
+        20 EUR per team; game link arrives by SMS after purchase.
+    - name: Riddles through green Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/hadanky-zelenou-bratislavou/
+      event_category: games-activities
+      note: >-
+        same format along the Danube bank and parks.
+  notes: >-
+    Self-guided city riddle games played on a phone; bookables only. Address source: own site.
+- id: ck-tripito
+  name: CK Tripito
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.tripito.eu/
+      channel: website
+  venue:
+    address: Zochova 16, 811 03 Bratislava
+    coords: [48.146374, 17.10056]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: 'Gadžo in the city: 2-hour crash course on Bratislava'
+      link: https://www.visitbratislava.com/sk/sluzby/2-hodinova-prehliadka-gadzo-v-meste/
+      event_category: exhibitions
+      note: >-
+        5 EUR, Saturdays and Sundays, for locals as well as visitors.
+    - name: Pub crawl through the pubs of the past
+      link: https://www.visitbratislava.com/sk/sluzby/po-krcmach-minulosti/
+      event_category: food-drink
+      note: >-
+        local and sometimes bizarre drinks; 18+; price on the page.
+    - name: Fruit wines tasting
+      link: https://www.visitbratislava.com/sk/sluzby/ovocna-nadielka/
+      event_category: food-drink
+      note: >-
+        tour of fruit wines; 18+.
+    - name: Wine tasting in the dark (via Tripito)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-vin-v-tme/
+      event_category: food-drink
+      note: >-
+        35 EUR per person; minimum 12 people; 7+1 Slovak wines; about 2 hours.
+  notes: >-
+    Travel agency running pub-crawl, wine and city tours; bookables only. Listed in the Visit
+    Bratislava services directory. Address source: own site.
+- id: go-bratislava-food-tours
+  name: Go Bratislava Food Tours
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.gobratislava.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Go Bratislava Food Tours
+      link: https://www.visitbratislava.com/sk/sluzby/go-bratislava-food-tours/
+      event_category: food-drink
+      note: >-
+        tasting tour of local cuisine and landmarks; price on the operator's site.
+      address: Bratislava Old Town (meeting point on booking)
+  notes: >-
+    Guided gastronomic tours; bookables only. Listed in the Visit Bratislava services directory.
+- id: go-running-tours-bratislava
+  name: GO!RUNNING TOURS Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://gorunningtours.com/p/slovakia/bratislava/
+      channel: website
+  venue:
+    address: Legionárska 1, 831 04 Bratislava
+    coords: [48.157439, 17.120454]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Running tours of Bratislava (5 to 21 km routes)
+      link: https://www.visitbratislava.com/sk/sluzby/spoznavaj-bratislavu-behom/
+      event_category: sport
+      note: >-
+        20% discount with Bratislava Card; price on the operator's site.
+  notes: >-
+    Guided running tours; bookables only. Address source: own site.

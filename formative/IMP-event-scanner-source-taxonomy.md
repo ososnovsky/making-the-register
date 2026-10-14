@@ -7,8 +7,8 @@ This is the category level of the source register. It defines where the scanner 
 | Run / date | IMP-event-scanner · 30 September 2026 |
 | Provenance | Lane C direct (stages 1–2 never ran) |
 | Companion artefact | `IMP-event-scanner-idea-brief.md` |
-| Scan areas | Full: Rotterdam (including Schiedam), The Hague (including Rijswijk), Delft. Culture-only (source categories 5–8, plus aggregators listing culture): Leiden, Amsterdam, Utrecht |
-| Amendments | 1 October 2026: `newsletter` channel and `newsletter_subscribed` field (§5, §6); bookables (§5, §8). 1 October 2026: culture-only scan areas Leiden, Amsterdam, and Utrecht (§2, §5, §7). 3 October 2026 (owner): kids-only sources, events, and bookables excluded (§2, §3, §8); adult-only (18+) ones explicitly in scope in every category (§2); walk-in activities separate from ordinary admission, such as tower climbs, count as bookables (§8); source category `activities` and event category `games-activities` added (§2, §3, §7). 4 October 2026 (owner): men-only and queer-, drag-, or LGBTQ+-centred sources, events, and bookables excluded, retroactively (§2, §3, §8); likely-international flag (§4) |
+| Scan areas | One full scan area: Bratislava (`bratislava`), the whole municipality, all 17 boroughs (mestské časti) |
+| Amendments | 1 October 2026: `newsletter` channel and `newsletter_subscribed` field (§5, §6); bookables (§5, §8). 3 October 2026 (owner): kids-only sources, events, and bookables excluded (§2, §3, §8); adult-only (18+) ones explicitly in scope in every category (§2); walk-in activities separate from ordinary admission, such as tower climbs, count as bookables (§8); source category `activities` and event category `games-activities` added (§2, §3, §7). 4 October 2026 (owner): men-only and queer-, drag-, or LGBTQ+-centred sources, events, and bookables excluded, retroactively (§2, §3, §8); likely-international flag (§4). 13 October 2026 (owner): likely-Ukrainian flag (§4); social-flag and likely-international language signals adapted to Slovakia |
 
 ## 1. Two category systems
 
@@ -27,7 +27,7 @@ This is the category level of the source register. It defines where the scanner 
 | 2 | `restaurants` | Restaurants | Supper clubs, tastings, themed dinners | Off |
 | 3 | `bars-cafes` | Bars and cafés | Quiz nights, live music, open mics, language cafés | On |
 | 4 | `clubs` | Nightclubs | Club nights, DJ events | On |
-| **Culture** (also scanned in Leiden, Amsterdam, and Utrecht) | | | | |
+| **Culture** | | | | |
 | 5 | `theatres-cinemas` | Theatres and cinemas | Performances, comedy, screenings, film festivals | Off |
 | 6 | `museums` | Museums | Exhibitions, late openings, tours, talks | Off |
 | 7 | `event-venues` | Event venues | Concert halls, multi-purpose and expo venues | Off |
@@ -46,8 +46,8 @@ This is the category level of the source register. It defines where the scanner 
 | 17 | `diaspora-expat` | Expat and diaspora communities | Groups defined by shared origin or expat status, including Ukrainian organisations | On |
 | 18 | `libraries-community-centres` | Libraries and community centres | Library events, neighbourhood centres, public workshops | Off |
 | 19 | `markets-festivals` | Markets and festivals | Markets, fairs, street and seasonal festivals | Off |
-| 20 | `municipality` | Municipal programme | Official municipal channels and public events for Rotterdam, Schiedam, The Hague, Rijswijk, and Delft | Off |
-| **Activities** (full scan areas only) | | | | |
+| 20 | `municipality` | Municipal programme | Official municipal channels and public events for the City of Bratislava and its 17 boroughs | Off |
+| **Activities** | | | | |
 | 21 | `activities` | Activity venues | Places you book to play a game or try an activity: escape rooms, shooting ranges open to the public, axe throwing, bowling, karting, laser tag, VR and arcade venues, mini golf. Mostly bookables (§8); some also run dated events (leagues, tournaments, open evenings) | Off |
 
 **Tie-break rules** (one category per entry):
@@ -88,7 +88,7 @@ Each event gets exactly one: the best fit, or `other`. Events aimed only at chil
 
 The scanner applies these in order; the first rule that matches decides:
 
-1. **Participatory format signals → on.** English: networking, meetup, language exchange, workshop, class, social, community night, open training, group run, supper club, quiz. Dutch: borrel, netwerkborrel, taalcafé, workshop, meetup.
+1. **Participatory format signals → on.** English: networking, meetup, language exchange, workshop, class, social, community night, open training, group run, supper club, quiz. Slovak: networking, stretnutie, večierok, konverzačný klub, jazykový klub, workshop, kvíz, meetup.
 2. **Audience format signals → off.** Screening, exhibition, lecture, concert, performance, match (spectating).
 3. **Event category defaults → on** for `networking-professional` and `social-community`.
 4. **Otherwise → the source's default social flag** (§2).
@@ -97,7 +97,13 @@ The scanner applies these in order; the first rule that matches decides:
 
 **Definition:** an event where non-local people are likely to be among the audience, for example internationals, expats, tourists, or people travelling in from other cities. They need not be the majority: the flag means "likely present", not "mainly for them". The app has a toggle for it (brief §4).
 
-The scanner sets it per event using its best judgement; there is no register field and no fixed rule list. Typical signals: the event is presented or held in English (or another non-Dutch language), it is organised by or for an international or expat community, it is aimed at tourists or visitors, or it has a wide draw (an international or national festival, a touring act with a following beyond the city, a large venue's headline show). A Dutch-language neighbourhood event for a local audience is off. When unsure, leave it off.
+The scanner sets it per event using its best judgement; there is no register field and no fixed rule list. Typical signals: the event is presented or held in English (or another non-Slovak language), it is organised by or for an international or expat community, it is aimed at tourists or visitors, or it has a wide draw (an international or national festival, a touring act with a following beyond the city, a large venue's headline show). A Slovak-language neighbourhood event for a local audience is off. When unsure, leave it off.
+
+### Likely-Ukrainian flag (owner, 13 October 2026)
+
+**Definition:** an event where Ukrainians or Ukrainian culture are clearly in play: Ukrainian people are likely to be among the audience, or the event is about Ukraine or Ukrainian culture. It is separate from the likely-international flag, and an event can carry both. Like that flag, it means "likely present", not "mainly for them". The app has a toggle for it (brief §4).
+
+The scanner sets it per event using its best judgement; there is no register field and no fixed rule list. Typical signals: the event is organised by or for a Ukrainian organisation or community (including entries in `diaspora-expat`); it is held in Ukrainian or presented in Ukrainian (or Ukrainian and Slovak or English); its subject is Ukrainian culture, history, language, food, music, or film; or it supports Ukraine or Ukrainians (fundraisers, aid collections, integration and language courses for Ukrainians). An event that merely takes place at a venue with Ukrainian staff, or that mentions Ukraine in passing, is off. When unsure, leave it off.
 
 ## 5. Register entry schema (`sources.yaml`)
 
@@ -106,7 +112,7 @@ The scanner sets it per event using its best judgement; there is no register fie
 | `id` | Yes | slug | Unique, e.g. `example-jazz-cafe` |
 | `name` | Yes | text | The name as the source presents itself |
 | `source_category` | Yes | one of §2 ids | Exactly one |
-| `city` | Yes | `rotterdam` / `the-hague` / `delft` / `leiden` / `amsterdam` / `utrecht` | The scan area, not the municipality: Schiedam → `rotterdam`, Rijswijk → `the-hague`. The actual municipality stays in `venue.address`. `leiden`, `amsterdam`, and `utrecht` are culture-only: allowed only with the culture source categories (`theatres-cinemas`, `museums`, `event-venues`, `culture-other`) and with `aggregators` that list culture; they cover the municipality alone |
+| `city` | Yes | `bratislava` | The scan area: the whole Bratislava municipality, all 17 boroughs. The borough stays in `venue.address` |
 | `links` | Yes | list of {`url`, `channel`, `note`} | At least one. `channel` is one of the §6 channel types; `note` is optional |
 | `venue` | No | {`address`, `coords` [lat, lng]} | Only for fixed venues; omit for organisers who move around |
 | `social_default` | Yes | true / false | Starts from the §2 default for the category; override per entry |
@@ -122,29 +128,29 @@ Example entries (fictional):
 - id: example-jazz-cafe
   name: Example Jazz Café
   source_category: bars-cafes
-  city: rotterdam
+  city: bratislava
   links:
-    - url: https://example.nl/agenda
+    - url: https://example.sk/agenda
       channel: website-agenda
-    - url: https://example.nl/nieuwsbrief
+    - url: https://example.sk/newsletter
       channel: newsletter
       note: no public archive
   venue:
-    address: Voorbeeldstraat 1, Rotterdam
-    coords: [51.920, 4.480]
+    address: Ukážková 1, Bratislava
+    coords: [48.145, 17.107]
   social_default: false
   fetch_status: ok
   newsletter_subscribed: false
   bookables:
     - name: Private jazz workshop
-      link: https://example.nl/workshops
+      link: https://example.sk/workshops
       event_category: talks-learning
       note: groups of 6–12, €35 pp
 
 - id: example-community-group
   name: Example Community Group
   source_category: community-groups
-  city: the-hague
+  city: bratislava
   links:
     - url: https://t.me/s/examplegroup
       channel: telegram
@@ -183,7 +189,7 @@ Example entries (fictional):
 
 The register is "complete enough for v1" when:
 
-- Every source category × scan area pair has at least one entry, or an explicit note saying "none found" or "not applicable": 21 × 3 = 63 cells for the full scan areas, plus 5 × 3 = 15 cells for the culture categories and aggregators in Leiden, Amsterdam, and Utrecht (78 cells). The other categories in those three are "n/a".
+- Every source category × scan area pair has at least one entry, or an explicit note saying "none found" or "not applicable": 21 categories × 1 scan area (Bratislava) = 21 cells.
 - Every entry has at least one fetchable link, or is marked `unfetchable`.
 - Every fixed venue has coordinates.
 - Every `newsletter` link appears in the "Newsletters to subscribe" list in `coverage.md`.

@@ -1,0 +1,161 @@
+- id: codecon-bratislava
+  name: 'CODECON #Bratislava'
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.codecon.sk/en/bratislava/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Annual developer conference (1,500+ developers).
+- id: nobullshit-camp
+  name: '#nobullshit.camp (Cloud & DevOps conference)'
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://nobullshit.camp
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Cloud and DevOps conference by Labyrinth Labs; 2026 edition on 23 September (past).
+- id: cloud-native-bratislava
+  name: Cloud Native / Kubernetes Bratislava (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/cloudnativesk/events/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Informal meetups for cloud-native people (e.g. at Kolkovňa Eurovea).
+- id: devops-slovensko
+  name: DevOps Slovensko (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/devops-slovensko/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    DevOps and cloud-native meetup group in Bratislava. Events render client-side; no 2026 dates
+    in plain HTML (checked 2026-10-13).
+- id: slovensko-digital
+  name: Slovensko.Digital
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://slovensko.digital/aktuality/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Civic-tech and digital-government community with meetups and conferences.
+- id: sario-events
+  name: SARIO — projects and events
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.sario.sk/en/about-us/projects-events
+      channel: website-agenda
+    - url: https://www.sario.sk/en/about-us/newsletter
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: OSM:SARIO Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Slovak Investment and Trade Development Agency: business forums and trade events. Address
+    source: OpenStreetMap (Nominatim).
+- id: agile-bratislava
+  name: Agile Bratislava (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/agilebratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Agile and product practitioners' meetup in Bratislava (about 1,400 members on Meetup).
+- id: bratislava-hacking-infosec
+  name: Bratislava Hacking & Information Security Meetup
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-hacking-information-security-meetup/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Information security meetup group.
+- id: lfdt-slovakia
+  name: LF Decentralized Trust Slovakia (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/lfdt-slovakia/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Blockchain and decentralised-technology meetup group.
+- id: pycon-sk
+  name: PyCon SK (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/pyconsk/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Python community behind PyCon Slovakia and the Bratislava Python meetup (PyVo).
+- id: rubyslava
+  name: Rubyslava (monthly programmers' meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: http://rubyslava.sk/english.html
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Language-agnostic monthly tech talks meetup in Bratislava.
+- id: bratislava-rust-meetup
+  name: Bratislava Rust Meetup Group
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-rust-meetup-group/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Rust programming meetup (about 200 members).
+- id: pydata-slovakia-bratislava
+  name: PyData Slovakia & Bratislava
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/pydata-slovakia-bratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Data science and Python meetup.

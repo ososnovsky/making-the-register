@@ -1,0 +1,149 @@
+- id: zbrojnos
+  name: Zbrojnoš Live Music Pub
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://zbrojnos.com/program/
+      channel: website-agenda
+  venue:
+    address: Michalská 22, 811 03 Bratislava
+    coords: [48.14515, 17.106839]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Live music pub with a programme page. Address source: own site.
+- id: mystery-pub
+  name: Mystery Pub
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://mysterypub.sk/program
+      channel: website-agenda
+  venue:
+    address: Miletičova 21, 821 09 Bratislava
+    coords: [48.152229, 17.138264]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Pub with a programme page (events, quizzes). Address source: own site.
+- id: bukowski-bar
+  name: Bukowski & Baudelaire bars
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://bukowski.sk/bukowski2
+      channel: website
+    - url: http://bukowski.sk/koncertyprior
+      channel: website-agenda
+      note: >-
+        concerts
+  venue:
+    address: Kamenné námestie 1, Bratislava
+    coords: [48.145107, 17.114765]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Late-night bar with concerts; events contact events@bukowski.sk. Address source: own site.
+- id: sundeck
+  name: Sundeck
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://www.sundeck.sk/sk/eventy
+      channel: website-agenda
+  venue:
+    address: Tyršovo nábrežie, 851 01 Bratislava
+    coords: [48.137133, 17.115712]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside summer bar (Tyršovo nábrežie); events page. Seasonal summer venue; the events page
+    had no 2026 dates in plain HTML on 2026-10-13. Address source: OpenStreetMap (Nominatim).
+- id: hostinec-opapa
+  name: Hostinec Opapa
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://opapa.sk/pivne-festivaly-bratislava/
+      channel: website-agenda
+    - url: https://opapa.sk/
+      channel: website
+  venue:
+    address: Moskovská 16, 811 08 Bratislava
+    coords: [48.150008, 17.1227]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Craft beer pub at the Museum of Trade; beer festivals page. The beer-festivals page lists no
+    dated 2026 events in plain HTML (checked 2026-10-13); open item. Address source: own site.
+- id: hlava-22
+  name: Hlava 22
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://www.hlava22.sk/
+      channel: website
+  venue:
+    address: OSM:Hlava 22 Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Cultural pub with jazz, blues and open mics. Plain fetch gets HTTP 403; local Chrome check
+    pending. Address source: OpenStreetMap (Nominatim).
+- id: wine-expert
+  name: Wine Expert vínotéka
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://wineexpert.sk/degustacia-vina-so-somelierom/
+      channel: website-agenda
+  venue:
+    address: Bratislavská 49/B, 841 06 Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  bookables:
+    - name: Wine tasting with a sommelier (7 wines)
+      link: https://wineexpert.sk/degustacia-vina-so-somelierom/
+      event_category: food-drink
+      note: >-
+        larger groups and events on request: vinoteka@wineexpert.sk, +421 917 888 879.
+  notes: >-
+    Wine shop and bar in Záhorská Bystrica; tastings with a sommelier and tasting workshops.
+    Address source: own site.
+- id: lab-cafe
+  name: Lab.cafe
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://lab.cafe/program/
+      channel: website-agenda
+    - url: https://lab.cafe/pripravovane-akcie/
+      channel: website-agenda
+      note: >-
+        upcoming events
+  venue:
+    address: Námestie SNP 25, 811 01 Bratislava
+    coords: [48.144585, 17.111252]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Community café with workshops and social events. Address source: own site.
+- id: knihznica
+  name: Knihžnica (café-library)
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://knihznica.sk
+      channel: website
+  venue:
+    address: OSM:Knihžnica Zámocká Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Café, library and creative space (Zámocká street) with readings, literary evenings, chamber
+    concerts and workshops; no agenda page on the website (events announced on social media).
+    Address source: OpenStreetMap (Nominatim).

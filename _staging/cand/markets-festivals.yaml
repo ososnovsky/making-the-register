@@ -1,0 +1,116 @@
+- id: bratislavske-vianoce
+  name: Bratislavské Vianoce (Christmas markets)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://bratislavskevianoce.sk/program/
+      channel: website-agenda
+    - url: https://bratislavskevianoce.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Christmas markets on Main Square and Hviezdoslav Square, 26 November 2026 to 3 January 2027,
+    daily 10:00–22:00 (except 24–25 December), plus a programme on stages.
+- id: festival-mladeho-vina
+  name: Festival mladého vína (Young Wine Festival)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/podujatia/festival-mladeho-vina/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Young wine festival in the historic centre, 6–7 November 2026.
+- id: konvergencie
+  name: Konvergencie (festival of chamber music)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.konvergencie.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    International chamber music festival in October.
+- id: bratislavske-hudobne-slavnosti
+  name: Bratislavské hudobné slávnosti
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bhsfestival.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Classical music festival.
+- id: bratislava-v-pohybe
+  name: Bratislava v pohybe
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bratislavavpohybe.sk/predstavenia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary dance and movement festival (October).
+- id: biela-noc
+  name: Biela noc
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bielanoc.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Night of art and culture across the city.
+- id: noc-muzei-a-galerii
+  name: Noc múzeí a galérií
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.nmag.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Annual Night of Museums and Galleries.
+- id: dobry-trh
+  name: Dobrý trh
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.dobrytrh.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Farmers' and craft markets at several Bratislava locations.
+- id: trhovisko-mileticka
+  name: Trhovisko Miletičova
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: http://mileticka.com/podujatia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Market hall with an events page.
+- id: jeden-svet
+  name: Jeden svet (One World human-rights documentary festival)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.jedensvet.sk/programova-rada/
+      channel: website-agenda
+  venue:
+    address: Baštová 343/5, 811 03 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Documentary film festival; address is the organiser's. Address source: own site.

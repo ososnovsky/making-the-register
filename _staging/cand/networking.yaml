@@ -1,0 +1,75 @@
+- id: amcham-slovakia
+  name: AmCham Slovakia (American Chamber of Commerce)
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://amcham.sk/events
+      channel: website-agenda
+  venue:
+    address: Pekníkova 6, Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Business breakfasts, cocktails, Speed Business Meetings and conferences; English. Many
+    events are members' events, check per event. Address source: own site.
+- id: startup-grind-bratislava
+  name: Startup Grind Bratislava
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.startupgrind.com/bratislava/
+      channel: website-agenda
+    - url: https://sg.startupgrind.com/newsletters
+      channel: newsletter
+      note: >-
+        Startup Grind chapter newsletters (global signup)
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Local chapter of the global startup community (fireside chats and meetups).
+- id: ahk-slovakia
+  name: German-Slovak Chamber of Commerce (AHK Slovakia)
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://slowakei.ahk.de/de
+      channel: website
+  venue:
+    address: Zámocká 2, 811 06 Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Chamber of commerce with conferences and business meetings; events page not identified.
+    Address source: own site.
+- id: rotary-2240-kalendar
+  name: Rotary District 2240 — club meetings calendar
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.rotary2240.org/cs/kluby/kalendar
+      channel: website-agenda
+    - url: https://www.rotary2240.org/cs/media/newsletter
+      channel: newsletter
+      note: >-
+        newsletter page; archive status unknown
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Rotary clubs of Slovakia and Czechia; the calendar lists club meetings (many in Bratislava),
+    mostly members and guests.
+- id: bratislava-strategic-management-meetup
+  name: Bratislava Strategic Management Meetup
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-strategic-management-meetup-group/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Business and strategy networking meetup group.

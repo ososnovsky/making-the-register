@@ -1,0 +1,111 @@
+- id: sk-slovan-bratislava
+  name: ŠK Slovan Bratislava (football)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.skslovan.com
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Professional football club; match calendar on the site. Matches at the National Football
+    Stadium.
+- id: hc-slovan-bratislava
+  name: HC Slovan Bratislava (ice hockey)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.hcslovan.sk/sk/
+      channel: website
+    - url: https://www.hcslovan.sk/sk/newsletter/index
+      channel: newsletter
+      note: >-
+        iSlovan newsletter signup
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Professional ice hockey club; match calendar on the site.
+- id: bk-slovan-bratislava
+  name: BK Slovan Bratislava
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.bkslovan.sk
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Basketball club; fixtures on the site.
+- id: bratislava-monarchs
+  name: Bratislava Monarchs
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.monarchs.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    American football club; home games and events.
+- id: nsk-1922-bratislava
+  name: NŠK 1922 Bratislava
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.nsk1922.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Football club with open events; match and event calendar.
+- id: becool-bezecke-podujatia
+  name: BECOOL Sport (Bratislava Marathon and running events)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://bratislavamarathon.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Organiser of running events in Bratislava (marathon, half marathon and others).
+- id: tenisovy-klub-lokomotiva
+  name: Tenisový klub Lokomotíva 1927
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.lokomotiva1927.sk/
+      channel: website
+  venue:
+    address: Žabotova 5, 811 04 Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Tennis club with news and events. Address source: own site.
+- id: tenis-petrzalka-tkp
+  name: Tenisová škola Petržalka (TKP)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.tkp.sk/novinky/kalendar-tkp
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Tennis club with a calendar.
+- id: ruzinovsky-sportovy-klub
+  name: Ružinovský športový klub
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.rskruzinov.sk/
+      channel: website
+  venue:
+    address: Mierová 21, 827 05 Bratislava
+    coords: TODO
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Sports club running Trnávka hall events. Address source: own site.

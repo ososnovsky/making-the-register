@@ -1,0 +1,17 @@
+LepiLand ~tourism=zoo   | 200 |  | [On-line obchod < www.lepiland.sk] | y=0  | addr:  | AG:  | NL: 
+Mini ZOO ~tourism=zoo   | 200 |  | [Rybník Rača - Rybník Rača] | y=1  | addr:  | AG: https://rybnikraca.sk/firemne-a-sportove-akcie/ | NL: 
+Faxcopy ~amenity=marketplace Galvaniho 7B  | 200 |  | [Faxcopy a.s. | Firemné riešenia, Kancelária a domácnosť, Spo] | y=5 IGFB | addr:  | AG: https://www.faxcopy.sk/akcie https://www.faxcopypro.sk/fotografie-z-eventov/kategorie https://www.faxcopy.sk/katalog/fotokalendare/M1721 | NL: 
+Tržnica ~amenity=marketplace Šancová 3132/112 | 200 |  | [Tržnica - EKO - VPS web] | y=0 FB | addr: Halašova 20, 832 90 Bratislava | AG:  | NL: https://www.ekovps.sk/sluzby/odber-bro-odpadu
+Stará tržnica ~amenity=marketplace Námestie SNP 484/25 | 200 |  | [Úvod | Stará tržnica v Bratislave] | y=13 IGFB | addr: SNP 25 811 01 Bratislava | AG: https://staratrznica.sk/sk/program/kariera-expo-2026/2026-10-14 https://staratrznica.sk/sk/program/street-food-park-vol-84/2026-10-14 https://staratrznica.sk/sk/program/eset-science-talks/2026-10-16 | NL: 
+Trhovisko Miletičova ~amenity=marketplace   | 200 |  | [Mileticka.com] | y=1 FB | addr:  | AG: http://mileticka.com/podujatia/ http://mileticka.com/podujatia/kalendar-podujati/ | NL: 
+Zoo Bratislava ~tourism=zoo Mlynská dolina 1A | 200 |  | [ZOO Bratislava] | y=7 IGFB | addr: Mlynská dolina 1A 842 27 Bratislava | AG: https://www.zoobratislava.sk/kalendar-podujati/ https://www.zoobratislava.sk/aktuality/ https://www.zoobratislava.sk/clanky/category/zoo-aktuality | NL: 
+Trhovisko Žilinská ~amenity=marketplace   | 403 |  | [] | y=0  | addr:  | AG:  | NL: 
+Petržalská tržnica ~amenity=marketplace Bratská 3506/3 | 200 |  | [Petržalská tržnica | Odneste si to najlepšie z dvorov lúk a ] | y=1 IGFB | addr:  | AG:  | NL: 
+Parná lokomotíva ČSD 310.507 ~tourism=attraction   | 200 |  | [310.507 – Železniční poklady] | y=4  | addr:  | AG:  | NL: 
+~tourism=attraction   | 200 |  | [Bobová dráha] | y=0 FB | addr: Bratislava spol.s r.o. Ľanová 8 821 01 Bratislava | AG:  | NL: 
+Fresh Market ~amenity=marketplace Rožňavská 13740/1A | 200 | https://www.freshmarket.sk/ | [Vitajte | Fresh Market] | y=0 IGFB | addr: Rožňavská 1A, Bratislava | AG: https://www.freshmarket.sk/podujatia/ | NL: 
+Park Josepha Poppera v Slnečniciach ~leisure=park   | 200 | https://www.slnecnice.sk/pre-susedov/park | [Park | Slnečnice] | y=10 IGFB | addr:  | AG:  | NL: 
+Bratislavský hrad ~tourism=attraction   | 403 |  | [] | y=0  | addr:  | AG:  | NL: 
+Henčekova záhrada ~leisure=garden   | 403 |  | [] | y=0  | addr:  | AG:  | NL: 
+Stredomorský park ~leisure=garden   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Katedrála svätého Martina ~amenity=place_of_worship Rudnayovo námestie 4549/1 | 200 | https://dom.fara.sk/sk/ | [Úvod] | y=1  | addr:  | AG: https://dom.fara.sk/sk/chramova-hudba/koncerty https://dom.fara.sk/sk/farsky-urad/agenda-farskeho-uradu https://dom.fara.sk/sk/farsky-urad/udalosti/list.events/- | NL: 

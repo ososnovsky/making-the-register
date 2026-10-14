@@ -1,0 +1,228 @@
+- id: colette
+  name: Colette Wine & Dine
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.colette.sk/tasting-dinners
+      channel: website-agenda
+    - url: https://www.colette.sk/en
+      channel: website
+  venue:
+    address: Krížna, 811 07 Bratislava
+    coords: [48.152626, 17.121221]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Chef's table (5 seats at the kitchen pass)
+      link: https://www.colette.sk/tasting-dinners
+      event_category: food-drink
+      note: >-
+        Tasting menu eaten at the pass in front of the chef; price and booking via the
+        reservation page (not stated on the page checked).
+    - name: Tasting dinners (3, 5 or 7 courses)
+      link: https://www.colette.sk/tasting-dinners
+      event_category: food-drink
+      note: >-
+        Découverte 3 courses from €49, Signature 5 courses €69, Intégrale 7 courses €79; reserve
+        a table online.
+  notes: >-
+    French fine dining with monthly tasting menus and occasional guest-chef dinners (a 23
+    September 2026 dinner was listed at €160 pp, 30 seats). Address source: OpenStreetMap
+    (Nominatim).
+- id: bistronomy
+  name: Bistronomy
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://bistronomy.sk/
+      channel: website
+  venue:
+    address: Floriánska 14, 811 02 Bratislava
+    coords: [48.140638, 17.099445]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tasting-menu-only restaurant (chef Karol Szuri) with wine pairings; no events page found.
+    Address source: Visit Bratislava place page.
+- id: eck-restaurant
+  name: ECK Restaurant
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.eckrestaurant.com/en
+      channel: website
+  venue:
+    address: K zlatému rohu 36, 841 10 Bratislava
+    coords: [48.173901, 16.995103]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tasting-menu restaurant in Devín (6 courses, wine or non-alcoholic pairing). Address source:
+    Visit Bratislava place page.
+- id: houdini
+  name: Restaurant Houdini (Hotel Marrol's)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.restauranthoudini.sk/
+      channel: website
+  venue:
+    address: Tobrucká 6953/4, 811 02 Bratislava
+    coords: [48.141334, 17.113533]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Monthly five-course tasting menu paired with Slovak wines. Address source: OpenStreetMap
+    (Nominatim).
+- id: veza-restaurant
+  name: Veža (Kamzík TV tower restaurant)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://veza.sk/event/
+      channel: website-agenda
+  venue:
+    address: Cesta na Kamzík 14, 831 01 Bratislava
+    coords: [48.182591, 17.094492]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Restaurant in the Kamzík TV tower; events page (dinners, themed evenings). Address source:
+    own site.
+- id: doubletree-degustacne-vecere
+  name: DoubleTree by Hilton Bratislava — tasting dinners
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://doubletree-bratislava.sk/degustacne-vecere/
+      channel: website-agenda
+  venue:
+    address: Trnavská cesta 13219/27A, 831 04 Bratislava
+    coords: [48.160843, 17.13767]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Hotel restaurant tasting dinners prepared by the Slovak National Culinary Team. Address
+    source: OpenStreetMap (Nominatim).
+- id: tmava-degustacia
+  name: Tmavá degustácia (Wine Tasting in the Dark)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://tmavadegustacia.sk/en
+      channel: website
+  venue:
+    address: Michalská 3, Bratislava
+    coords: [48.144269, 17.106488]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Wine tasting in the dark, public dates
+      link: https://tmavadegustacia.sk/en
+      event_category: food-drink
+      note: >-
+        about 2 hours with a sommelier; Slovak, English on selected dates; price in the booking
+        flow.
+    - name: Wine tasting in the dark for groups
+      link: https://tmavadegustacia.sk/en
+      event_category: food-drink
+      note: >-
+        private tasting for groups ("For groups" page on the site); price and group size on
+        request.
+  notes: >-
+    Public and group tastings of Slovak wines in complete darkness in a 15th-century cellar;
+    open Thursday to Monday 12:00–18:30. Address source: own site.
+- id: chefparade
+  name: Chefparade cooking school
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.chefparade.sk/en
+      channel: website
+  venue:
+    address: OSM:Chefparade Bratislava
+    coords: MISSING
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Private cooking class (4-course menu)
+      link: https://www.chefparade.sk/en
+      event_category: food-drink
+      note: >-
+        for two people 450 EUR, 3–3.5 hours; groups on request (Chefparade site, as listed in
+        search results; confirm on site).
+  notes: >-
+    Cooking school with classes in Slovak and English. Address source: OpenStreetMap
+    (Nominatim).
+- id: apolka
+  name: Apolka
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.apolka.sk/eventy.php?id=13&lang=sk
+      channel: website-agenda
+  venue:
+    address: Súkennícka 4, Bratislava
+    coords: [48.143023, 17.134507]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Restaurant in the old town with an events page (themed dinners and events). Address source:
+    own site.
+- id: zavinom-sk
+  name: zavinom.sk (wine tastings and wineries booking platform)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://zavinom.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Wine tastings and winery visits (booking platform)
+      link: https://zavinom.sk/
+      event_category: food-drink
+      note: >-
+        price and group size vary per winery; 18+.
+      address: Bratislava and surroundings (winery per booking)
+  notes: >-
+    Platform where tastings and winery visits in and around Bratislava can be booked directly.
+    Listed in the Visit Bratislava services directory.
+- id: malokarpatska-vinna-cesta
+  name: Združenie Malokarpatská vínna cesta
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://mvc.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Association of the Small Carpathians wine route (cellars between Bratislava and Trnava);
+    open cellars and events.
+- id: tmava-degustacia-vb
+  name: Tmavá degustácia — groups
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      channel: website
+  venue:
+    address: Michalská 3, Bratislava
+    coords: [48.144269, 17.106488]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Two-hour wine tasting in the dark for groups
+      link: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      event_category: food-drink
+      note: >-
+        8 wines, 10 to 45 guests, 27.50 EUR per person (per the organiser).
+    - name: One-hour wine tasting in the dark for groups
+      link: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      event_category: food-drink
+      note: >-
+        minimum 10 guests; price on the page.
+  notes: >-
+    Group details on the Visit Bratislava page (see `tmava-degustacia`). Address source: own
+    site.

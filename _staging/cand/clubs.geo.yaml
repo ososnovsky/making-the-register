@@ -1,0 +1,314 @@
+- id: aldea-club
+  name: Aldea Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://aldeaclub.eu/program
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 3, 811 01 Bratislava
+    coords: [48.14427, 17.108408]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Electronic music club in the old town (techno, house); weekend nights. Address source: Visit
+    Bratislava place page.
+- id: majestic-music-club
+  name: Majestic Music Club (MMC)
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://majestic.sk/program/
+      channel: website-agenda
+  venue:
+    address: Karpatská 3089/2, 811 05 Bratislava
+    coords: [48.15683, 17.113587]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Concerts and club nights; shares the building with Randal. Address source: own site.
+- id: randal-club
+  name: Randal Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: http://www.randalclub.eu/
+      channel: website
+  venue:
+    address: Karpatská 2, 811 05 Bratislava
+    coords: [48.15683, 17.113587]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Student-oriented club in the same building as Majestic; homepage only, no agenda page found.
+    Address source: own site.
+- id: subdeck
+  name: SUBDECK
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://subdeck.sk/events
+      channel: website-agenda
+  venue:
+    address: OSM:Subdeck Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside club on the Danube (Petržalka bank); seasonal. Address source: OpenStreetMap
+    (Nominatim).
+- id: great-club
+  name: GREAT Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.greatbratislava.sk/party-kalendar/
+      channel: website-agenda
+  venue:
+    address: Suché mýto 6, 811 03 Bratislava
+    coords: [48.147028, 17.106833]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub with a party calendar; house and commercial music. Address source: Visit
+    Bratislava place page.
+- id: safko-klub
+  name: ŠAFKO Klub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.safkoklub.sk/
+      channel: website-agenda
+  venue:
+    address: Šafárikovo námestie 7, 811 02 Bratislava
+    coords: [48.141586, 17.115509]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club with a programme on the homepage (nights, concerts). Address source: own site.
+- id: nu-spirit-club
+  name: Nu Spirit Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://nuspirit.sk/
+      channel: website-agenda
+  venue:
+    address: Medená 16, 811 02 Bratislava
+    coords: [48.142042, 17.11291]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club and bar with concerts, jazz and funk sessions, quizzes and parties; programme on the
+    homepage. Address source: own site.
+- id: kacecko
+  name: Kácečko
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.kacecko.sk/
+      channel: website-agenda
+  venue:
+    address: Staré Grunty 211/36, 841 04 Bratislava
+    coords: [48.159987, 17.066848]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club and culture space (formerly KC Dunaj, now at the Mlyny campus); concerts and parties.
+    The site carries many Facebook event links. Address source: own site.
+- id: good-life-club
+  name: Good Life Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.goodlifebratislava.com
+      channel: website
+  venue:
+    address: Námestie SNP 1, 811 06 Bratislava
+    coords: [48.145874, 17.108567]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub in the centre; no agenda page found. Address source: Visit Bratislava place page.
+- id: the-club-bratislava
+  name: The Club Bratislava
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.theclubbratislava.com/
+      channel: website-agenda
+  venue:
+    address: Rybné námestie 1, 811 02 Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub with dated events on the homepage. Address source: own site.
+- id: trafo-music-bar
+  name: Trafo Music Bar
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.trafo.sk/program
+      channel: website-agenda
+  venue:
+    address: Ventúrska 1, 811 01 Bratislava
+    coords: [48.142101, 17.106092]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Music bar and club; programme and rules page. Address source: Visit Bratislava place page.
+- id: barrock
+  name: Barrock
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.barrock.sk/en/program-2/
+      channel: website-agenda
+  venue:
+    address: Svätoplukova 2A, 821 08 Bratislava
+    coords: [48.148499, 17.131091]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Rock bar and club with a programme page. Address source: own site.
+- id: luna-bar
+  name: Luna Bar
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.lunabar.sk/
+      channel: website
+  venue:
+    address: Rajská 2, 811 08 Bratislava
+    coords: [48.146108, 17.114851]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Bar-club in the old town; homepage only. Address source: OpenStreetMap (Nominatim).
+- id: fuga
+  name: Fuga
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/fuga/vzjevc/
+      channel: aggregator-page
+  venue:
+    address: Námestie SNP, 812 85 Bratislava
+    coords: [48.144469, 17.112043]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club in the Forum Absurdum / creative centre (GoOut venue page; the old site
+    fuga.forumabsurdum.sk is now a hosting placeholder). Address source: OpenStreetMap
+    (Nominatim).
+- id: subclub
+  name: Subclub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.facebook.com/subclubbratislava/
+      channel: facebook
+  venue:
+    address: OSM:Subclub Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: unfetchable
+  notes: >-
+    Legendary techno club in a tunnel under the castle hill. Website not found; Facebook
+    reference only. Address source: OpenStreetMap (Nominatim).
+- id: pink-whale
+  name: Pink Whale
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/pink-whale/vzxmte/
+      channel: aggregator-page
+  venue:
+    address: Nábrežie armádneho generála Ľudvíka Svobodu 1868rkm, Bratislava
+    coords: MISSING
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside concert and club venue (GoOut venue page; own site not reachable). Address as
+    listed on GoOut; river-kilometre location, no house number. Address source: own site.
+- id: teleport-club
+  name: Teleport
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/teleport/vzanod/
+      channel: aggregator-page
+  venue:
+    address: Michalská 10, Bratislava
+    coords: [48.144509, 17.106994]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club in the old town; programme via GoOut venue page. Address source: own site.
+- id: radost-music-club
+  name: Radosť Music Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/radost-music-club/vzlwid/
+      channel: aggregator-page
+  venue:
+    address: Obchodná 48, 811 06 Bratislava
+    coords: [48.147774, 17.111391]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Small club on Obchodná (own site mojaradost.sk showed only a placeholder page on
+    2026-10-13); promoter nights on GoOut. Address source: own site.
+- id: v-klub
+  name: V-klub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/v-klub/vzuyid/
+      channel: aggregator-page
+  venue:
+    address: Námestie SNP 12, 812 34 Bratislava
+    coords: [48.145301, 17.111991]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club-concert space at Námestie SNP 12 (GoOut venue page). Address source: own site.
+- id: klub-pod-lampou
+  name: .klub pod lampou
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.tyzden.sk/klubpodlampou/
+      channel: website-agenda
+    - url: https://goout.net/sk/klub-pod-lampou/vzyoid/
+      channel: aggregator-page
+    - url: https://www.tyzden.sk/klubpodlampou/newsletter/
+      channel: newsletter
+      note: >-
+        club newsletter page
+  venue:
+    address: Palisády 1248/27, 811 06 Bratislava
+    coords: [48.146094, 17.099048]
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Concert and discussion club run by the weekly .týždeň; has a newsletter page on the site.
+    Address source: OpenStreetMap (Nominatim).
+- id: fog-bratislava
+  name: FOG Bratislava
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.fogbratislava.sk
+      channel: website
+  venue:
+    address: Kúpeľná 1, Bratislava
+    coords: [48.14166, 17.111615]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Concert and club venue (entrance from Palackého street); homepage only, programme to be
+    confirmed. Address source: own site.

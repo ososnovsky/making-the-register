@@ -1,0 +1,673 @@
+## visit-bratislava — Visit Bratislava (Bratislava Tourist Board)
+   200 website-agenda  https://www.visitbratislava.com/sk/podujatia/  [Podujatia | Visit Bratislava] len=78378 y26/27=29
+   200 newsletter      https://www.visitbratislava.com/sk/newsletter/  [Newsletter | Visit Bratislava] len=54741 y26/27=0
+## bkis-bratislava — BKIS — Bratislavské kultúrne a informačné stredisko
+   200 website-agenda  https://www.bkis.sk/podujatia/  [Kultúrne podujatia v Bratislave - BKIS.sk] len=229304 y26/27=42
+   200 website         https://www.bkis.sk/  [Bratislavské kultúrne a informačné stredisko - Festivaly a podujatia -] len=234674 y26/27=47
+## goout-bratislava — GoOut Bratislava
+   200 aggregator-page https://goout.net/sk/bratislava/akcie/lezxefnnne/  [Akcie v Bratislave - Program a vstupenky na 2026 - GoOut] len=594515 y26/27=68
+   200 aggregator-page https://goout.net/sk/bratislava/parties/lezxefnnnezj/  [Parties v Bratislave - Program a vstupenky na 2026 - GoOut] len=584459 y26/27=35
+   200 aggregator-page https://goout.net/en/bratislava/events/lezxefnnne/  [Events in Bratislava - Schedule and tickets 2026 - GoOut] len=599322 y26/27=84
+## eventbrite-bratislava — Eventbrite Bratislava
+   200 aggregator-page https://www.eventbrite.com/d/slovakia--bratislava/all-events/  [Discover All Events &amp; Activities in Bratislava, Slovakia | Eventbr] len=67496 y26/27=12
+## meetup-bratislava — Meetup Bratislava (city search)
+   200 aggregator-page https://www.meetup.com/find/sk--bratislava/  [Events in Bratislava | Meetup] len=181566 y26/27=60
+## ra-bratislava — Resident Advisor — Bratislava
+   403 aggregator-page https://ra.co/events/sk/bratislava  [] len=0 y26/27=0
+## ticketportal-sk — Ticketportal.sk
+   200 aggregator-page https://www.ticketportal.sk/  [Ticketportal – Zážitky, ktoré stoja za to] len=257795 y26/27=83
+## predpredaj-sk — Predpredaj.sk (Zoznam)
+   200 aggregator-page https://predpredaj.zoznam.sk/sk/  [Predpredaj.sk | Vstupenky] len=322992 y26/27=653
+## ticketlive-sk — TicketLIVE
+   200 aggregator-page https://www.ticketlive.sk/sk  [TicketLIVE - Naživo je to najlepšie] len=597430 y26/27=1440
+## eventland-bratislava — Eventland Bratislava
+   200 website-agenda  https://eventland.eu/bratislava/  [Bratislava events today, What to do in Bratislava - Eventland] len=202772 y26/27=186
+   200 aggregator-page https://eventland.eu/bratislava/weekend/  [Best Things to Do in Bratislava This Weekend - Eventland] len=136117 y26/27=94
+## codnes-bratislava — Čo dnes? Bratislava
+   200 website-agenda  https://bratislava.codnes.sk/  [Bratislava - akcie | codnes.sk] len=56994 y26/27=32
+   200 aggregator-page https://bratislava.codnes.sk/koncerty  [Koncerty - Bratislava a okolie | codnes.sk] len=57080 y26/27=36
+## bratislavak-podujatia — Bratislavak.sk — Podujatia
+   200 website-agenda  https://www.bratislavak.sk/clanky/podujatia  [Podujatia | Bratislavak.sk] len=197641 y26/27=60
+## citylife-bratislava — CityLife.sk
+   200 website-agenda  https://www.citylife.sk/  [CITYLIFE | Čo sa deje v Bratislave a okolí] len=83172 y26/27=169
+## kamdomesta-bratislava — KamDoMesta.sk — Bratislava
+   200 website-agenda  https://kamdomesta.sk/bratislava/predstavenia  [Bratislava | Predstavenia | kamdomesta.sk] len=119130 y26/27=107
+## ajdnes-bratislavsky-kraj — Ajdnes.sk — Bratislavský kraj
+   200 website-agenda  https://www.ajdnes.sk/bratislavsky-kraj/r4  [Podujatia, akcie, slávnosti... Región Bratislavský] len=68196 y26/27=168
+## colette — Colette Wine & Dine
+   200 website-agenda  https://www.colette.sk/tasting-dinners  [Tasting Dinners Bratislava | Colette Wine &amp; Dine] len=138865 y26/27=9
+   200 website         https://www.colette.sk/en  [Colette | French Fine Dining Bratislava | Falstaff 94] len=84635 y26/27=31
+   address 'Krížna, 811 07 Bratislava': street 'Krížna' FOUND
+## bistronomy — Bistronomy
+   200 website         https://bistronomy.sk/  [Bistronomy Bratislava | Fine dining vo Vydrici] len=229872 y26/27=5
+   address 'Floriánska 14, 811 02 Bratislava': street 'Floriánska' FOUND
+## eck-restaurant — ECK Restaurant
+   200 website         https://www.eckrestaurant.com/en  [Home | ECK Restaurant] len=54090 y26/27=0
+   address 'K zlatému rohu 36, 841 10 Bratislava': street 'K zlatému rohu' FOUND
+## houdini — Restaurant Houdini (Hotel Marrol's)
+   404 website         https://www.restauranthoudini.sk/sk/clanky-o-restauracii-houdini-2/90-kuzlo-vina-a-umenie-chuti  [] len=0 y26/27=0
+   address 'Tobrucká 6953/4, 811 02 Bratislava': street 'Tobrucká' NOT FOUND on fetched pages
+## veza-restaurant — Veža (Kamzík TV tower restaurant)
+   200 website-agenda  https://veza.sk/event/  [VEŽA — Event] len=73820 y26/27=3
+   address 'Cesta na Kamzík 14, 831 01 Bratislava': street 'Cesta na Kamzík' FOUND
+## doubletree-degustacne-vecere — DoubleTree by Hilton Bratislava — tasting dinners
+   200 website-agenda  https://doubletree-bratislava.sk/degustacne-vecere/  [Informácie o hoteli | Doubletree by Hilton Bratislava] len=166713 y26/27=9
+   address 'Trnavská cesta 13219/27A, 831 04 Bratislava': street 'Trnavská cesta' FOUND
+## tmava-degustacia — Tmavá degustácia (Wine Tasting in the Dark)
+   200 website         https://tmavadegustacia.sk/en  [Wine Tasting in the Dark, Bratislava | Tmavá degustácia] len=77594 y26/27=10
+   address 'Michalská 3, Bratislava': street 'Michalská' FOUND
+## chefparade — Chefparade cooking school
+   200 website         https://www.chefparade.sk/en  [Culinary school | Chefparade.sk - Škola varenia | Chefparade.sk] len=56629 y26/27=0
+## zbrojnos — Zbrojnoš Live Music Pub
+   200 website-agenda  https://zbrojnos.com/program/  [Program na ktorý sa môžeš tešiť - Zbrojnoš PUB] len=69813 y26/27=1
+   address 'Michalská 22, 811 03 Bratislava': street 'Michalská' NOT FOUND on fetched pages
+## mystery-pub — Mystery Pub
+   200 website-agenda  https://mysterypub.sk/program  [Mystery pub - program] len=599866 y26/27=39
+   address 'Miletičova 21, 821 09 Bratislava': street 'Miletičova' NOT FOUND on fetched pages
+## bukowski-bar — Bukowski & Baudelaire bars
+   200 website         https://bukowski.sk/bukowski2  [bukowski2 &#8211; Bukowski &amp; Baudelaire bars] len=105550 y26/27=2
+   200 website-agenda  http://bukowski.sk/koncertyprior  [koncertyprior &#8211; Bukowski &amp; Baudelaire bars] len=97616 y26/27=6
+   address 'Kamenné námestie 1, Bratislava': street 'Kamenné námestie' FOUND
+## sundeck — Sundeck
+   200 website-agenda  https://www.sundeck.sk/sk/eventy  [Eventy | Sundeck] len=13796 y26/27=0
+   address 'Tyršovo nábrežie, 851 01 Bratislava': street 'Tyršovo nábrežie' NOT FOUND on fetched pages
+## hostinec-opapa — Hostinec Opapa
+   200 website-agenda  https://opapa.sk/pivne-festivaly-bratislava/  [Pivné festivaly a pivné slávnosti v Bratislave | Sprievodca] len=18780 y26/27=0
+   200 website         https://opapa.sk/  [Hostinec Opapa – Remeselné pivo / Craft Beer Pub v Múzeu obchodu, Brat] len=25432 y26/27=3
+   address 'Moskovská 16, 811 08 Bratislava': street 'Moskovská' FOUND
+## hlava-22 — Hlava 22
+   403 website         https://www.hlava22.sk/  [] len=0 y26/27=0
+## wine-expert — Wine Expert vínotéka
+   200 website-agenda  https://wineexpert.sk/degustacia-vina-so-somelierom/  [Degustácia vína so someliérom | WineExpert] len=306014 y26/27=5
+## aldea-club — Aldea Club
+   200 website-agenda  https://aldeaclub.eu/program  [Program | Aldea Club] len=291058 y26/27=46
+   address 'Františkánske námestie 3, 811 01 Bratislava': street 'Františkánske námestie' FOUND
+## majestic-music-club — Majestic Music Club (MMC)
+   200 website-agenda  https://majestic.sk/program/  [Program &#8211; Majestic Music Club] len=158819 y26/27=48
+   address 'Karpatská 3089/2, 811 05 Bratislava': street 'Karpatská' FOUND
+## randal-club — Randal Club
+   200 website         http://www.randalclub.eu/  [Randal Club] len=92009 y26/27=7
+   address 'Karpatská 2, 811 05 Bratislava': street 'Karpatská' FOUND
+## subdeck — SUBDECK
+   200 website-agenda  https://subdeck.sk/events  [SUBDECK] len=39481 y26/27=25
+## great-club — GREAT Club
+   200 website-agenda  https://www.greatbratislava.sk/party-kalendar/  [Great Club Bratislava | Nočný klub &amp; najlepšie party v Bratislave] len=208658 y26/27=11
+   address 'Suché mýto 6, 811 03 Bratislava': street 'Suché mýto' FOUND
+## safko-klub — ŠAFKO Klub
+   200 website-agenda  https://www.safkoklub.sk/  [ŠAFKO Klub] len=187992 y26/27=58
+   address 'Šafárikovo námestie 7, 811 02 Bratislava': street 'Šafárikovo námestie' FOUND
+## nu-spirit-club — Nu Spirit Club
+   200 website-agenda  https://nuspirit.sk/  [Program - Nu Spirit :] len=170993 y26/27=46
+   address 'Medená 16, 811 02 Bratislava': street 'Medená' FOUND
+## kacecko — Kácečko
+   200 website-agenda  https://www.kacecko.sk/  [- Kácečko] len=150530 y26/27=202
+   address 'Staré Grunty 211/36, 841 04 Bratislava': street 'Staré Grunty' FOUND
+## good-life-club — Good Life Club
+   200 website         https://www.goodlifebratislava.com  [Homepage - Welcome to Good Life - GoodLifeBratislava.com] len=103846 y26/27=16
+   address 'Námestie SNP 1, 811 06 Bratislava': street 'Námestie SNP' FOUND
+## the-club-bratislava — The Club Bratislava
+   200 website-agenda  https://www.theclubbratislava.com/  [Home - The Club Bratislava] len=187107 y26/27=158
+## trafo-music-bar — Trafo Music Bar
+   200 website-agenda  https://www.trafo.sk/program  [Program / Pravidlá - Trafo.sk] len=68208 y26/27=14
+   address 'Ventúrska 1, 811 01 Bratislava': street 'Ventúrska' FOUND
+## barrock — Barrock
+   200 website-agenda  https://www.barrock.sk/en/program-2/  [Program - Barrock.sk] len=64635 y26/27=34
+   address 'Svätoplukova 2A, 821 08 Bratislava': street 'Svätoplukova' FOUND
+## luna-bar — Luna Bar
+   200 website         https://www.lunabar.sk/  [Luna Bar] len=24848 y26/27=5
+   address 'Rajská 2, 811 08 Bratislava': street 'Rajská' FOUND
+## fuga — Fuga
+   200 website         http://fuga.forumabsurdum.sk/  [Registrácia domén, hosting a servery :: Websupport.sk] len=20032 y26/27=0
+   address 'Námestie SNP, 812 85 Bratislava': street 'Námestie SNP' NOT FOUND on fetched pages
+## subclub — Subclub
+   skip facebook https://www.facebook.com/subclubbratislava/
+## snd — Slovak National Theatre (SND)
+   200 website-agenda  https://snd.sk/program  [Program | Slovenské národné divadlo] len=193994 y26/27=291
+   200 website         https://snd.sk/  [Slovenské národné divadlo] len=80658 y26/27=32
+   address 'Pribinova 7272/17, 811 09 Bratislava': street 'Pribinova' NOT FOUND on fetched pages
+## nova-scena — Divadlo Nová scéna
+   200 website-agenda  https://www.novascena.sk/program  [Program - muzikálové divadlo - Divadlo Nová scéna, Bratislava] len=159001 y26/27=3
+   address 'Živnostenská 1, 812 14 Bratislava': street 'Živnostenská' NOT FOUND on fetched pages
+## dpoh — Divadlo P. O. Hviezdoslava (DPOH)
+   200 website-agenda  https://dpoh.sk/program/  [Program - DPOH - Divadlo P. O. Hviezdoslava] len=227246 y26/27=14
+   address 'Laurinská 20, 811 01 Bratislava': street 'Laurinská' FOUND
+## studio-ls — Štúdio L+S
+   200 website-agenda  https://studios.sk/repertoar/  [REPERTOÁR &#8211; Štúdio L+S] len=338366 y26/27=139
+   200 website         https://studios.sk/  [Štúdio L+S &#8211; Známe tváre a tradícia&#8230;] len=242493 y26/27=22
+   address 'Námestie 1. mája 5, 811 06 Bratislava': street 'Námestie' FOUND
+## divadlo-arena — Divadlo Aréna
+   200 website-agenda  https://www.divadloarena.sk/program  [Divadlo Aréna - Program] len=256476 y26/27=3
+   address 'Viedenská cesta 10, 851 01 Bratislava': street 'Viedenská cesta' FOUND
+## rnd — Radošinské naivné divadlo (RND)
+   200 website-agenda  https://rnd.sk/program/  [Program Október 2026 | Radošinské naivné divadlo] len=30557 y26/27=11
+   address 'Záhradnícka 95, 821 08 Bratislava': street 'Záhradnícka' FOUND
+## gunagu — GUnaGU
+   200 website-agenda  https://gunagu.sk/predstavenia/  [Udalosti október 2026 &#8211; Gunagu] len=157877 y26/27=133
+   address 'Františkánske námestie 7, 811 01 Bratislava': street 'Františkánske námestie' NOT FOUND on fetched pages
+## divadlo-ivery — Divadlo Ívery
+   200 website-agenda  https://divadloivery.sk/repertoar/  [Repertoár - Divadlo Ívery] len=101102 y26/27=6
+   address 'Ružinovská 28, 821 04 Bratislava': street 'Ružinovská' NOT FOUND on fetched pages
+## teatro-colorato — Teatro Colorato
+   200 website-agenda  https://colorato.sk/  [Teatro Colorato :: Program] len=60542 y26/27=50
+   address 'Františkánske námestie 2, 811 01 Bratislava': street 'Františkánske námestie' FOUND
+## meteorit-theatre — Meteorit Theatre
+   200 website-agenda  https://meteorit-theatre.com/program-divadla/  [Program divadla - METEORIT THEATRE] len=317317 y26/27=73
+   address 'Gajova 4, 811 09 Bratislava': street 'Gajova' FOUND
+## divadlo-janart — Divadlo Janart
+   200 website-agenda  https://www.janartdivadlo.sk/repertoar  [REPERTOÁR - Divadlo Janart] len=309015 y26/27=18
+   address 'Junácka 10, 831 04 Bratislava': street 'Junácka' FOUND
+## divadlo-lab — Divadlo LAB (VŠMU)
+   200 website-agenda  https://divadlolab.vsmu.sk/kalendar/  [Hráme &#8211; divadloLAB] len=419656 y26/27=18
+   address 'Ventúrska 3, 813 01 Bratislava': street 'Ventúrska' FOUND
+## ticho-a-spol — TICHO a spol.
+   200 ticketing       http://www.tichoaspol.sk/vstupenky/  [Vstupenky | TICHO a spol.] len=96478 y26/27=1
+   address 'Školská 14, 811 07 Bratislava': street 'Školská' FOUND
+## ludus — Divadlo LUDUS
+   200 website-agenda  https://ludus-space.sk/divadlo-ludus/repertoar  [Repertoár divadla | LUDUS] len=82878 y26/27=1
+   address 'Palackého 22, 811 02 Bratislava': street 'Palackého' FOUND
+## funnylicious-theater — Funnylicious Theater
+   200 website         https://funnylicious.eu/  [Home - Funnylicous Theater] len=193532 y26/27=21
+   address 'Mickiewiczova 4, 811 07 Bratislava': street 'Mickiewiczova' NOT FOUND on fetched pages
+## silne-reci-comedy-club — Silné Reči Comedy Club
+   200 website         https://silnereci.sk/  [Silné reči] len=105543 y26/27=52
+## sluk — Slovenský ľudový umelecký kolektív (SĽUK)
+   200 website-agenda  https://www.sluk.sk/repertoar/  [Repertoár - Slovenský ľudový umelecký kolektív] len=316316 y26/27=31
+   address 'Balkánska 31/66, 853 08 Bratislava': street 'Balkánska' NOT FOUND on fetched pages
+## astorka-korzo-90 — Divadlo Astorka Korzo '90
+   429 website         https://www.astorka.sk/  [] len=0 y26/27=0
+   address 'Námestie SNP 33, 811 06 Bratislava': street 'Námestie SNP' NOT FOUND on fetched pages
+## cinema-city-aupark — Cinema City Aupark
+   200 website-agenda  https://www.cinemacity.sk/whatson  [Najnovšie filmy - Nové filmy - 3D filmy | Cinema City] len=92413 y26/27=3
+   address 'Einsteinova 22, 851 01 Bratislava': street 'Einsteinova' FOUND
+## cinema-city-eurovea — Cinema City Eurovea
+   200 website-agenda  https://www.cinemacity.sk/whatson  [Najnovšie filmy - Nové filmy - 3D filmy | Cinema City] len=92413 y26/27=3
+   address 'Pribinova, 811 09 Bratislava': street 'Pribinova' FOUND
+## kino-lumiere — Kino Lumière
+   200 website-agenda  https://www.kino-lumiere.sk/  [Kino Lumière – program a vstupenky online] len=380610 y26/27=158
+   address 'Špitálska 4, 811 08 Bratislava': street 'Špitálska' FOUND
+## kino-mladost — Kino Mladosť
+   200 website-agenda  https://www.kinomladost.sk/  [Kino Mladosť – program a vstupenky online] len=124623 y26/27=24
+   address 'Hviezdoslavovo námestie 17, 811 02 Bratislava': street 'Hviezdoslavovo námestie' FOUND
+## kino-film-europe — Kino Film Europe
+   200 website         https://www.filmeurope.sk/sk  [FILM EUROPE] len=20668 y26/27=1
+   address 'Štefánikova 834/25, 811 05 Bratislava': street 'Štefánikova' NOT FOUND on fetched pages
+## kino-usmev — Kino Úsmev
+   200 website-agenda  https://kinousmev.sk/program/  [Program &#8211; Kino Úsmev] len=282599 y26/27=6
+## febiofest — Febiofest (international film festival)
+   200 website         https://febiofest.sk/  [Medzinárodný filmový festival FEBIOFEST Bratislava] len=61030 y26/27=54
+## be2can — Be2Can (festival film showcase)
+   200 website         https://be2can.sk  [BE2CAN | Ochutnajte atmosféru filmových festivalov] len=210615 y26/27=75
+   address 'Matúškova 2148/10, 831 01 Bratislava': street 'Matúškova' FOUND
+## red-cat-cabaret — Red Cat Cabaret
+   200 website         https://redcatcabaret.com/ -> https://redcatcabaret.sk/  [Red Cat Cabaret &ndash; Divadlo Bratislava] len=227355 y26/27=20
+   address 'Obchodná 17, 811 06 Bratislava': street 'Obchodná' NOT FOUND on fetched pages
+## sng-bratislava — Slovak National Gallery (SNG)
+   200 website-agenda  https://sng.sk/sk/sng-bratislava/vystavy-programy  [Výstavy a programy | Slovenská národná galéria] len=570801 y26/27=481
+   200 website         https://sng.sk/sk/sng-bratislava  [Slovenská národná galéria | SNG] len=588534 y26/27=345
+   address 'Rázusovo nábrežie 2, 815 13 Bratislava': street 'Rázusovo nábrežie' FOUND
+## galeria-mesta-bratislavy — Galéria mesta Bratislavy (GMB)
+   200 website-agenda  https://gmb.sk/vystavy  [Výstavy a podujatia – Galéria mesta Bratislavy] len=103285 y26/27=41
+   200 newsletter      https://gmb.sk/#newsletter  [Domov – Galéria mesta Bratislavy] len=96495 y26/27=20
+   address 'Františkánske námestie 11, 815 35 Bratislava': street 'Františkánske námestie' NOT FOUND on fetched pages
+## muzeum-mesta-bratislavy — Múzeum mesta Bratislavy (Bratislava City Museum)
+   200 website-agenda  https://muzeumbratislava.sk/prehlad-udalosti/aktualne-programy  [Prehľad udalostí | Múzeum mesta Bratislavy] len=49111 y26/27=11
+   200 website-agenda  https://muzeumbratislava.sk/prehlad-udalosti/aktualne-vystavy  [Prehľad udalostí | Múzeum mesta Bratislavy] len=49111 y26/27=11
+   200 website         https://muzeumbratislava.sk/  [Múzeum mesta Bratislavy |] len=70259 y26/27=11
+   address 'Primaciálne námestie 3, 811 01 Bratislava': street 'Primaciálne námestie' NOT FOUND on fetched pages
+## hrad-devin — Devín Castle (Múzeum mesta Bratislavy)
+   200 website         https://muzeumbratislava.sk/hrad-devin  [Hrad Devín | Múzeum mesta Bratislavy] len=70773 y26/27=2
+   address 'Muránska 10, 841 10 Bratislava': street 'Muránska' FOUND
+## snm-historicke-muzeum-hrad — SNM — Historical Museum (Bratislava Castle)
+   200 website         https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte  [Navštívte | Slovenské národné múzeum] len=105688 y26/27=18
+   address 'Bratislavský hrad, 811 06 Bratislava': street 'Bratislavský hrad' NOT FOUND on fetched pages
+## snm-muzeum-zidovskej-kultury — SNM — Museum of Jewish Culture
+   200 website         https://www.snm.sk/muzea-snm/muzeum-zidovskej-kultury/muzeum-zidovskej-kultury/navstivte  [Navštívte | Slovenské národné múzeum] len=107658 y26/27=14
+   address 'Židovská 17, 811 01 Bratislava': street 'Židovská' NOT FOUND on fetched pages
+## snm-archeologicke-muzeum — SNM — Archaeological Museum
+   200 website         https://www.snm.sk/muzea-snm/archeologicke-muzeum/archeologicke-muzeum/navstivte  [Navštívte | Slovenské národné múzeum] len=105701 y26/27=20
+   address 'Žižkova 12, 810 06 Bratislava': street 'Žižkova' NOT FOUND on fetched pages
+## snm-muzeum-kultury-madarov — SNM — Museum of Hungarian Culture in Slovakia
+   200 website         https://www.snm.sk/muzea-snm/muzeum-kultury-madarov-na-slovensku/muzeum-kultury-madarov-na-slovensku/navstivte  [Navštívte | Slovenské národné múzeum] len=115653 y26/27=9
+   address 'Žižkova 18, 811 01 Bratislava': street 'Žižkova' NOT FOUND on fetched pages
+## snm-muzeum-kultury-karpatskych-nemcov — SNM — Museum of Carpathian German Culture
+   200 website         https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/muzeum-kultury-karpatskych-nemcov/navstivte  [Navštívte | Slovenské národné múzeum] len=104998 y26/27=1
+   address 'Žižkova 14, 810 06 Bratislava': street 'Žižkova' NOT FOUND on fetched pages
+## snm-muzeum-kultury-chorvatov — SNM — Museum of Croatian Culture in Slovakia
+   200 website         https://www.snm.sk/muzea-snm/muzeum-kultury-chorvatov-na-slovensku/muzeum-kultury-chorvatov-na-slovensku/navstivte  [Navštívte | Slovenské národné múzeum] len=92776 y26/27=6
+   address 'Istrijská 68, 841 07 Bratislava': street 'Istrijská' NOT FOUND on fetched pages
+## snm-prirodovedne-muzeum — SNM — Natural History Museum
+   200 website         https://www.snm.sk/muzea-snm/prirodovedne-muzeum/prirodovedne-muzeum/navstivte  [Navštívte | Slovenské národné múzeum] len=103836 y26/27=27
+## snm-hudobne-muzeum — SNM — Music Museum
+   200 website         https://www.snm.sk/muzea-snm/hudobne-muzeum/hudobne-muzeum/navstivte  [Navštívte | Slovenské národné múzeum] len=95360 y26/27=8
+## danubiana — Danubiana Meulensteen Art Museum
+   200 website-agenda  https://danubiana.sk/vystavy/aktualne  [Aktuálne výstavy | Danubiana] len=18427 y26/27=13
+   address 'Poľná, 900 43 Bratislava': street 'Poľná' NOT FOUND on fetched pages
+## kunsthalle-bratislava — Kunsthalle Bratislava (Dom umenia)
+   200 website-agenda  https://kunsthallebratislava.sk/program/  [Programs Archive - KunstHalle Bratislava] len=44451 y26/27=3
+   address 'Námestie SNP 12, 812 34 Bratislava': street 'Námestie SNP' NOT FOUND on fetched pages
+## muzeum-obchodu — Múzeum obchodu Bratislava
+   200 website-agenda  https://muzeumobchodu.sk/muzeum/archiv-vystav/  [Archív výstav &#8211; Múzeum Obchodu] len=116875 y26/27=12
+   200 website-agenda  https://muzeumobchodu.sk/rock-v-muzeu/kalendar-koncertov/  [Kalendár koncertov Upcoming shows &#8211; Múzeum Obchodu] len=322725 y26/27=30
+   address 'Linzbothova 16, 821 06 Bratislava': street 'Linzbothova' FOUND
+## zoya-museum — ZOYA Museum
+   200 website-agenda  https://zoyamuseum.sk/eventy  [Eventy – ZOYA Museum] len=363083 y26/27=10
+   address 'Ventúrska 1, 811 01 Bratislava': street 'Ventúrska' NOT FOUND on fetched pages
+## zidovske-komunitne-muzeum — Jewish Community Museum (Židovské komunitné múzeum)
+   200 website         https://www.synagogue.sk/en/home/  [Home - Židovské komunitné múzeum, Bratislava] len=81984 y26/27=19
+   address 'Kozia 18, 814 47 Bratislava': street 'Kozia' FOUND
+## b-s-6-vrba — Private military museum B-S 6 Vrba
+   200 website-agenda  http://www.bs6.eu/akcie/  [Podujatia / Events &#8211; B-S 6 Vrba] len=21240 y26/27=9
+## muzeum-skolstva-a-pedagogiky — Múzeum školstva a pedagogiky
+   200 website-agenda  http://www.msap.sk/vystavy/aktualne  [Múzeum školstva a pedagogiky] len=32276 y26/27=0
+   address 'Charkovská 1, 841 07 Bratislava': street 'Charkovská' FOUND
+## muzeum-dopravy — Múzeum dopravy v Bratislave
+   200 website-agenda  https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/aktualne-vystavy  [Múzeum dopravy v Bratislave | Aktuálne výstavy | Slovenské technické m] len=85804 y26/27=13
+   address 'Šancová 6419/1B, 811 04 Bratislava': street 'Šancová' NOT FOUND on fetched pages
+## vodarenske-muzeum — Vodárenské múzeum (BVS)
+   200 website         http://www.vodarenskemuzeum.sk -> https://www.bvsas.sk/vodarenske-muzeum/  [Hlavná stránka | BVS a. s.] len=27977 y26/27=0
+   address 'Devínska cesta 1, 841 04 Bratislava': street 'Devínska cesta' NOT FOUND on fetched pages
+## zeleznicne-muzeum — Železničné múzeum SR
+   200 website         https://www.zeleznicnemuzeum.sk/  [Železničné múzeum Slovenskej republiky] len=44094 y26/27=63
+   address 'Rušňová, 832 02 Bratislava': street 'Rušňová' NOT FOUND on fetched pages
+## slovenska-filharmonia — Slovak Philharmonic (Reduta)
+   200 website-agenda  https://www.filharmonia.sk/koncerty  [Koncerty | Slovenská filharmónia] len=88717 y26/27=36
+   200 website-agenda  https://www.filharmonia.sk/kalendarium  [Kalendárium | Slovenská filharmónia] len=59320 y26/27=2
+## stara-trznica — Stará tržnica
+   200 website-agenda  https://staratrznica.sk/sk/program  [Program | Stará tržnica v Bratislave] len=34845 y26/27=12
+   address 'Námestie SNP 25, 811 01 Bratislava': street 'Námestie SNP' NOT FOUND on fetched pages
+## nova-cvernovka — Nová Cvernovka
+   200 website-agenda  https://novacvernovka.eu/program  [Program &#8211; Nová Cvernovka] len=101713 y26/27=113
+   address 'Račianska 78, 831 02 Bratislava': street 'Račianska' NOT FOUND on fetched pages
+## pakt-kulturne-centrum — P*AKT Kultúrne centrum
+   200 website-agenda  https://pakt.sk/eventy  [Program | P*AKT] len=27240 y26/27=6
+   200 website-agenda  https://pakt.sk/archiv-eventov/  [P*AKT] len=326732 y26/27=45
+   address 'Pionierska 17, 831 02 Bratislava': street 'Pionierska' NOT FOUND on fetched pages
+## a4-priestor — A4 — Priestor súčasnej kultúry
+   200 website-agenda  https://a4.sk/events/  [Eventy Archive - A4] len=82624 y26/27=38
+   address 'Karpatská 2, 811 05 Bratislava': street 'Karpatská' FOUND
+## lom-space — LOM space
+   200 website-agenda  https://space.lom.audio/past_events  [LOM space: past_events] len=63960 y26/27=11
+   address 'Mlynarovičova 5, 851 03 Bratislava': street 'Mlynarovičova' FOUND
+## incheba-expo — Incheba Expo Bratislava
+   200 website-agenda  https://www.incheba.sk/kalendar/  [Kalendár | www.incheba.sk] len=353225 y26/27=103
+   200 website-agenda  https://www.incheba.sk/eventy  [Eventy | www.incheba.sk] len=76344 y26/27=14
+## rivers-club — RIVERS CLUB
+   200 website-agenda  https://www.riversclub.sk/eventy/  [Eventy - RIVERS CLUB – event, konferencia, svadba, narodeniny, vianočn] len=89681 y26/27=10
+## ponton — Ponton
+   200 website-agenda  https://ponton.sk/galeria/akcie  [Domov] len=45995 y26/27=0
+   address 'Tyršovo nábrežie, 851 01 Bratislava': street 'Tyršovo nábrežie' FOUND
+## edison-park — Edison Park
+   200 website         https://www.edisonpark.sk/sk/  [EDISON PARK - event place] len=25910 y26/27=1
+   address 'Prievozská 3987/18, 821 09 Bratislava': street 'Prievozská' NOT FOUND on fetched pages
+## kzp-petrzalka — Kultúrne zariadenia Petržalky (KZP)
+   200 website-agenda  https://podujatia.kzp.sk  [KZP] len=184904 y26/27=39
+   200 website-agenda  https://www.kzp.sk/podujatia/hudba  [HUDBA] len=49563 y26/27=36
+   address 'Rovniankova 3, 851 02 Bratislava': street 'Rovniankova' FOUND
+## dk-dubravka — Dom kultúry Dúbravka
+   200 website-agenda  https://www.dkdubravka.sk/event.php?work=events  [Kalendár] len=112487 y26/27=174
+   address 'Saratovská 2898/2A, 841 02 Bratislava': street 'Saratovská' FOUND
+## stredisko-kultury-nove-mesto — Stredisko kultúry Bratislava-Nové Mesto
+   200 website-agenda  https://www.skvajnorska.sk/program/  [Program] len=59071 y26/27=1
+## cultus-ruzinov — CULTUS Ružinov
+   200 website         https://www.cultusruzinov.sk  [CULTUS Ružinov | kultúrne podujatia] len=599576 y26/27=3
+   address 'Kaštieľska 1131/30, 821 05 Bratislava': street 'Kaštieľska' NOT FOUND on fetched pages
+## galeria-satelit-scd — Slovak Design Centre — Galéria Satelit
+   200 website-agenda  https://scd.sk/kalendar/  [Podujatia — Slovenské centrum dizajnu] len=156071 y26/27=83
+   address 'Kollárovo námestie 10, 811 07 Bratislava': street 'Kollárovo námestie' NOT FOUND on fetched pages
+## sedf — Stredoeurópsky dom fotografie (SEDF)
+   200 website-agenda  https://www.sedf.sk/vystavy-v-stredoeuropskom-dome-fotografie/  [Výstavy v Stredoeurópskom dome fotografie - SEDF] len=59551 y26/27=4
+   address 'Prepoštská 4, 811 01 Bratislava': street 'Prepoštská' FOUND
+## galeria-19 — Galéria 19
+   200 website         https://www.galeria19.sk  [Galéria 19] len=30451 y26/27=63
+   address 'Lazaretská 19, 811 09 Bratislava': street 'Lazaretská' NOT FOUND on fetched pages
+## atelier-xiii — ATELIER XIII
+   200 website-agenda  https://www.atelierxiii.com/category/events/  [EVENTS &mdash; ATELIER XIII] len=60641 y26/27=94
+   address 'Panská 13, 811 01 Bratislava': street 'Panská' NOT FOUND on fetched pages
+## galeria-michalsky-dvor — Galéria Michalský dvor
+   200 website-agenda  https://gallery.sk/aktualna-vystava  [Aktuálna výstava - Galéria Michalský Dvor] len=227949 y26/27=5
+   address 'Ventúrska 5, 811 01 Bratislava': street 'Ventúrska' FOUND
+## galeria-nedbalka — Galéria Nedbalka
+   200 website         https://www.nedbalka.sk  [Moderné obrazy a sochy slovenských autorov | galéria Nedbalka] len=69228 y26/27=11
+   address 'Nedbalova 459/17, 811 01 Bratislava': street 'Nedbalova' FOUND
+## galeria-uluv — Galéria ÚĽUV
+   200 website         https://uluv.sk  [Ústredie ľudovej umeleckej výroby - ÚĽUV] len=393538 y26/27=95
+   address 'Obchodná 64, 816 11 Bratislava': street 'Obchodná' FOUND
+## refinery-gallery — Refinery Gallery
+   200 website         https://www.refinerygallery.sk/  [Refinery Gallery &bull; Vlčie hrdlo, Bratislava] len=98736 y26/27=0
+## institut-francais-slovaquie — Institut français de Slovaquie
+   200 website         https://institutfrancais.sk/  [Kurzy francúzštiny, podujatia, vzdelávanie | Francúzsky inštitút] len=77402 y26/27=37
+   address 'Hlavné námestie, 812 83 Bratislava': street 'Hlavné námestie' NOT FOUND on fetched pages
+## bulharsky-kulturny-institut — Bulharský kultúrny inštitút (Bulkis)
+   200 website         https://www.bulkis.sk/  [Bulkis] len=351750 y26/27=0
+   address 'Jesenského 7, 811 01 Bratislava': street 'Jesenského' FOUND
+## italsky-kulturny-institut — Istituto Italiano di Cultura Bratislava
+   200 website         https://iicbratislava.esteri.it/it/  [Istituto Italiano di Cultura di Bratislava &#8211; Sito ufficiale dell] len=86634 y26/27=24
+   address 'Kapucínska 7, 811 03 Bratislava': street 'Kapucínska' FOUND
+## rakuske-kulturne-forum — Rakúske kultúrne fórum Bratislava
+   200 website         https://www.bmeia.gv.at/kf-pressburg/  [Österreichisches Kulturforum Pressburg – BMEIA - Außenministerium Öste] len=64545 y26/27=1
+   address 'Hodžovo námestie, 811 06 Bratislava': street 'Hodžovo námestie' NOT FOUND on fetched pages
+## sk-slovan-bratislava — ŠK Slovan Bratislava (football)
+   200 website         https://www.skslovan.com  [ŠK Slovan Bratislava - oficiálna www stránka futbalového klubu] len=192116 y26/27=233
+## hc-slovan-bratislava — HC Slovan Bratislava (ice hockey)
+   200 website         https://www.hcslovan.sk/sk/  [HC SLOVAN Bratislava] len=326572 y26/27=137
+## bk-slovan-bratislava — BK Slovan Bratislava
+   200 website         https://www.bkslovan.sk  [Domov - BK Slovan Bratislava] len=92912 y26/27=1
+## bratislava-monarchs — Bratislava Monarchs
+   200 website         https://www.monarchs.sk/  [Homepage - Bratislava Monarchs] len=137822 y26/27=119
+## nsk-1922-bratislava — NŠK 1922 Bratislava
+   200 website         https://www.nsk1922.sk/  [NŠK 1922 Bratislava] len=242917 y26/27=107
+## becool-bezecke-podujatia — BECOOL Sport (Bratislava Marathon and running events)
+   200 website         https://bratislavamarathon.sk/  [BECOOL Sport – bežecké podujatia v Bratislave a na Slovensku] len=113709 y26/27=285
+## tenisovy-klub-lokomotiva — Tenisový klub Lokomotíva 1927
+   200 website         https://www.lokomotiva1927.sk/  [Tenisový klub Lokomotíva 1927] len=104084 y26/27=9
+   address 'Žabotova 5, 811 04 Bratislava': street 'Žabotova' FOUND
+## tenis-petrzalka-tkp — Tenisová škola Petržalka (TKP)
+   200 website-agenda  https://www.tkp.sk/novinky/kalendar-tkp  [Kalendár TKP] len=145427 y26/27=27
+## ruzinovsky-sportovy-klub — Ružinovský športový klub
+   404 website-agenda  https://www.rskruzinov.sk/novinky/podujatia-na-mestskej-sportovej-hale-trnavka  [] len=0 y26/27=0
+   address 'Mierová 21, 827 05 Bratislava': street 'Mierová' NOT FOUND on fetched pages
+## narodny-futbalovy-stadion — Národný futbalový štadión (Tehelné pole)
+   200 website         https://www.narodnyfutbalovystadion.sk/  [Národný futbalový štadión Bratislava - Tehelné pole] len=180863 y26/27=260
+   address 'Sasinkova 5, 811 08 Bratislava': street 'Sasinkova' FOUND
+## ntc-narodne-tenisove-centrum — Národné tenisové centrum (NTC)
+   200 website-agenda  https://www.ntc.sk/podujatia.html  [NTC - Národné tenisové centrum] len=32027 y26/27=20
+   address 'Príkopova 6, 831 03 Bratislava': street 'Príkopova' FOUND
+## zavodisko-bratislava — Závodisko Bratislava
+   200 website         https://zavodisko.sk/  [zavodisko.sk - Dostihy sú náš život] len=599237 y26/27=225
+   address 'Starohájska 29, 852 69 Bratislava': street 'Starohájska' FOUND
+## lezecke-centrum-vertigo — Lezecké centrum Vertigo
+   200 website-agenda  https://lezeckecentrum.sk/kurzy/  [Kurzy | Vertigo] len=112034 y26/27=2
+   address 'Trenčianska 47, 821 09 Bratislava': street 'Trenčianska' FOUND
+## divoka-voda-cunovo — Divoká voda (Čunovo water sports centre)
+   200 website         https://www.divokavoda.sk  [Divoká voda | Divokavoda.sk] len=154967 y26/27=1
+## wolf-arena-petrzalka — WOLF Aréna Petržalka
+   200 website-agenda  https://www.wolfarena.sk/oslavy-a-akcie/  [Oslavy a akcie &#8211; Wolfarena] len=12114 y26/27=0
+## lanoland — Lanoland (rope centre at Koliba)
+   200 website         https://www.lanoland.sk/teambuilding/  [Lanoland - teambuilding] len=59374 y26/27=1
+   address 'Krivé Jarky Trail, 830 00 Bratislava': street 'Krivé Jarky Trail' NOT FOUND on fetched pages
+## zoo-bratislava — ZOO Bratislava
+   200 website-agenda  https://www.zoobratislava.sk/kalendar-podujati/  [Kalendár podujatí | ZOO Bratislava] len=599762 y26/27=577
+   address 'Mlynská dolina 1A, 842 27 Bratislava': street 'Mlynská dolina' FOUND
+## mestske-lesy-bratislava — Mestské lesy v Bratislave
+   200 website         https://www.mestskelesy.sk/  [Oznamy - Mestské Lesy spol. s.r.o.] len=24607 y26/27=13
+## rybnik-raca — Rybník Rača
+   200 website         https://rybnikraca.sk  [Rybník Rača - Rybník Rača] len=78147 y26/27=1
+## amcham-slovakia — AmCham Slovakia (American Chamber of Commerce)
+   200 website-agenda  https://amcham.sk/events  [Events - AmCham, American Chamber of Commerce in the Slovak Republic -] len=83994 y26/27=49
+   address 'Pekníkova 6, Bratislava': street 'Pekníkova' FOUND
+## startup-grind-bratislava — Startup Grind Bratislava
+   200 website-agenda  https://www.startupgrind.com/bratislava/  [Startup Grind Bratislava | Global Community for Entrepreneurs] len=542870 y26/27=23
+## ahk-slovakia — German-Slovak Chamber of Commerce (AHK Slovakia)
+   200 website         https://slowakei.ahk.de/de  [AHK Slowakei: Ihr Partner für Geschäftserfolg in der Slowakei] len=253303 y26/27=22
+## rotary-2240-kalendar — Rotary District 2240 — club meetings calendar
+   200 website-agenda  https://www.rotary2240.org/cs/kluby/kalendar  [Kalendář událostí | Rotary 2240] len=13527 y26/27=2
+   200 newsletter      https://www.rotary2240.org/cs/media/newsletter  [Newsletter | Rotary 2240] len=15254 y26/27=11
+## codecon-bratislava — CODECON #Bratislava
+   200 website         https://www.codecon.sk/en/bratislava/  [CODECON #Bratislava &#8212; CODECON] len=459049 y26/27=218
+## nobullshit-camp — #nobullshit.camp (Cloud & DevOps conference)
+   200 website         https://nobullshit.camp  [#nobullshit.camp — Cloud &amp; DevOps Conference] len=355638 y26/27=20
+## cloud-native-bratislava — Cloud Native / Kubernetes Bratislava (Meetup)
+   200 website-agenda  https://www.meetup.com/cloudnativesk/events/  [Cloud Native - Kubernetes - Bratislava Events] len=144924 y26/27=16
+## devops-slovensko — DevOps Slovensko (Meetup)
+   200 website-agenda  https://www.meetup.com/devops-slovensko/  [DevOps Slovensko | Meetup] len=156697 y26/27=0
+## slovensko-digital — Slovensko.Digital
+   200 website-agenda  https://slovensko.digital/aktuality/  [Aktuality - Slovensko.Digital] len=101253 y26/27=27
+## sario-events — SARIO — projects and events
+   200 website-agenda  https://www.sario.sk/en/about-us/projects-events  [Projects &amp; Events | SARIO, Slovak Investment and Trade Development] len=51152 y26/27=6
+## coworking-cvernovka — Coworking Cvernovka
+   200 website         https://novacvernovka.eu/atelier/coworking-cvernovka  [Coworking Cvernovka &#8211; Nová Cvernovka] len=46099 y26/27=1
+   address 'Račianska 78, 831 02 Bratislava': street 'Račianska' NOT FOUND on fetched pages
+## space-up — SPACE UP coworking & events
+   200 website         https://www.space-up.sk/  [SPACE UP coworking &amp; events] len=259606 y26/27=0
+   address 'Záhradnícka 95, 821 08 Bratislava': street 'Záhradnícka' FOUND
+## the-spot-cowork — The Spot cowork
+   200 website         https://thespotcowork.com/  [Domov | The Spot cowork] len=599277 y26/27=24
+## hubhub — HubHub (event space)
+   200 website         https://www.hubhub.com/event-space/  [Event Space - HubHub] len=86352 y26/27=1
+   address 'Mlynské nivy 18890/5, 821 09 Bratislava': street 'Mlynské nivy' NOT FOUND on fetched pages
+## campus-cowork — Campus Cowork (Campus Mlyny and Campus City)
+   200 website         https://www.campus-cowork.com/  [Campus Innovations | StartuPeak] len=272944 y26/27=2
+## startup-centrum-uvp — Startup centrum UVP Technicom
+   200 website         https://startupcentrum.sk/  [Startup centrum - UVP TECHNICOM] len=172755 y26/27=29
+## uniba — Comenius University in Bratislava (UK)
+   200 website         https://uniba.sk/  [Univerzita Komenského] len=44330 y26/27=34
+## stuba — Slovak University of Technology (STU)
+   200 website         https://www.stuba.sk/  [Slovenská technická univerzita v Bratislave (STU)] len=238169 y26/27=30
+## euba — University of Economics in Bratislava (EUBA)
+   200 website-agenda  https://www.euba.sk/aktivity-a-media/aktuality  [Aktuality - Ekonomická univerzita v Bratislave] len=158490 y26/27=85
+## vsmu — Academy of Performing Arts (VŠMU) — student presentations
+   200 website-agenda  https://www.vsmu.sk/umenie-veda-a-vyskum/prezentacia-studentskej-tvorby/koncertna-sien-dvorana/  [Koncertná sieň Dvorana - VŠMU] len=150620 y26/27=9
+   address 'Ventúrska 3, 813 01 Bratislava': street 'Ventúrska' NOT FOUND on fetched pages
+## vsvu — Academy of Fine Arts and Design (VŠVU)
+   200 website         https://www.vsvu.sk/sk/  [Vysoká škola výtvarných umení v Bratislave] len=116993 y26/27=15
+   200 newsletter      https://www.vsvu.sk/sk/o-nas/media/newsletter/  [Newsletter VŠVU] len=77943 y26/27=1
+## bisla — Bratislava International School of Liberal Arts (BISLA)
+   200 website-agenda  https://www.bisla.sk/events/  [Events - BISLA] len=168262 y26/27=0
+## paneuropska-vysoka-skola — Paneuropean University
+   200 website-agenda  https://www.paneurouni.com/aktuality/  [Aktuality | Paneurópska VŠ] len=599308 y26/27=30
+## esn-slovakia — ESN Slovakia (Erasmus Student Network)
+   200 website-agenda  https://www.esn.sk/national-events  [National events | ESN Slovakia] len=38732 y26/27=0
+   200 website-agenda  https://www.esn.sk/international-events  [INTERNATIONAL EVENTS | ESN Slovakia] len=38727 y26/27=0
+## quiznight-sk — Quiz Night.SK
+   200 website-agenda  https://quiznight.sk/category/upcoming-events/  [Upcoming Events Archives - Quiz Night.SK] len=40108 y26/27=35
+## blabla-bratislava — BlaBla and Make Friends Bratislava
+   200 website-agenda  https://www.blablacommunity.com/events/blabla-and-make-friends-bratislava  [BlaBla and Make Friends Bratislava | BlaBla L.Exchange] len=599836 y26/27=0
+## bratislava-social-language-exchange — Bratislava Social and Language Exchange (Make New Friends)
+   200 aggregator-page https://www.eventbrite.com/e/bratislava-social-and-language-exchange-make-new-friends-tickets-1992611547779  [Bratislava Social and Language Exchange (Make New Friends) ✨ Tickets, ] len=190906 y26/27=28
+## toastmasters-slovensko — Toastmasters Slovensko
+   200 website         https://toastmasters.sk/  [Toastmasters Slovensko - Miesto, kde sa rodia lídri] len=134625 y26/27=58
+## literarny-klub — Literárny klub
+   200 website-agenda  https://literarnyklub.sk/kalendar  [Literárny klub] len=35682 y26/27=3
+## kst-klub-slovenskych-turistov — Klub slovenských turistov (KST)
+   200 website         https://www.kst.sk  [Klub slovenských turistov] len=207732 y26/27=28
+## cyklokoalicia — Cyklokoalícia
+   200 website         https://cyklokoalicia.sk/  [Home - Cyklokoalícia] len=115088 y26/27=42
+## internationals-bratislava — Internationals Bratislava
+   200 website-agenda  https://internationals.sk/events/  [Events Archive - Internationals Bratislava] len=57801 y26/27=1
+   200 website         https://internationals.sk/  [Home Page - Internationals Bratislava] len=126856 y26/27=1
+## events-in-bratislava-meetup — Events in Bratislava (Meetup group)
+   200 aggregator-page https://www.meetup.com/bratislava/events/  [Events in Bratislava Events] len=186141 y26/27=125
+## slovak-friends — Slovak Friends Language school — monthly event
+   200 website-agenda  https://slovakfriends.com/monthly-event/  [Monthly event &#8211; Slovak Friends Language school] len=80218 y26/27=6
+## mareena — Mareena
+   200 website-agenda  https://mareena.sk/podujatia-update  [Podujatia | Mareena] len=27733 y26/27=0
+   200 website-agenda  https://mareena.sk/kurzy  [Kurzy | Mareena] len=28003 y26/27=1
+   200 website-agenda  https://mareena.sk/workshopy  [Workshopy | Mareena] len=39309 y26/27=0
+   address 'Kýčerského 8, 811 05 Bratislava': street 'Kýčerského' FOUND
+## ukrajinske-kulturne-centrum — Ukrajinské kultúrne centrum (UKC)
+   200 website         https://www.ukc.sk/  [O nás - Ukrajinské kultúrne centrum] len=47767 y26/27=6
+## sme-spolu — SME SPOLU o.z. (Ukrainian and Slovak House)
+   200 website-agenda  https://smespolu.org/events/  [Čo robíme &#8211; SME SPOLU o.z.] len=141336 y26/27=0
+   address 'Ovručská 5, 831 02 Bratislava': street 'Ovručská' FOUND
+## adra-komunitne-centrum-ukrajina — ADRA Slovensko — community centre for people from Ukraine
+   200 website         https://www.adra.sk/  [ADRA Slovensko | Pomáhame ľuďom, meníme životy.] len=172800 y26/27=89
+## expatsk-quiz-night — ExpatSK — Bratislava Pub Quiz Night
+   200 website-agenda  https://expatsk.com/quiz-night/  [Bratislava Pub Quiz Night - ExpatSK] len=73135 y26/27=2
+## mestska-kniznica-bratislava — Mestská knižnica v Bratislave
+   200 website-agenda  https://www.mestskakniznica.sk/zazite/podujatia  [Podujatia – mestskakniznica.sk] len=228254 y26/27=140
+   address 'Klariská 16, 814 79 Bratislava': street 'Klariská' FOUND
+## kniznica-ruzinov — Knižnica Ružinov
+   200 website-agenda  https://kniznica-ruzinov.sk/kalendar/  [Kalendár - Knižnica Ružinov] len=124102 y26/27=34
+## staromestska-kniznica — Staromestská knižnica
+   200 website         https://starlib.sk/  [Úvod - Staromestská knižnica] len=179666 y26/27=8
+## kniznica-nove-mesto — Knižnica Bratislava – Nové Mesto
+   200 website         https://www.kbnm.sk/  [Knižnica Bratislava &#8211; Nové Mesto &#8211; Zriaďovateľ Mestská čas] len=113622 y26/27=63
+## bod-kulturno-komunitne-centrum — BOD — Kultúrno-komunitné centrum
+   200 website-agenda  https://kulturnybod.sk/bod/podujatia  [Kalendár &#8211; BOD &#8211; Kultúrno-komunitné centrum] len=346866 y26/27=151
+   address 'Hraničná 38, 841 05 Bratislava': street 'Hraničná' FOUND
+## klub-machovisko — Klub Machovisko
+   200 website-agenda  https://www.klubmachovisko.sk/program-klubu-machovisko/  [Program Klubu Machovisko - Klub Machovisko] len=95570 y26/27=9
+   address 'Na vŕšku 6, 811 01 Bratislava': street 'Na vŕšku' FOUND
+## kreativny-klub-luna — Kreatívny klub Luna
+   200 website-agenda  https://klubluna.sk/131/kalendar.html  [Kreatívny Klub Luna] len=21721 y26/27=12
+   address '29. augusta, 811 09 Bratislava': street '29. augusta' FOUND
+## kpbunt — kpBUNT — komunitný priestor
+   200 website         https://kpbunt.org/  [kpBUNT | Komunitný priestor] len=39104 y26/27=10
+   address 'Jungmannova 16-18, 851 01 Bratislava': street 'Jungmannova' FOUND
+## bratislavske-vianoce — Bratislavské Vianoce (Christmas markets)
+   200 website-agenda  https://bratislavskevianoce.sk/program/  [Program | Bratislavské Vianoce] len=150013 y26/27=15
+   200 website         https://bratislavskevianoce.sk/  [Bratislavské Vianoce - Zažime spolu láskavé Vianoce | Bratislavské Via] len=483894 y26/27=904
+## festival-mladeho-vina — Festival mladého vína (Young Wine Festival)
+   200 website         https://www.visitbratislava.com/sk/podujatia/festival-mladeho-vina/  [Festival mladého vína 2026 | 6. - 7. novembra | Visit Bratislava] len=68476 y26/27=14
+## konvergencie — Konvergencie (festival of chamber music)
+   200 website         https://www.konvergencie.sk  [Festival Konvergencie 2026] len=164098 y26/27=193
+## bratislavske-hudobne-slavnosti — Bratislavské hudobné slávnosti
+   200 website         https://www.bhsfestival.sk  [Bratislavské hudobné slávnosti] len=65058 y26/27=107
+## bratislava-v-pohybe — Bratislava v pohybe
+   200 website-agenda  https://www.bratislavavpohybe.sk/predstavenia/  [Program - Bratislava v pohybe] len=115846 y26/27=26
+## biela-noc — Biela noc
+   200 website         https://www.bielanoc.sk  [Biela Noc] len=44657 y26/27=56
+## noc-muzei-a-galerii — Noc múzeí a galérií
+   200 website         https://www.nmag.sk/  [Domov - Noc múzeí a galérií] len=146485 y26/27=77
+## dobry-trh — Dobrý trh
+   200 website         https://www.dobrytrh.sk/  [Dobrý trh] len=599869 y26/27=9
+## trhovisko-mileticka — Trhovisko Miletičova
+   200 website-agenda  http://mileticka.com/podujatia/  [Podujatia &#8211; Mileticka.com] len=97615 y26/27=1
+## jeden-svet — Jeden svet (One World human-rights documentary festival)
+   200 website-agenda  https://www.jedensvet.sk/programova-rada/  [Programová rada - Jeden svet] len=65083 y26/27=15
+   address 'Baštová 343/5, 811 03 Bratislava': street 'Baštová' FOUND
+## mesto-bratislava-podujatia — City of Bratislava — events
+   200 website-agenda  https://bratislava.sk/kultura-a-komunity/podujatia  [Podujatia – Mesto Bratislava] len=171601 y26/27=43
+   200 website-agenda  https://bratislava.sk/kultura-a-komunity/podujatia/mestske-podujatia  [Mestské podujatia – Mesto Bratislava] len=391342 y26/27=194
+   200 website-agenda  https://bratislava.sk/en/culture-and-communities/events  [Events – Mesto Bratislava] len=130744 y26/27=4
+## mc-stare-mesto — Staré Mesto (borough)
+   200 website         https://www.staremesto.sk/  [Staré Mesto] len=163357 y26/27=101
+## mc-ruzinov — Ružinov (borough)
+   200 website-agenda  https://www.ruzinov.sk/sk/podujatia  [Podujatia | Ružinov] len=75177 y26/27=15
+## mc-vrakuna — Vrakuňa (borough)
+   200 website         https://www.vrakuna.sk/  [Vrakuňa - Mestská časť] len=298847 y26/27=269
+## mc-podunajske-biskupice — Podunajské Biskupice (borough)
+   200 website         https://www.biskupice.sk/  [Mestská čast Bratislava - Podunajské Biskupice - Oficiálna stránka Mes] len=198856 y26/27=63
+## mc-nove-mesto — Nové Mesto (borough)
+   200 website         https://banm.sk/  [Bratislava-Nové Mesto] len=318255 y26/27=480
+## mc-raca — Rača (borough)
+   200 website         https://www.raca.sk/zivot-v-raci/kulturne-strediska/  [Kultúrne strediská &#8211; Mestská časť Bratislava-Rača] len=95330 y26/27=18
+## mc-vajnory — Vajnory (borough)
+   200 website         https://www.vajnory.sk/news/kulturne-spolocenske-podujatia-oktober  [Kultúrne a spoločenské podujatia Október | Vajnory.sk] len=73066 y26/27=21
+## mc-dubravka — Dúbravka (borough)
+   200 website-agenda  https://www.dubravka.sk/sk/Podujatia.html  [Novinky MČ Bratislava-Dúbravka | dubravka.sk] len=35438 y26/27=31
+## mc-lamac — Lamač (borough)
+   200 website         https://www.lamac.sk/  [Mestská časť Bratislava-Lamač] len=184046 y26/27=54
+## mc-devin — Devín (borough)
+   200 website         https://www.devin.sk/  [Mestská časť Devín] len=306597 y26/27=162
+## mc-devinska-nova-ves — Devínska Nová Ves (borough)
+   200 website         https://www.devinskanovaves.sk/  [MČ BA Devínska Nová Ves - oficiálne stránky] len=382582 y26/27=333
+## mc-zahorska-bystrica — Záhorská Bystrica (borough)
+   200 website-agenda  https://zahorskabystrica.sk/kulturne-podujatia/  [Kultúrne podujatia - Záhorská Bystrica] len=134110 y26/27=56
+## mc-petrzalka — Petržalka (borough)
+   200 website-agenda  https://www.petrzalka.sk/podujatia/  [Kultúrne a športové podujatia v Petržalke na jednom mieste | #petrzalk] len=57908 y26/27=28
+## mc-jarovce — Jarovce (borough)
+   200 website         http://www.jarovce.sk/?page=news  [Jarovce - �radn� tabu�a / Aktuality] len=52055 y26/27=115
+## mc-rusovce — Rusovce (borough)
+   200 website-agenda  https://www.bratislava-rusovce.sk/kulturne-akcie  [Aktuality a kultúrne akcie | Bratislava-Rusovce.sk] len=28256 y26/27=18
+   200 website-agenda  https://www.bratislava-rusovce.sk/kalendar  [Kalendár podujatí v Rusovciach | Bratislava-Rusovce.sk] len=19461 y26/27=3
+## mc-cunovo — Čunovo (borough)
+   200 website         https://www.cunovo.eu/zivot-v-obci/aktuality  [Aktuality | Čunovo - Oficiálna stránka] len=135948 y26/27=25
+## trapped-escape-room — Trapped Escape Room
+   200 website         https://www.trapped.sk  [Únikové miestnosti Bratislava | Escape Room TRAPPED] len=264314 y26/27=36
+   address 'Rybárska brána 1, 811 01 Bratislava': street 'Rybárska brána' FOUND
+## questum-escape-room — Questum Escape Room
+   200 website         https://questum.sk/sk/  [Questum Escape Room v Bratislave | Questum.sk Escape Room in Bratislav] len=17405 y26/27=0
+   address 'Záhradnícka 72, 821 08 Bratislava': street 'Záhradnícka' FOUND
+## asylum-escape-room — Asylum Escape Room
+   0 website         https://www.asylum.sk  [] len=73 y26/27=0 ERR URLError <urlopen error [WinError 10061] Подключение не установлено, 
+   address 'Čajakova 13, 811 05 Bratislava': street 'Čajakova' NOT FOUND on fetched pages
+## brainteaselava — Brainteaselava
+   200 website         https://brainteaselava.sk/  [Mystery Dinner, Escape Room &amp; Teambuilding Bratislava | BrainTease] len=214732 y26/27=6
+   address 'Obchodná, 811 06 Bratislava': street 'Obchodná' NOT FOUND on fetched pages
+## crime-case-escape — Crime Case
+   0 website         http://www.crimecase.sk  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>
+   address 'Račianska 3544/103, 831 02 Bratislava': street 'Račianska' NOT FOUND on fetched pages
+## puzzler-escape — Puzzler
+   0 website         https://www.puzzler.sk/  [] len=73 y26/27=0 ERR URLError <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate 
+   address 'Sabinovská, 821 02 Bratislava': street 'Sabinovská' NOT FOUND on fetched pages
+## rip-bunker — R.I.P. Bunker
+   0 website         http://www.ripbunker.sk/  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>
+   address 'Velehradská, 821 08 Bratislava': street 'Velehradská' NOT FOUND on fetched pages
+## izba-cislo-13 — Izba číslo 13
+   200 website         http://www.izbacislo13.sk/  [Escape room Izba číslo 13 v Bratislave | Escape room, oslavy, akcie a ] len=175060 y26/27=3
+   address 'Cintorínska, 811 08 Bratislava': street 'Cintorínska' FOUND
+## escape-zone — Escape Zone
+   0 website         https://www.escapezone.sk/  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11002] getaddrinfo failed>
+   address 'Viedenská cesta, 851 01 Bratislava': street 'Viedenská cesta' NOT FOUND on fetched pages
+## x-quests — Xquests Bratislava
+   0 website         https://x-quests.sk/  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>
+   address 'Jungmannova 12, 811 05 Bratislava': street 'Jungmannova' NOT FOUND on fetched pages
+## the-room-escape — THEROOM
+   200 website         http://www.theroom.sk  [Registrácia domén, hosting a servery :: Websupport.sk] len=20171 y26/27=0
+   address 'Martinengova 2A, 811 02 Bratislava': street 'Martinengova' NOT FOUND on fetched pages
+## mystery-room — Mystery Room
+   200 website         https://mysteryroom.sk/  [Mystery room - najlepšia escape room] len=3738 y26/27=0
+   address 'Kupeckého 526/17, 821 08 Bratislava': street 'Kupeckého' NOT FOUND on fetched pages
+## goescape — GoEscape.sk
+   200 website         https://goescape.sk/sk/  [Escape room Bratislava (virtuálna realita) | GoEscape] len=69269 y26/27=1
+   address 'Molecova, 900 32 Bratislava': street 'Molecova' FOUND
+## zazito-divne-hry — Divný bus / Divný dom / Divná basa (Zážito)
+   200 website         https://www.zazito.ooo/hra/divny-dom/  [Divný dom - escape room Bratislava - Petržalka | Zazito.ooo] len=524136 y26/27=48
+   200 website         https://www.zazito.ooo/hra/divny-bus/  [Divný bus - escape hra Bratislava | Zazito.ooo] len=417836 y26/27=24
+   200 website         https://www.zazito.ooo/hra/divna-basa/  [Divná basa - útek z väzenia - escape room Bratislava | Zazito.ooo] len=521259 y26/27=46
+   address 'Medveďovej 1486/40, 851 04 Bratislava': street 'Medveďovej' FOUND
+## undead-arena — Undead Arena
+   200 website         https://www.undeadarena.com/  [UNDEADARENA] len=563 y26/27=0
+   address 'Závodu Matador, 851 01 Bratislava': street 'Závodu Matador' NOT FOUND on fetched pages
+## vrba-vr-bar — VRBA — Virtuálna realita Bratislava (VR bar)
+   200 website-agenda  https://www.vrbratislava.sk/events.html  [Virtuálna Realita Eventy] len=18027 y26/27=0
+   200 website         https://www.vrbratislava.sk/  [Virtuálna Realita Bratislava – VR bar, 3D hry, teambuilding] len=26753 y26/27=0
+   address 'Panenská 675/23, 811 03 Bratislava': street 'Panenská' NOT FOUND on fetched pages
+## timeshift-vr — TimeShift VR
+   200 website         https://timeshift.space/  [TimeShift Bratislava | VR Grosslingova 7] len=186823 y26/27=4
+   address 'Grösslingová 6642/7, 811 09 Bratislava': street 'Grösslingová' FOUND
+## gamestate-bratislava — Gamestate Bratislava
+   200 website         https://www.gamestate.com/sk  [Gamestate | Ultimátny arcade zážitok vo vašom okolí] len=118575 y26/27=1
+   address 'Protinapoleónsky val, 851 01 Bratislava': street 'Protinapoleónsky val' NOT FOUND on fetched pages
+## gamerslab — GamersLab
+   200 website         https://gamerslab.eu/  [GamersLab - play your way! VIP gamers club in Bratislava] len=33628 y26/27=27
+   address 'Dunajská 14, 811 08 Bratislava': street 'Dunajská' FOUND
+## galaxia-vr — Galaxia centrum zábavy
+   200 website         https://galaxiavr.sk/  [Galaxia – Biliard, VR Escape Room &amp; Teambuilding Bratislava] len=51918 y26/27=5
+## mars-arena — MARS arena
+   0 website         https://www.marsarena.sk/  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>
+   address 'Holíčska 1016/27, 851 05 Bratislava': street 'Holíčska' NOT FOUND on fetched pages
+## bowling-narodne-centrum — Bowlingové Národné Centrum
+   200 website         https://www.bnc-sk.sk/bowling  [Bowling | Bowlingové Národné Centrum] len=89793 y26/27=2
+   address 'Turbínová, 830 08 Bratislava': street 'Turbínová' FOUND
+## petrzalka-bowling-center — Petržalka Bowling Center (PBC)
+   200 website         https://www.bowlingpbc.sk/  [PBC] len=91993 y26/27=0
+   address 'Tupolevova 7A, 851 01 Bratislava': street 'Tupolevova' FOUND
+## minigolf-strkovec — Minigolf Štrkovec
+   200 website         https://www.minigolfstrkovec.sk/  [Domov - Minigolf Štrkovec] len=121276 y26/27=1
+   address 'Drieňová 9, 821 01 Bratislava': street 'Drieňová' FOUND
+## minigolf-karlovka — Minigolf Karlovka
+   200 website         https://www.minigolfkarlovka.sk/  [Minigolf Karlovka &#8211; Minigolf Karlovka by irongym] len=197284 y26/27=0
+   address 'Janotova 12, 841 05 Bratislava': street 'Janotova' FOUND
+## kart-one-arena — Kart One Arena
+   200 website         http://www.kartarena.sk -> https://www.kartonearena.sk/  [Kart One Arena | Bratislava - Petržalka] len=70275 y26/27=1
+   address 'Kopčianska 82A, 851 01 Bratislava': street 'Kopčianska' FOUND
+## max-60-motokary — Max 60 (motokáry)
+   200 website         https://www.motokary.sk/  [Motokárová hala] len=35056 y26/27=0
+   address 'Vajnorská 127A, 831 04 Bratislava': street 'Vajnorská' FOUND
+## colt-club-strelnica — Colt Club Strelnica
+   200 website         https://www.coltclub-strelnica.sk/sk  [Colt Club Strelnica - Home] len=35143 y26/27=3
+   address 'Oeserov rad, 811 01 Bratislava': street 'Oeserov rad' NOT FOUND on fetched pages
+## bullseye-strelnica — BullsEye shooting range
+   200 website         https://bullseye.sk/  [Bullseye - Športový strelecký klub v Bratislave] len=112787 y26/27=3
+   address 'Palkovičova 225/7, 821 08 Bratislava': street 'Palkovičova' FOUND
+## strelnica-chicago — Strelnica Chicago
+   200 website         https://www.chicago.sk/  [CHICAGO - Nová prvotriedna strelnica v Bratislave 🎯] len=148549 y26/27=2
+   address 'Kukučínova 50, 831 03 Bratislava': street 'Kukučínova' FOUND
+## hunter-club — Hunter Club
+   200 website         https://hunterclub.sk  [Hunter Club Bratislava | Profesionálna Strelnica] len=4145 y26/27=0
+   address 'Kamenné námestie 1A, 811 02 Bratislava': street 'Kamenné námestie' FOUND
+## billiard-club-lavos — Billiard Club Lavos
+   200 website-agenda  https://lavos.sk/oslavy-events/  [Oslavy/Events &#8211; Biliardový klub LAVOS] len=19050 y26/27=5
+   200 website         https://lavos.sk/  [Biliardový klub LAVOS &#8211; Najvačší Biliardový klub na Slovensku] len=35291 y26/27=1
+   address 'Plynárenská 6, 821 09 Bratislava': street 'Plynárenská' FOUND
+## biliard-predator — Biliardový klub Predator
+   200 website         https://biliardklubpredator.sk/  [Biliard Bratislava Petržalka | Biliard Klub Predator] len=27307 y26/27=1
+   address 'Budatínska 1A, 851 06 Bratislava': street 'Budatínska' FOUND
+## paintball-zahorska — Paintball Záhorská
+   0 website         https://www.paintballzahorska.sk/  [] len=61 y26/27=0 ERR URLError <urlopen error [Errno 11001] getaddrinfo failed>
+   address 'Československých tankistov 1B, 841 01 Bratislava': street 'Československých tankistov' NOT FOUND on fetched pages
+## hero-factory — Hero Factory
+   200 website         https://herofactory.sk/  [HERO FACTORY - Epický Paintball v Bratislave 17000m² Airsoft Laser Tag] len=215862 y26/27=1
+   address 'Vajnorská 108, 831 04 Bratislava': street 'Vajnorská' FOUND

@@ -1,0 +1,296 @@
+- id: slovenska-filharmonia
+  name: Slovak Philharmonic (Reduta)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.filharmonia.sk/koncerty
+      channel: website-agenda
+    - url: https://www.filharmonia.sk/kalendarium
+      channel: website-agenda
+      note: >-
+        calendar
+    - url: https://www.filharmonia.sk/newsletter
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Námestie Eugena Suchoňa 1, 811 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Concert hall and orchestras (Slovak Philharmonic, Slovak Philharmonic Choir, chamber
+    orchestra). Address source: own site.
+- id: stara-trznica
+  name: Stará tržnica
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://staratrznica.sk/sk/program
+      channel: website-agenda
+  venue:
+    address: Námestie SNP 25, 811 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Market hall used as an event venue: street food days, markets, concerts, fairs. Address
+    source: own site.
+- id: nova-cvernovka
+  name: Nová Cvernovka
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://novacvernovka.eu/program
+      channel: website-agenda
+  venue:
+    address: Račianska 78, 831 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Creative and cultural centre in a former thread factory: concerts, exhibitions, markets,
+    workshops. Address source: Visit Bratislava place page.
+- id: pakt-kulturne-centrum
+  name: P*AKT Kultúrne centrum
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://pakt.sk/eventy
+      channel: website-agenda
+    - url: https://pakt.sk/archiv-eventov/
+      channel: website-agenda
+      note: >-
+        archive
+  venue:
+    address: Pionierska 17, 831 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cultural centre with a mixed programme (concerts, theatre, parties). Some events (e.g. the
+    Drama Queer series) are LGBTQ+-centred; the scanner skips those. Address source: own site.
+- id: a4-priestor
+  name: A4 — Priestor súčasnej kultúry
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://a4.sk/events/
+      channel: website-agenda
+  venue:
+    address: Karpatská 2, 811 05 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary culture centre in the YMCA building (concerts, film, talks, club nights).
+    Address source: own site.
+- id: lom-space
+  name: LOM space
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://space.lom.audio/past_events
+      channel: website-agenda
+    - url: http://eepurl.com/dFTh5H
+      channel: newsletter
+      note: >-
+        Mailchimp signup
+  venue:
+    address: Mlynarovičova 5, 851 03 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Audio-culture venue; the page lists past events, upcoming ones to be confirmed. Address
+    source: own site.
+- id: incheba-expo
+  name: Incheba Expo Bratislava
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.incheba.sk/kalendar/
+      channel: website-agenda
+    - url: https://www.incheba.sk/eventy
+      channel: website-agenda
+      note: >-
+        events
+  venue:
+    address: Viedenská cesta 3-7, 851 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Exhibition grounds and expo arena: trade fairs, concerts, festivals. Address source: own
+    site.
+- id: rivers-club
+  name: RIVERS CLUB
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.riversclub.sk/eventy/
+      channel: website-agenda
+  venue:
+    address: Tyršovo nábrežie 12, 851 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Riverside event space on the Petržalka bank. Address source: own site.
+- id: ponton
+  name: Ponton
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://ponton.sk/galeria/akcie
+      channel: website-agenda
+  venue:
+    address: OSM:Ponton Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Riverside restaurant and event ship (Tyršovo nábrežie). The events page showed no 2026 dates
+    in plain HTML (checked 2026-10-13); open item. Address source: OpenStreetMap (Nominatim).
+- id: edison-park
+  name: Edison Park
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.edisonpark.sk/sk/
+      channel: website
+  venue:
+    address: OSM:Edison Park Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Event place (Prievozská); programme block on the homepage. Address source: OpenStreetMap
+    (Nominatim).
+- id: kzp-petrzalka
+  name: Kultúrne zariadenia Petržalky (KZP)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://podujatia.kzp.sk
+      channel: website-agenda
+    - url: https://www.kzp.sk/podujatia/hudba
+      channel: website-agenda
+      note: >-
+        music
+  venue:
+    address: Rovniankova 3, 851 02 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough cultural facilities in Petržalka (Zrkadlový háj hall, Dom kultúry Lúky and others).
+    Address source: own site.
+- id: dk-dubravka
+  name: Dom kultúry Dúbravka
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.dkdubravka.sk/event.php?work=events
+      channel: website-agenda
+  venue:
+    address: OSM:Dom kultúry Dúbravka
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture house with theatre, concerts and festivals. Address source: OpenStreetMap
+    (Nominatim).
+- id: stredisko-kultury-nove-mesto
+  name: Stredisko kultúry Bratislava-Nové Mesto
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.skvajnorska.sk/program/
+      channel: website-agenda
+  venue:
+    address: OSM:Stredisko kultúry Nové Mesto Vajnorská
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture centre (Vajnorská): concerts, theatre, courses. Address source:
+    OpenStreetMap (Nominatim).
+- id: cultus-ruzinov
+  name: CULTUS Ružinov
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.cultusruzinov.sk
+      channel: website
+  venue:
+    address: OSM:CULTUS Ružinov
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture centre of Ružinov (Spoločenský dom Nivy and other halls). Address source:
+    OpenStreetMap (Nominatim).
+- id: tu-ba
+  name: TU–BA (Bratislava urban lab and info point)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/cs/tu-ba/vzhkig/
+      channel: aggregator-page
+  venue:
+    address: Štúrova 12/4, Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Open platform and venue on architecture and urban development: lectures, exhibitions,
+    screenings and workshops (GoOut venue page). Address source: own site.
+- id: pistoriho-palac
+  name: Pistoriho palác
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/en/pistoriho-palac/vzdvmd/
+      channel: aggregator-page
+  venue:
+    address: Štefánikova 25, Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Old Town cultural centre with a concert hall, exhibition spaces and a cinema (Film Europe).
+    Address source: own site.
+- id: amfiteater-strkovec
+  name: Amfiteáter pri Štrkoveckom jazere
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/bratislava/miesta/lvzxefnnne/
+      channel: aggregator-page
+      note: >-
+        GoOut city venue directory; the amphitheatre is listed there
+  venue:
+    address: OSM:Amfiteáter Štrkovec Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Open-air summer venue at Štrkovec lake. Address source: OpenStreetMap (Nominatim).
+- id: dvorana-vsmu
+  name: Koncertná sieň Dvorana (VŠMU)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.vsmu.sk/umenie-veda-a-vyskum/prezentacia-studentskej-tvorby/koncertna-sien-dvorana/
+      channel: website-agenda
+  venue:
+    address: Zochova 1, Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Concert hall of the Academy of Performing Arts; concerts and student performances. Address
+    source: own site.

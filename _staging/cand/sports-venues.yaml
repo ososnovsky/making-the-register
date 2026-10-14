@@ -1,0 +1,91 @@
+- id: narodny-futbalovy-stadion
+  name: Národný futbalový štadión (Tehelné pole)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.narodnyfutbalovystadion.sk/
+      channel: website
+  venue:
+    address: Sasinkova 5, 811 08 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National stadium: football matches and concerts; event calendar on the site. Address source:
+    own site.
+- id: ntc-narodne-tenisove-centrum
+  name: Národné tenisové centrum (NTC)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.ntc.sk/podujatia.html
+      channel: website-agenda
+  venue:
+    address: Príkopova 6, 831 03 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tennis centre with tournaments and events. Address source: own site.
+- id: zavodisko-bratislava
+  name: Závodisko Bratislava
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://zavodisko.sk/
+      channel: website
+  venue:
+    address: Starohájska 29, 852 69 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Horse racing track and event grounds. Address source: own site.
+- id: lezecke-centrum-vertigo
+  name: Lezecké centrum Vertigo
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://lezeckecentrum.sk/kurzy/
+      channel: website-agenda
+  venue:
+    address: Trenčianska 47, 821 09 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Climbing centre with courses and events. Address source: own site.
+- id: wolf-arena-petrzalka
+  name: WOLF Aréna Petržalka
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.wolfarena.sk/oslavy-a-akcie/
+      channel: website-agenda
+  venue:
+    address: Kopčianska 6211, 851 01 Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Sports hall with parties and events page. Address source: own site.
+- id: lanoland
+  name: Lanoland (rope centre at Koliba)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.lanoland.sk/teambuilding/
+      channel: website
+  venue:
+    address: OSM:Lanoland Bratislava
+    coords: TODO
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Group and team-building rope programmes
+      link: https://www.lanoland.sk/teambuilding/
+      event_category: games-activities
+      note: >-
+        price and group size on request.
+  notes: >-
+    Rope park; group and team-building offers. Address source: OpenStreetMap (Nominatim).

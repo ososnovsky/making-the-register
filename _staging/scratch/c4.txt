@@ -1,0 +1,36 @@
+filh program | https://www.filharmonia.sk/kalendar
+filh program2 | https://www.filharmonia.sk/podujatia
+filh home | https://www.filharmonia.sk/
+tipos | https://www.tiposarena.sk
+tipos2 | https://www.ondrejnepelaarena.sk
+incheba | https://www.incheba.sk
+incheba events | https://www.incheba.sk/podujatia
+staratrznica | https://staratrznica.sk/sk/program
+lom | https://space.lom.audio/past_events
+edison | https://www.edisonpark.sk/sk/
+rivers | https://www.riversclub.sk/eventy/
+ponton | https://ponton.sk/galeria/akcie
+nedbalka | https://www.nedbalka.sk
+nedbalka2 | https://www.galeria-nedbalka.sk
+refinery | https://www.refinerygallery.sk/
+scd | https://scd.sk/kalendar/
+sedf | https://www.sedf.sk/vystavy-v-stredoeuropskom-dome-fotografie/
+g19 | https://www.galeria19.sk
+atelierxiii | https://www.atelierxiii.com/category/events/
+gandy | https://gandy-gallery.com
+uluv | https://www.uluv.sk
+institutfrancais | https://www.institutfrancais.sk
+bulkis | https://www.bulkis.sk
+goethe | https://www.goethe.de/ins/sk/sk/index.html
+britishcouncil | https://www.britishcouncil.sk
+czechcentres | https://bratislava.czechcentres.cz
+italian | https://iicbratislava.esteri.it
+polski | https://bratislava.instytutpolski.gov.pl
+kulturforum | https://www.bmeia.gv.at/kf-pressburg
+mhi | https://bratislava.balassiintezet.hu
+galeria nedbalka | https://galeria-nedbalka.sk
+tanecba | https://www.tanecba.sk
+tanecne centrum | https://www.tanecnecentrum.sk
+slovak radio | https://www.rtvs.sk
+isadore | https://isadore.sk
+pakt | https://pakt.sk

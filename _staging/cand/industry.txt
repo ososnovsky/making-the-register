@@ -1,0 +1,13 @@
+codecon-bratislava | CODECON #Bratislava | https://www.codecon.sk/en/bratislava/@w | | - | - | Annual developer conference (1,500+ developers). |
+nobullshit-camp | #nobullshit.camp (Cloud & DevOps conference) | https://nobullshit.camp@w | | - | - | Cloud and DevOps conference by Labyrinth Labs; 2026 edition on 23 September (past). |
+cloud-native-bratislava | Cloud Native / Kubernetes Bratislava (Meetup) | https://www.meetup.com/cloudnativesk/events/@a |  | - | browser | Informal meetups for cloud-native people (e.g. at Kolkovňa Eurovea). |
+devops-slovensko | DevOps Slovensko (Meetup) | https://www.meetup.com/devops-slovensko/@a |  | - | browser | DevOps and cloud-native meetup group in Bratislava. Events render client-side; no 2026 dates in plain HTML (checked 2026-10-13). |
+slovensko-digital | Slovensko.Digital | https://slovensko.digital/aktuality/@a | | - | - | Civic-tech and digital-government community with meetups and conferences. |
+sario-events | SARIO — projects and events | https://www.sario.sk/en/about-us/projects-events@a ; https://www.sario.sk/en/about-us/newsletter@n~signup page | OSM:SARIO Bratislava | - | - | Slovak Investment and Trade Development Agency: business forums and trade events. |
+agile-bratislava | Agile Bratislava (Meetup) | https://www.meetup.com/agilebratislava/@g |  | - | browser | Agile and product practitioners' meetup in Bratislava (about 1,400 members on Meetup). |
+bratislava-hacking-infosec | Bratislava Hacking & Information Security Meetup | https://www.meetup.com/bratislava-hacking-information-security-meetup/@g |  | - | browser | Information security meetup group. |
+lfdt-slovakia | LF Decentralized Trust Slovakia (Meetup) | https://www.meetup.com/lfdt-slovakia/@g |  | - | browser | Blockchain and decentralised-technology meetup group. |
+pycon-sk | PyCon SK (Meetup) | https://www.meetup.com/pyconsk/@g |  | - | browser | Python community behind PyCon Slovakia and the Bratislava Python meetup (PyVo). |
+rubyslava | Rubyslava (monthly programmers' meetup) | http://rubyslava.sk/english.html@w | | - | - | Language-agnostic monthly tech talks meetup in Bratislava. |
+bratislava-rust-meetup | Bratislava Rust Meetup Group | https://www.meetup.com/bratislava-rust-meetup-group/@g |  | - | browser | Rust programming meetup (about 200 members). |
+pydata-slovakia-bratislava | PyData Slovakia & Bratislava | https://www.meetup.com/pydata-slovakia-bratislava/@g |  | - | browser | Data science and Python meetup. |

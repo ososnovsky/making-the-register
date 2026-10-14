@@ -1,0 +1,104 @@
+Kňazský seminár sv. Cyrila a Metoda ~amenity=university   | 200 |  | [Webpriestor v rámci projektov Christ-Net.Sk] | y=0  | addr:  | AG:  | NL: 
+Ekonomický ústav SAV ~office=research Šancová 4011/56 | 0 | https://www.ekonom.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Chemický ústav SAV ~office=research   | 200 |  | [] | y=0  | addr:  | AG:  | NL: 
+Fyzikálny ústav SAV ~office=research   | 0 | https://www.fu.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Geofyzikálny ústav SAV ~office=research   | 200 | http://gpi.savba.sk/index.php/sk/ | [Geofyzikálny odbor ÚVZ SAV] | y=1  | addr: Dúbravská cesta 9 P.O. Box 106 840 05 Bratislava | AG:  | NL: 
+Neuroimunologický ústav SAV ~office=research   | 0 | https://www.niu.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Slavistický ústav Jána Stanislava SAV ~office=research   | 0 | https://www.slavu.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Virologický ústav SAV ~office=research   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Ústav anorganickej chémie SAV ~office=research   | 0 | https://www.uach.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav dejín umenia SAV ~office=research   | 0 | https://www.dejum.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav divadelnej a filmovej vedy SAV ~office=research   | 200 |  | [�stav divadelnej a filmovej vedy SAV] | y=1  | addr:  | AG: http://www.udfv.sav.sk/?site=main-page http://www.udfv.sav.sk/?site=doktorandske-program | NL: 
+Ústav experimentálnej psychológie SAV ~office=research   | 200 | https://psychologia.sav.sk/ | [Ústav experimentálnej psychológie CSPV,v.v.i. SAV – Centrum ] | y=8 FB | addr: Dúbravská cesta 9 841 04 Bratislava | AG: https://psychologia.sav.sk/category/aktuality/ | NL: 
+Ústav hudobnej vedy SAV ~office=research   | 0 | https://www.uhv.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav molekulárnej biológie SAV ~office=research   | 200 |  | [UMB SAV] | y=0  | addr:  | AG:  | NL: 
+Ústav politických vied SAV ~office=research   | 0 | https://www.upv.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav stavebníctva a architektúry SAV ~office=research   | 0 | https://www.ustarch.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav výskumu sociálnej komunikácie SAV ~office=research   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Stredná odborná škola kaderníctva a vizážistiky ~amenity=college   | 200 | https://beautycare.edupage.org/ | [Stredná odborná škola kaderníctva a vizážistiky] | y=57 IGFB | addr: Svätoplukova 2 821 08 Bratislava | AG: https://beautycare.edupage.org/a/skolsky-vzdelavaci-program https://beautycare.edupage.org/news/?gtnid=1148#news-1148 | NL: 
+Únia nevidiacich a slabozrakých Slovenska ~office=ngo   | 200 | https://unss.sk/ | [Únia nevidiacich a slabozrakých Slovenska] | y=76 IGFB | addr: Sekulská 672/1, 841 04 Bratislava | AG: https://unss.sk/akreditovane-kurzy/ https://unss.sk/program-individualneho-darcovstva/ https://unss.sk/festival-konvergencie-plny-koncertov-a-pomoci-pre-nevidiacich-a-slabozrakych/ | NL: https://unss.sk/prihlasenie-sa-do-newslettra-unss/
+Inštitút zamestnanosti ~office=ngo Povraznícka  | 200 |  | [Inštitút zamestnanosti] | y=22 FB | addr:  | AG:  | NL: 
+FES ~office=ngo   | 200 | https://slowakei.fes.de/ | [Domov] | y=13 IGFB | addr: Slovenskej republike Maróthyho 6 81106 Bratislava | AG: https://slowakei.fes.de/aktuality.html | NL: https://slowakei.fes.de/newsletter.html
+Slovenský skauting, 13. zbor Bratislava - Petržalka ~office=ngo Ambroseho 2478/13 | 200 | https://www.13zbor.sk/sk/ | [13. zbor Bratislava - Petržalka -] | y=9 IGFB | addr:  | AG: https://www.13zbor.sk/sk/kalendar-akcii/ https://www.13zbor.sk/sk/blog/category/13zbor/akcieprevas/ https://www.13zbor.sk/sk/blog/tag/akcie/ | NL: 
+Združenie miest a obcí Slovenska ~office=association   | 200 |  | [Združenie miest a obcí Slovenska] | y=189 FB | addr: Bezručova 9, Bratislava | AG: https://www.zmos.sk/sekcia-dopravy-a-vystavby.html https://www.zmos.sk/mid/536720/navrh-zakona-o-verejnych-kulturnych-podujatiach-oznam.html#m_536720 https://www.zmos.sk/mid/536720/ma0/all/.html#m_536720 | NL: https://www.zmos.sk/newsletter.html
+FabLab ~office=research Ilkovičova 8 | 200 | https://fablab.sk/index.php/Uvod | [Fablab Slovensko] | y=3  | addr:  | AG: https://fablab.sk/index.php/Kurzy | NL: 
+ČESMAD Slovakia ~office=association   | 200 |  | [ČESMAD Slovakia | ČESMAD Slovakia] | y=17 FB | addr:  | AG: https://www.cesmad.sk/novinky-a-aktuality | NL: 
+Connect Olive ~office=coworking   | 500 |  | [] | y=0  | addr:  | AG:  | NL: 
+104. zbor skautov ~tourism=guest_house   | 0 | http://www.104zbor.skauting.sk | [] | y=0  | addr:  | AG:  | NL: 
+Coworking Cvernovka ~office=coworking   | 200 |  | [Coworking Cvernovka - Bratislava] | y=4 FB | addr: Račianska 78, Bratislava | AG:  | NL: https://www.coworkingcvernovka.sk/#form-subscribe
+Impact Hub Bratislava ~office=coworking   | 200 |  | [Registrácia domén, hosting a servery :: Websupport.sk] | y=0  | addr:  | AG:  | NL: 
+Geokomunita ~office=association Rovniankova 1666 | 200 |  | [GeoCommunity.sk – Spoločne vytvárame geoinformačnú sieť] | y=58 IGFB | addr:  | AG: https://geocommunity.sk/konferencia-ossconf-2026-geograficky-program/ | NL: 
+Akadémia urgentnej medicíny ~office=ngo   | 200 |  | [AEM | DOMOV] | y=1 IGFB | addr:  | AG: https://www.academyofemergencymedicine.sk/vycvikvzdelavanie/ | NL: 
+Výskumný ústav geodézie a kartografie v Bratislave ~office=research Chlumeckého 1941/4 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Campus City ~amenity=coworking_space   | 200 |  | [Campus Innovations | StartuPeak] | y=2  | addr:  | AG: https://www.campus-cowork.com/events/ | NL: 
+Cyklokoalícia ~office=association Partizánska 2 | 200 | https://cyklokoalicia.sk/ | [Home - Cyklokoalícia] | y=42 IGFB | addr:  | AG:  | NL: 
+Detský fond Slovenskej republiky ~office=ngo   | 200 |  | [Domov | Detský Fond Slovenskej Republiky - Detský Fond Slove] | y=2  | addr: Stavbárska 38 82107 Bratislava | AG:  | NL: 
+Občianske združenie NAŠA ŠKÔLKA ~office=ngo   | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Slovenský zväz protifašistických bojovníkov ~office=ngo   | 200 | https://szpb.sk/ | [Slovenský zväz protifašistických bojovníkov – Slovenský zväz] | y=9 FB | addr:  | AG: https://szpb.sk/kalendar-podujati-v-roku-2023/ https://szpb.sk/aktuality/ | NL: 
+OZ Naše motýliky ~office=ngo   | 200 |  | [www.nasemotyliky.sk - Domain For Sale] | y=0  | addr:  | AG:  | NL: 
+Depaul Slovensko ~office=ngo   | 200 |  | [DEPAUL SLOVENSKO – Nezisková organizácia] | y=101 IGFB | addr:  | AG: https://depaul.sk/aktuality https://depaul.sk/sluzby-integracny-program https://depaul.sk/sluzby-program-zamestnavania | NL: https://www.semplice.com
+Slovenský ochranný zväz autorský ~office=association   | 200 |  | [SOZA | SOZA] | y=23 IGFB | addr:  | AG: https://www.soza.sk/aktuality https://www.soza.sk/aktuality/parlamentny-institut-potvrdil-primerane-sadzby-soza https://www.soza.sk/aktuality/komunike-zo-zasadnutia-dr-soza-zo-dna-9-9-2026 | NL: 
+Sklady hmotnej dokumentácie Štátneho geologického ústavu Dionýza Štúra ~office=research Galvaniho 4329/18 | 200 |  | [Štátny geologický ústav Dionýza Štúra – zabezpečuje výkon št] | y=95 FB | addr: Mlynská dolina 1, 817 04 Bratislava | AG: https://www.geology.sk/aktivity/zoznam-aktualit/ https://www.geology.sk/operacny-program-kvalita-zivotneho-prostredia/ https://www.geology.sk/operacny-program-zivotneho-prostredia/ | NL: 
+OZ Mosty pomoci ~office=association   | 200 | https://mostypomoci.sk/ | [Mosty pomoci] | y=93 FB | addr: Mosty pomoci Obchodná 545/9 811 06 Bratislava | AG: https://mostypomoci.sk/kurzy-a-prednasky/ https://mostypomoci.sk/kurzy-a-prednasky/akreditovane-kurzy/ https://mostypomoci.sk/kurzy-a-prednasky/akreditovane-kurzy/kurz-opatrovania-238h/ | NL: 
+Amnesty international Slovensko ~office=ngo   | 200 |  | [Domovská stránka - Amnesty International Slovensko] | y=10 IGFB | addr:  | AG: https://www.amnesty.sk/aktualne-podujatia/ | NL: https://www.amnesty.sk/prihlaste-sa-na-odber-newslettera/
+Rada pre poradenstvo v sociálnej práci ~office=ngo   | 200 |  | [Rada pre poradenstvo v sociálnej práci – Dôstojný a rovnoprá] | y=13 FB | addr: Záhradnícka 70, 821 08 Bratislava | AG: https://www.rpsp.eu/2024/07/04/instruktor-socialnej-rehabilitacie-akreditovany-kurz-jesen-2024/ | NL: 
+AKO ~office=research   | 200 |  | [AKO.sk: marketingový výskum trhu, reklamy a médií] | y=30  | addr: Karadžičova 41, 811 07 Bratislava | AG: https://www.noviny.sk/slovensko/1125045-podvodnici-su-v-kurze-dve-tretiny-slovakov-celia-falosnym-telefonatom-a-emailom | NL: 
+OZ Permoníci ~office=ngo Jasovská 1 | 200 |  | [Pomáhame, pretože chceme - OZ Permoníci] | y=2 FB | addr:  | AG: https://permonici.sk/events/ https://permonici.sk/events/zoznam/ | NL: 
+Slovenský curlingový zväz ~office=association   | 200 |  | [Slovenský Curling | Slovenský curlingový zväz] | y=93 IGFB | addr:  | AG: https://curling.sk/kalendar-akcii/#aktualny-zapas https://curling.sk/firemne-akcie/ | NL: https://curling.sk/newsletter/ https://curling.sk/novy-newsletter-je-tu-2/
+Ústav normálnej a patologickej fyziológie ~office=research   | 0 | https://www.unpf.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Slovenský červený kríž ~office=association   | 200 |  | [Slovenský Červený kríž | Oficiálna stránka] | y=46 IGFB | addr:  | AG: https://redcross.sk/kurz-prvej-pomoci-8-hodin/ https://redcross.sk/kurz-prvej-pomoci-16-33-hodin/ https://redcross.sk/kurz-instruktora-prvej-pomoci/ | NL: https://redcross.sk/odberove-centra/ https://www.smartemailing.cz/
+Vysoká škola NEWTON ~amenity=college   | 200 | https://newton.university/kontakty/bratislava/ | [Kontakty NU – vysoká škola v Bratislavě | NEWTON University] | y=1 IGFB | addr: Tomášikova 22, 821 02 Bratislava | AG: https://psg.newton.university/ https://newton.university/uchazeci/kratke-kurzy/ https://newton.university/studenti/kalendar-akci-a-zivot-na-newtonu/ | NL: 
+Central European Education Institute ~amenity=college   | 200 |  | [MBA, LL.M., kurzy | Central European Education Institute Bra] | y=4 IGFB | addr: Tomášikova 22, 821 02 Bratislava | AG: https://www.education-institute.eu/category/kurz/ https://www.education-institute.eu/studijne-programy/ https://www.education-institute.eu/category/aktuality/ | NL: 
+Výskumná agentúra ~office=research   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Ústav hydrológie SAV, v. v. i. ~office=research   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Ústav molekulárnej fyziológie a genetiky SAV ~office=research   | 0 | https://www.umfg.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav experimentálnej onkológie SAV ~office=research   | 0 | https://www.bmc.sav.sk/veda/vyskumne-skupiny-podla-ustavov/ustav-experimentalnej-onkologie/ | [] | y=0  | addr:  | AG:  | NL: 
+Centrum experimentálnej medicíny SAV, v. v. i. ~office=research   | 0 | https://www.cem.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav experimentálnej endokrinológie SAV ~office=research   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Výcviková škola pre vodiace a asistenčné psy ~amenity=animal_training   | 200 |  | [Aktuality | Výcviková škola pre vodiace a asistenčné psy] | y=7  | addr:  | AG: https://www.vodiacipes.sk/ https://www.vodiacipes.sk/aktuality-2016 https://www.vodiacipes.sk/aktuality-2015 | NL: 
+Slovenská akademická informačná agentúra ~office=ngo   | 200 |  | [SAIA, n.o. - Hlavná stránka] | y=3 IGFB | addr: Sasinkova 10, 812 20 Bratislava | AG: https://www.saia.sk/sk/main/aktuality/ https://www.saia.sk/sk/main/aktuality/podujatia/stipendia-do-nemecky-hovoriacich-krajin-na-studijne,-vyskumn https://www.saia.sk/sk/main/aktuality/podujatia/stipendia-ceepus-na-semestralne,-kratkodobe-a-prednaskove-po | NL: 
+IMCO POWER, s.r.o. ~office=research   | 200 |  | [Domov | IMCOPOWER.sk - Vývoj a výroba elektronických napájac] | y=0  | addr:  | AG:  | NL: 
+OZ STUBAčik ~office=association   | 200 |  | [OZ STUBAčik – Občianske združenie pri Súkromnej materskej šk] | y=0  | addr: Bernolákova 2716/1, Bratislava | AG:  | NL: 
+Občan v núdzi ~office=ngo   | 200 |  | [] | y=0  | addr:  | AG:  | NL: 
+The Spot ~amenity=coworking_space   | 200 | https://thespotcowork.com/ | [Domov | The Spot cowork] | y=24  | addr: A 811 09 Bratislava | AG: https://thespotcowork.com/eventove-priestory/ https://thespotcowork.com/podujatia/ | NL: 
+SpaceUp ~amenity=coworking_space   | 200 |  | [SPACE UP coworking & events] | y=0 IGFB | addr: Záhradnícka 95, 821 08 Bratislava | AG: https://www.space-up.sk/prenajom-priestorov-bratislava/#workshop https://www.space-up.sk/prenajom-priestorov-bratislava/#eventspace | NL: 
+In-Life ~office=association   | 200 |  | [In-Life - Život naplno!] | y=0  | addr:  | AG:  | NL: 
+Občianske združenie Biela škola ~office=ngo   | 200 | https://zsholicska.sk/obcianske-zdruzenie-biela-skola/ | [Občianske združenie Biela škola | Základná škola, Holíčska 5] | y=5  | addr: Holíčska 50, Bratislava | AG: https://zsholicska.sk/program-zelena-skola/ https://zsholicska.sk/vzdelavaci-program-i-cyklus/ | NL: 
+OZ VRABČIACI ~office=ngo   | 200 |  | [Občianske združenie VRABČIACI] | y=1 FB | addr: Žehrianska 9, Bratislava | AG: https://www.szszehrianska.sk/kalendar https://www.szszehrianska.sk/aktuality | NL: 
+Studienka ~office=ngo   | 200 |  | [Centrum pre deti a rodiny Bratislava – Röntgenova] | y=0  | addr: Röntgenova 6, 851 01 Bratislava | AG:  | NL: 
+Business Point ~office=coworking   | 200 |  | [Business Point - Rest Point D4] | y=0 IGFB | addr:  | AG:  | NL: 
+OKRAJ občianske združenie ~office=association   | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Slovenský zväz včelárov ~office=association Svrčia 74/14 | 200 |  | [Slovenský zväz včelárov – Občianské združenie - Just another] | y=36 FB | addr: Svrčia 14, 842 08 Bratislava | AG: https://vcelari.sk/aktuality/ https://vcelari.sk/category/kurzy-a-skolenia/ https://vcelari.sk/obeznik-szv-c-12-2024-k-vydavaniu-a-distribucie-casopisu-vcelar-vcelarstvi-stoloveho-kalendara-a-vcelarskeho-zapisniku-na-rok-2025/ | NL: tel:http://0903%20296%20865
+Slovenský orol ~office=association   | 200 |  | [Slovenský Orol – kresťanská telovýchovná a športová organizá] | y=68  | addr: Radlinského 28, 81107 Bratislava | AG: https://slovenskyorol.sk/programove-prehlasenie/ https://slovenskyorol.sk/category/projekty/projekt-ozdravenia-populacie/o-projekte/narocny-fitprogram-s-nenarocnym-nacinim/ https://slovenskyorol.sk/category/projekty/projekt-ozdravenia-populacie/aktuality-z-realizacie-projektu/ | NL: 
+Slovenský zväz stavebných inžinierov ~office=association   | 200 |  | [Vitajte na stránkach SZSI] | y=1  | addr:  | AG:  | NL: 
+Orange Digital Center ~office=foundation   | 200 |  | [Orange Digital Center] | y=52 IGFB | addr: Legionárska 10 Bratislava | AG: https://www.orangedigitalcenter.sk/kalendar-skoleni/ https://www.orangedigitalcenter.sk/kurzy/rezervovane-orange-sk/?occ=2026-10-14 https://www.orangedigitalcenter.sk/kurzy/anca-3/?occ=2026-10-15 | NL: 
+Centrum pre využitie pokročilých materiálov SAV ~office=research   | 0 | https://www.cemea.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav pre výskum srdca SAV ~office=research   | 0 | https://www.usrd.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav experimentálnej farmakológie a toxikológie SAV ~office=research   | 0 | https://www.uef.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Laboratóriá Ústavu molekulárnej biomedicíny LF UK ~office=research   | 200 |  | [Institute of Molecular Biomedicine – Faculty of medicine, Co] | y=24 IGFB | addr: Sasinkova 4 811 08 Bratislava | AG:  | NL: 
+Úrad SAV ~office=research   | 0 | https://www.urad.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Predsedníctvo SAV ~office=research   | 0 | https://www.psav.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Teologická fakulta Trnavskej univerzity ~amenity=university Kostolná 411/1 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Ústav slovenskej literatúry SAV ~office=research Konventná 629/13 | 0 | https://www.uslit.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Belasý motýľ o. z. ~office=association Mesačná 3407/12 | 200 |  | [Home - Belasý motýľ o. z.] | y=36 IGFB | addr: Mesačná 12, 821 02 Bratislava | AG: https://belasymotyl.sk/aktuality/ | NL: https://www.smartemailing.cz/
+Zväz slovenských vedeckotechnických spoločností ~office=research Koceľova 943/15 | 200 |  | [ZSVTS – VEDA A TECHNIKA SPÁJA, ZSVTS] | y=57 IGFB | addr:  | AG: https://www.zsvts.sk/o-nas/programove-vyhlasenie/ https://www.zsvts.sk/clenovia/aktivity-clenskych-organizacii/archiv-podujati/ https://www.zsvts.sk/podujatia/ | NL: 
+Výpočtové stredisko SAV ~office=research Dúbravská cesta 9 | 0 | https://www.vs.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Geologický ústav SAV ~office=research  5805 | 200 |  | [] | y=0  | addr:  | AG:  | NL: 
+Botanický ústav SAV ~office=research  6184 | 0 | https://www.ibot.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Ústav merania SAV ~office=research  5801 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Elektrotechnický ústav SAV ~office=research  5802 | 0 | https://www.elu.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Slovenská poľnohospodárska a potravinárska komora ~office=association Záhradnícka 4148/21 | 200 |  | [Slovenská poľnohospodárska a potravinárska komora | sppk.sk] | y=24 IGFB | addr: Nitra 2016 Bratislava | AG: https://www.sppk.sk/aktuality-hovorme-o-jedle https://www.sppk.sk/podpor-svoj-odbor https://www.sppk.sk/aktuality-zasejme-dobro | NL: 
+Gymnázium školských bratov ~amenity=college Čachtická 14 | 404 |  | [] | y=0  | addr:  | AG:  | NL: 
+Vysoká škola manažmentu / City University of Seattle ~amenity=university Panónska cesta 3604/17 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Cirkevné konzervatórium v Bratislave, elokované pracovisko ~amenity=college Beňadická 3040/38A | 200 |  | [Cirkevné konzervatórium v Bratislave | oficiálna stránka CKB] | y=11 IGFB | addr: Beňadická 16 851 06 Bratislava | AG: https://ckba.sk/udalosti https://www.ckba.sk/novinky/koncert-starej-hudby/ https://www.ckba.sk/novinky/organovy-koncert-3/ | NL: 
+Rektorát Slovenskej technickej univerzity ~amenity=university Vazovova 5 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Fakulta chemickej a potravinárskej technológie STU ~amenity=university Radlinského 9 | 0 |  | [] | y=0  | addr:  | AG:  | NL: 
+Ekonomická univerzita v Bratislave ~amenity=university Dolnozemská cesta 2410/1 | 0 | https://www.euba.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Univerzitný vedecký park Univerzity Komenského ~amenity=university   | 0 | https://www.cusp.uniba.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Filozofická fakulta UK ~amenity=university Gondova 2 | 0 | https://www.fphil.uniba.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Bratislavská medzinárodná škola liberálnych štúdií ~amenity=university   | 200 |  | [Main Page - BISLA] | y=6 IGFB | addr:  | AG: https://www.bisla.sk/study-program/ https://www.bisla.sk/guarantors-of-the-study-program/ https://www.bisla.sk/events/ | NL: 
+Výskumný ústav chemickej technológie ~office=research   | 200 |  | [VUCHT a.s.] | y=1 FB | addr:  | AG: https://www.vucht.sk/sk/program-compliance | NL: 
+Jazykovedný ústav Ľudovíta Štúra SAV ~office=research Panská 230/26 | 200 |  | [JÚĽŠ SAV] | y=24 FB | addr: Panská 26, 811 01 Bratislava | AG: https://www.juls.savba.sk/Archiv_aktualit.html | NL: 
+Ústav zoológie SAV ~office=research  5792 | 0 | https://www.zoo.sav.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Univerzita Komenského v Bratislave ~amenity=university   | 0 | https://www.uniba.sk/ | [] | y=0  | addr:  | AG:  | NL: 
+Konzervatórium ~amenity=college   | 500 |  | [] | y=0  | addr:  | AG:  | NL: 

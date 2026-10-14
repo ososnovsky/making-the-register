@@ -1,0 +1,4559 @@
+# Event Scanner source register: Bratislava (the whole municipality, 17 boroughs).
+# Schema: formative/IMP-event-scanner-source-taxonomy.md §5–§6. Validate with: python validate_sources.py
+# Kids-only, men-only and LGBTQ+-centred sources are excluded; adult-only (18+) sources are in scope.
+# Link checks: plain fetch (curl-style) on 2026-10-13 unless a note says otherwise.
+
+# ---------------------------------------------------------------- aggregators
+# City agendas and tourism (tie-break: foundation, platform or city organisation → aggregators)
+
+- id: visit-bratislava
+  name: Visit Bratislava (Bratislava Tourist Board)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/podujatia/
+      channel: website-agenda
+    - url: https://www.visitbratislava.com/sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City tourism events calendar run by the Bratislava Tourist Board (Slovak and English
+    versions of the site).
+- id: bkis-bratislava
+  name: BKIS — Bratislavské kultúrne a informačné stredisko
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.bkis.sk/podujatia/
+      channel: website-agenda
+    - url: https://www.bkis.sk/
+      channel: website
+    - url: https://www.bkis.sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City-run cultural and information centre; lists its own festivals and city events
+    (Bratislava Cultural Summer, Christmas markets and similar) and other organisers' events.
+    Slovak.
+
+# Ticketing and event platforms
+
+- id: goout-bratislava
+  name: GoOut Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/bratislava/akcie/lezxefnnne/
+      channel: aggregator-page
+    - url: https://goout.net/sk/bratislava/parties/lezxefnnnezj/
+      channel: aggregator-page
+      note: >-
+        Parties only
+    - url: https://goout.net/en/bratislava/events/lezxefnnne/
+      channel: aggregator-page
+      note: >-
+        English version
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cultural listing and ticketing platform (CZ/SK), city page for Bratislava. Slovak and
+    English.
+- id: eventbrite-bratislava
+  name: Eventbrite Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.eventbrite.com/d/slovakia--bratislava/all-events/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Platform city page; mixed local and international-community events (language exchanges, tech
+    mixers). Use the city-filtered URL.
+- id: meetup-bratislava
+  name: Meetup Bratislava (city search)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/find/sk--bratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Meetup groups and events near Bratislava. The international community group "Events in
+    Bratislava" has its own entry.
+- id: ra-bratislava
+  name: Resident Advisor — Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://ra.co/events/sk/bratislava
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Electronic music and club events in Bratislava; page renders in a browser only (checked in
+    Chrome 2026-10-13: 15 upcoming events). Plain fetch gets 403.
+- id: ticketportal-sk
+  name: Ticketportal.sk
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ticketportal.sk/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticket shop, many Bratislava venues; no Bratislava-only URL found, the
+    scanner filters by city.
+- id: predpredaj-sk
+  name: Predpredaj.sk (Zoznam)
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://predpredaj.zoznam.sk/sk/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticket shop (Zoznam); no Bratislava-only URL found, the scanner filters by
+    city.
+- id: ticketlive-sk
+  name: TicketLIVE
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ticketlive.sk/sk
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National Slovak ticketing and promoter site; event titles carry the city, the scanner
+    filters for Bratislava.
+
+# Local event listing sites
+
+- id: eventland-bratislava
+  name: Eventland Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://eventland.eu/bratislava/
+      channel: website-agenda
+    - url: https://eventland.eu/bratislava/weekend/
+      channel: aggregator-page
+      note: >-
+        weekend view
+    - url: https://eventland.eu/bratislava/#footer-newsletter
+      channel: newsletter
+      note: >-
+        signup form in the page footer; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Daily event tips for Bratislava (concerts, theatre, exhibitions, workshops); organisers can
+    add events free. English and Slovak.
+- id: codnes-bratislava
+  name: Čo dnes? Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://bratislava.codnes.sk/
+      channel: website-agenda
+    - url: https://bratislava.codnes.sk/koncerty
+      channel: aggregator-page
+      note: >-
+        concerts
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Regional listing of concerts, parties, films, exhibitions, festivals and sports in
+    Bratislava and surroundings; user-submitted items, sparse (a few live items among old ones).
+- id: bratislavak-podujatia
+  name: Bratislavak.sk — Podujatia
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.bratislavak.sk/clanky/podujatia
+      channel: website-agenda
+    - url: https://www.bratislavak.sk/newsletter
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Local news site with an events section (theatre, cinema, concert programmes). Slovak.
+- id: citylife-bratislava
+  name: CityLife.sk
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.citylife.sk/
+      channel: website-agenda
+    - url: https://mailchi.mp/citylife/citylife-newsletter
+      channel: newsletter
+      note: >-
+        Mailchimp newsletter page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    "Čo sa deje v Bratislave a okolí": local events and city life magazine. Slovak.
+- id: kamdomesta-bratislava
+  name: KamDoMesta.sk — Bratislava
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://kamdomesta.sk/bratislava/predstavenia
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Listing of performances and entertainment in Bratislava. Slovak.
+- id: ajdnes-bratislavsky-kraj
+  name: Ajdnes.sk — Bratislavský kraj
+  source_category: aggregators
+  city: bratislava
+  links:
+    - url: https://www.ajdnes.sk/bratislavsky-kraj/r4
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Regional listing of events, festivals and celebrations in the Bratislava region (includes
+    places outside the municipality; the scanner keeps Bratislava only).
+
+# ---------------------------------------------------------------- restaurants
+- id: colette
+  name: Colette Wine & Dine
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.colette.sk/tasting-dinners
+      channel: website-agenda
+    - url: https://www.colette.sk/en
+      channel: website
+  venue:
+    address: Krížna, 811 07 Bratislava
+    coords: [48.152626, 17.121221]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Chef's table (5 seats at the kitchen pass)
+      link: https://www.colette.sk/tasting-dinners
+      event_category: food-drink
+      note: >-
+        Tasting menu eaten at the pass in front of the chef; price and booking via the
+        reservation page (not stated on the page checked).
+    - name: Tasting dinners (3, 5 or 7 courses)
+      link: https://www.colette.sk/tasting-dinners
+      event_category: food-drink
+      note: >-
+        Découverte 3 courses from €49, Signature 5 courses €69, Intégrale 7 courses €79; reserve
+        a table online.
+  notes: >-
+    French fine dining with monthly tasting menus and occasional guest-chef dinners (a 23
+    September 2026 dinner was listed at €160 pp, 30 seats). Address source: OpenStreetMap
+    (Nominatim).
+- id: bistronomy
+  name: Bistronomy
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://bistronomy.sk/
+      channel: website
+  venue:
+    address: Floriánska 14, 811 02 Bratislava
+    coords: [48.140638, 17.099445]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tasting-menu-only restaurant (chef Karol Szuri) with wine pairings; no events page found.
+    Address source: Visit Bratislava place page.
+- id: eck-restaurant
+  name: ECK Restaurant
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.eckrestaurant.com/en
+      channel: website
+  venue:
+    address: K zlatému rohu 36, 841 10 Bratislava
+    coords: [48.173901, 16.995103]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tasting-menu restaurant in Devín (6 courses, wine or non-alcoholic pairing). Address source:
+    Visit Bratislava place page.
+- id: houdini
+  name: Restaurant Houdini (Hotel Marrol's)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.restauranthoudini.sk/
+      channel: website
+  venue:
+    address: Tobrucká 6953/4, 811 02 Bratislava
+    coords: [48.141334, 17.113533]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Monthly five-course tasting menu paired with Slovak wines. Address source: OpenStreetMap
+    (Nominatim).
+- id: veza-restaurant
+  name: Veža (Kamzík TV tower restaurant)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://veza.sk/event/
+      channel: website-agenda
+  venue:
+    address: Cesta na Kamzík 14, 831 01 Bratislava
+    coords: [48.182591, 17.094492]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Restaurant in the Kamzík TV tower; events page (dinners, themed evenings). Address source:
+    own site.
+- id: doubletree-degustacne-vecere
+  name: DoubleTree by Hilton Bratislava — tasting dinners
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://doubletree-bratislava.sk/degustacne-vecere/
+      channel: website-agenda
+  venue:
+    address: Trnavská cesta 13219/27A, 831 04 Bratislava
+    coords: [48.160843, 17.13767]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Hotel restaurant tasting dinners prepared by the Slovak National Culinary Team. Address
+    source: OpenStreetMap (Nominatim).
+- id: tmava-degustacia
+  name: Tmavá degustácia (Wine Tasting in the Dark)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://tmavadegustacia.sk/en
+      channel: website
+  venue:
+    address: Michalská 3, Bratislava
+    coords: [48.144269, 17.106488]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Wine tasting in the dark, public dates
+      link: https://tmavadegustacia.sk/en
+      event_category: food-drink
+      note: >-
+        about 2 hours with a sommelier; Slovak, English on selected dates; price in the booking
+        flow.
+    - name: Wine tasting in the dark for groups
+      link: https://tmavadegustacia.sk/en
+      event_category: food-drink
+      note: >-
+        private tasting for groups ("For groups" page on the site); price and group size on
+        request.
+  notes: >-
+    Public and group tastings of Slovak wines in complete darkness in a 15th-century cellar;
+    open Thursday to Monday 12:00–18:30. Address source: own site.
+- id: chefparade
+  name: Chefparade cooking school
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.chefparade.sk/en
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Private cooking class (4-course menu)
+      link: https://www.chefparade.sk/en
+      event_category: food-drink
+      note: >-
+        for two people 450 EUR, 3–3.5 hours; groups on request (Chefparade site, as listed in
+        search results; confirm on site).
+      address: 'OSM:Chefparade Bratislava'
+  notes: >-
+    Cooking school with classes in Slovak and English. Address source: OpenStreetMap
+    (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Chefparade Bratislava', so no
+    coordinates; geocode by hand.
+- id: apolka
+  name: Apolka
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.apolka.sk/eventy.php?id=13&lang=sk
+      channel: website-agenda
+  venue:
+    address: Súkennícka 4, Bratislava
+    coords: [48.143023, 17.134507]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Restaurant in the old town with an events page (themed dinners and events). Address source:
+    own site.
+- id: zavinom-sk
+  name: zavinom.sk (wine tastings and wineries booking platform)
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://zavinom.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Wine tastings and winery visits (booking platform)
+      link: https://zavinom.sk/
+      event_category: food-drink
+      note: >-
+        price and group size vary per winery; 18+.
+      address: Bratislava and surroundings (winery per booking)
+  notes: >-
+    Platform where tastings and winery visits in and around Bratislava can be booked directly.
+    Listed in the Visit Bratislava services directory.
+- id: malokarpatska-vinna-cesta
+  name: Združenie Malokarpatská vínna cesta
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://mvc.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Association of the Small Carpathians wine route (cellars between Bratislava and Trnava);
+    open cellars and events.
+- id: tmava-degustacia-vb
+  name: Tmavá degustácia — groups
+  source_category: restaurants
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      channel: website
+  venue:
+    address: Michalská 3, Bratislava
+    coords: [48.144269, 17.106488]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Two-hour wine tasting in the dark for groups
+      link: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      event_category: food-drink
+      note: >-
+        8 wines, 10 to 45 guests, 27.50 EUR per person (per the organiser).
+    - name: One-hour wine tasting in the dark for groups
+      link: https://www.visitbratislava.com/sk/sluzby/tmava-degustacia/
+      event_category: food-drink
+      note: >-
+        minimum 10 guests; price on the page.
+  notes: >-
+    Group details on the Visit Bratislava page (see `tmava-degustacia`). Address source: own
+    site.
+
+# ---------------------------------------------------------------- bars-cafes
+- id: zbrojnos
+  name: Zbrojnoš Live Music Pub
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://zbrojnos.com/program/
+      channel: website-agenda
+  venue:
+    address: Michalská 22, 811 03 Bratislava
+    coords: [48.14515, 17.106839]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Live music pub with a programme page. Address source: own site.
+- id: mystery-pub
+  name: Mystery Pub
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://mysterypub.sk/program
+      channel: website-agenda
+  venue:
+    address: Miletičova 21, 821 09 Bratislava
+    coords: [48.152229, 17.138264]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Pub with a programme page (events, quizzes). Address source: own site.
+- id: bukowski-bar
+  name: Bukowski & Baudelaire bars
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://bukowski.sk/bukowski2
+      channel: website
+    - url: http://bukowski.sk/koncertyprior
+      channel: website-agenda
+      note: >-
+        concerts
+  venue:
+    address: Kamenné námestie 1, Bratislava
+    coords: [48.145107, 17.114765]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Late-night bar with concerts; events contact events@bukowski.sk. Address source: own site.
+- id: sundeck
+  name: Sundeck
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://www.sundeck.sk/sk/eventy
+      channel: website-agenda
+  venue:
+    address: Tyršovo nábrežie, 851 01 Bratislava
+    coords: [48.137133, 17.115712]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside summer bar (Tyršovo nábrežie); events page. Seasonal summer venue; the events page
+    had no 2026 dates in plain HTML on 2026-10-13. Address source: OpenStreetMap (Nominatim).
+- id: hostinec-opapa
+  name: Hostinec Opapa
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://opapa.sk/pivne-festivaly-bratislava/
+      channel: website-agenda
+    - url: https://opapa.sk/
+      channel: website
+  venue:
+    address: Moskovská 16, 811 08 Bratislava
+    coords: [48.150008, 17.1227]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Craft beer pub at the Museum of Trade; beer festivals page. The beer-festivals page lists no
+    dated 2026 events in plain HTML (checked 2026-10-13); open item. Address source: own site.
+- id: hlava-22
+  name: Hlava 22
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://www.hlava22.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Cultural pub with jazz, blues and open mics. Plain fetch gets HTTP 403; local Chrome check
+    pending. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Hlava 22 Bratislava', so no
+    coordinates; geocode by hand.
+- id: wine-expert
+  name: Wine Expert vínotéka
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://wineexpert.sk/degustacia-vina-so-somelierom/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  bookables:
+    - name: Wine tasting with a sommelier (7 wines)
+      link: https://wineexpert.sk/degustacia-vina-so-somelierom/
+      event_category: food-drink
+      note: >-
+        larger groups and events on request: vinoteka@wineexpert.sk, +421 917 888 879.
+      address: 'Bratislavská 49/B, 841 06 Bratislava'
+  notes: >-
+    Wine shop and bar in Záhorská Bystrica; tastings with a sommelier and tasting workshops.
+    Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Bratislavská 49/B, 841 06 Bratislava', so
+    no coordinates; geocode by hand.
+- id: lab-cafe
+  name: Lab.cafe
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://lab.cafe/program/
+      channel: website-agenda
+    - url: https://lab.cafe/pripravovane-akcie/
+      channel: website-agenda
+      note: >-
+        upcoming events
+  venue:
+    address: Námestie SNP 25, 811 01 Bratislava
+    coords: [48.144585, 17.111252]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Community café with workshops and social events. Address source: own site.
+- id: knihznica
+  name: Knihžnica (café-library)
+  source_category: bars-cafes
+  city: bratislava
+  links:
+    - url: https://knihznica.sk
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Café, library and creative space (Zámocká street) with readings, literary evenings, chamber
+    concerts and workshops; no agenda page on the website (events announced on social media).
+    Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Knihžnica Zámocká Bratislava', so no
+    coordinates; geocode by hand.
+
+# ---------------------------------------------------------------- clubs
+- id: aldea-club
+  name: Aldea Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://aldeaclub.eu/program
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 3, 811 01 Bratislava
+    coords: [48.14427, 17.108408]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Electronic music club in the old town (techno, house); weekend nights. Address source: Visit
+    Bratislava place page.
+- id: majestic-music-club
+  name: Majestic Music Club (MMC)
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://majestic.sk/program/
+      channel: website-agenda
+  venue:
+    address: Karpatská 3089/2, 811 05 Bratislava
+    coords: [48.15683, 17.113587]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Concerts and club nights; shares the building with Randal. Address source: own site.
+- id: randal-club
+  name: Randal Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: http://www.randalclub.eu/
+      channel: website
+  venue:
+    address: Karpatská 2, 811 05 Bratislava
+    coords: [48.15683, 17.113587]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Student-oriented club in the same building as Majestic; homepage only, no agenda page found.
+    Address source: own site.
+- id: subdeck
+  name: SUBDECK
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://subdeck.sk/events
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside club on the Danube (Petržalka bank); seasonal. Address source: OpenStreetMap
+    (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Subdeck Bratislava', so no
+    coordinates; geocode by hand.
+- id: great-club
+  name: GREAT Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.greatbratislava.sk/party-kalendar/
+      channel: website-agenda
+  venue:
+    address: Suché mýto 6, 811 03 Bratislava
+    coords: [48.147028, 17.106833]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub with a party calendar; house and commercial music. Address source: Visit
+    Bratislava place page.
+- id: safko-klub
+  name: ŠAFKO Klub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.safkoklub.sk/
+      channel: website-agenda
+  venue:
+    address: Šafárikovo námestie 7, 811 02 Bratislava
+    coords: [48.141586, 17.115509]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club with a programme on the homepage (nights, concerts). Address source: own site.
+- id: nu-spirit-club
+  name: Nu Spirit Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://nuspirit.sk/
+      channel: website-agenda
+  venue:
+    address: Medená 16, 811 02 Bratislava
+    coords: [48.142042, 17.11291]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club and bar with concerts, jazz and funk sessions, quizzes and parties; programme on the
+    homepage. Address source: own site.
+- id: kacecko
+  name: Kácečko
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.kacecko.sk/
+      channel: website-agenda
+  venue:
+    address: Staré Grunty 211/36, 841 04 Bratislava
+    coords: [48.159987, 17.066848]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club and culture space (formerly KC Dunaj, now at the Mlyny campus); concerts and parties.
+    The site carries many Facebook event links. Address source: own site.
+- id: good-life-club
+  name: Good Life Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.goodlifebratislava.com
+      channel: website
+  venue:
+    address: Námestie SNP 1, 811 06 Bratislava
+    coords: [48.145874, 17.108567]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub in the centre; no agenda page found. Address source: Visit Bratislava place page.
+- id: the-club-bratislava
+  name: The Club Bratislava
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.theclubbratislava.com/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Nightclub with dated events on the homepage. Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Rybné námestie 1, 811 02 Bratislava', so
+    no coordinates; geocode by hand.
+- id: trafo-music-bar
+  name: Trafo Music Bar
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.trafo.sk/program
+      channel: website-agenda
+  venue:
+    address: Ventúrska 1, 811 01 Bratislava
+    coords: [48.142101, 17.106092]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Music bar and club; programme and rules page. Address source: Visit Bratislava place page.
+- id: barrock
+  name: Barrock
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.barrock.sk/en/program-2/
+      channel: website-agenda
+  venue:
+    address: Svätoplukova 2A, 821 08 Bratislava
+    coords: [48.148499, 17.131091]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Rock bar and club with a programme page. Address source: own site.
+- id: luna-bar
+  name: Luna Bar
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.lunabar.sk/
+      channel: website
+  venue:
+    address: Rajská 2, 811 08 Bratislava
+    coords: [48.146108, 17.114851]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Bar-club in the old town; homepage only. Address source: OpenStreetMap (Nominatim).
+- id: fuga
+  name: Fuga
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/fuga/vzjevc/
+      channel: aggregator-page
+  venue:
+    address: Námestie SNP, 812 85 Bratislava
+    coords: [48.144469, 17.112043]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club in the Forum Absurdum / creative centre (GoOut venue page; the old site
+    fuga.forumabsurdum.sk is now a hosting placeholder). Address source: OpenStreetMap
+    (Nominatim).
+- id: subclub
+  name: Subclub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.facebook.com/subclubbratislava/
+      channel: facebook
+  social_default: true
+  fetch_status: unfetchable
+  notes: >-
+    Legendary techno club in a tunnel under the castle hill. Website not found; Facebook
+    reference only. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Subclub Bratislava', so no
+    coordinates; geocode by hand.
+- id: pink-whale
+  name: Pink Whale
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/pink-whale/vzxmte/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Riverside concert and club venue (GoOut venue page; own site not reachable). Address as
+    listed on GoOut; river-kilometre location, no house number. Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Nábrežie armádneho generála Ľudvíka
+    Svobodu 1868rkm, Bratislava', so no coordinates; geocode by hand.
+- id: teleport-club
+  name: Teleport
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/teleport/vzanod/
+      channel: aggregator-page
+  venue:
+    address: Michalská 10, Bratislava
+    coords: [48.144509, 17.106994]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club in the old town; programme via GoOut venue page. Address source: own site.
+- id: radost-music-club
+  name: Radosť Music Club
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/radost-music-club/vzlwid/
+      channel: aggregator-page
+  venue:
+    address: Obchodná 48, 811 06 Bratislava
+    coords: [48.147774, 17.111391]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Small club on Obchodná (own site mojaradost.sk showed only a placeholder page on
+    2026-10-13); promoter nights on GoOut. Address source: own site.
+- id: v-klub
+  name: V-klub
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/v-klub/vzuyid/
+      channel: aggregator-page
+  venue:
+    address: Námestie SNP 12, 812 34 Bratislava
+    coords: [48.145301, 17.111991]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Club-concert space at Námestie SNP 12 (GoOut venue page). Address source: own site.
+- id: klub-pod-lampou
+  name: .klub pod lampou
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.tyzden.sk/klubpodlampou/
+      channel: website-agenda
+    - url: https://goout.net/sk/klub-pod-lampou/vzyoid/
+      channel: aggregator-page
+    - url: https://www.tyzden.sk/klubpodlampou/newsletter/
+      channel: newsletter
+      note: >-
+        club newsletter page
+  venue:
+    address: Palisády 1248/27, 811 06 Bratislava
+    coords: [48.146094, 17.099048]
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Concert and discussion club run by the weekly .týždeň; has a newsletter page on the site.
+    Address source: OpenStreetMap (Nominatim).
+- id: fog-bratislava
+  name: FOG Bratislava
+  source_category: clubs
+  city: bratislava
+  links:
+    - url: https://www.fogbratislava.sk
+      channel: website
+  venue:
+    address: Kúpeľná 1, Bratislava
+    coords: [48.14166, 17.111615]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Concert and club venue (entrance from Palackého street); homepage only, programme to be
+    confirmed. Address source: own site.
+
+# ---------------------------------------------------------------- theatres-cinemas
+# Theatres
+
+- id: snd
+  name: Slovak National Theatre (SND)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://snd.sk/program
+      channel: website-agenda
+    - url: https://snd.sk/
+      channel: website
+    - url: https://snd.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage (SmartEmailing); no public archive found
+  venue:
+    address: Pribinova 7272/17, 811 09 Bratislava
+    coords: [48.141364, 17.1235]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Opera, ballet and drama in the historic building and the new building; programme also lists
+    children's performances (the scanner skips those). Slovak. Address source: OpenStreetMap
+    (Nominatim).
+- id: nova-scena
+  name: Divadlo Nová scéna
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.novascena.sk/program
+      channel: website-agenda
+  venue:
+    address: Živnostenská 1, 812 14 Bratislava
+    coords: [48.149221, 17.111301]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Musical theatre. Slovak. Address source: own site.
+- id: dpoh
+  name: Divadlo P. O. Hviezdoslava (DPOH)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://dpoh.sk/program/
+      channel: website-agenda
+    - url: https://dpoh.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage; no public archive found
+  venue:
+    address: Laurinská 20, 811 01 Bratislava
+    coords: [48.143971, 17.111827]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Municipal drama theatre; several stages. Slovak. Address source: own site.
+- id: studio-ls
+  name: Štúdio L+S
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://studios.sk/repertoar/
+      channel: website-agenda
+    - url: https://studios.sk/
+      channel: website
+    - url: https://studios.sk/o-divadle/newsletter/
+      channel: newsletter
+      note: >-
+        signup page; no public archive found
+  venue:
+    address: Námestie 1. mája 5, 811 06 Bratislava
+    coords: [48.149736, 17.109414]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Theatre and comedy. Slovak. Address source: own site.
+- id: divadlo-arena
+  name: Divadlo Aréna
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.divadloarena.sk/program
+      channel: website-agenda
+  venue:
+    address: Viedenská cesta 10, 851 01 Bratislava
+    coords: [48.135806, 17.114543]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre, dance and opera guest performances in Petržalka; Slovak with some English-surtitled
+    shows. Address source: own site.
+- id: rnd
+  name: Radošinské naivné divadlo (RND)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://rnd.sk/program/
+      channel: website-agenda
+  venue:
+    address: Záhradnícka 95, 821 08 Bratislava
+    coords: [48.156098, 17.140239]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak satirical theatre (Stanislav Štepka); performs in Bratislava and on tour. Address as
+    published on the site's contact page. Address source: own site.
+- id: gunagu
+  name: GUnaGU
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://gunagu.sk/predstavenia/
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 7, 811 01 Bratislava
+    coords: [48.143991, 17.107926]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Alternative theatre, comedy and improv. Slovak, some English-friendly shows. Address source:
+    own site.
+- id: divadlo-ivery
+  name: Divadlo Ívery
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://divadloivery.sk/repertoar/
+      channel: website-agenda
+  venue:
+    address: Ružinovská 28, 821 04 Bratislava
+    coords: [48.156479, 17.164611]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Independent theatre at Dom kultúry Ružinov. Slovak. Address source: own site.
+- id: teatro-colorato
+  name: Teatro Colorato
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://colorato.sk/
+      channel: website-agenda
+  venue:
+    address: Františkánske námestie 2, 811 01 Bratislava
+    coords: [48.144481, 17.108189]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre and cabaret; programme on the homepage. Slovak. Address source: own site.
+- id: meteorit-theatre
+  name: Meteorit Theatre
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://meteorit-theatre.com/program-divadla/
+      channel: website-agenda
+  venue:
+    address: Gajova 4, 811 09 Bratislava
+    coords: [48.144057, 17.119304]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Independent theatre; Slovak and some English performances. Address source: own site.
+- id: divadlo-janart
+  name: Divadlo Janart
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.janartdivadlo.sk/repertoar
+      channel: website-agenda
+  venue:
+    address: Junácka 10, 831 04 Bratislava
+    coords: [48.167603, 17.142601]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Small theatre in Nové Mesto; check for adult programme (mixed audience). Slovak. Address
+    source: own site.
+- id: divadlo-lab
+  name: Divadlo LAB (VŠMU)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://divadlolab.vsmu.sk/kalendar/
+      channel: website-agenda
+  venue:
+    address: Ventúrska 3, 813 01 Bratislava
+    coords: [48.142506, 17.106306]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Theatre of the Academy of Performing Arts (VŠMU); student and guest productions. Slovak.
+    Address source: own site.
+- id: ticho-a-spol
+  name: TICHO a spol.
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: http://www.tichoaspol.sk/vstupenky/
+      channel: ticketing
+  venue:
+    address: Školská 14, 811 07 Bratislava
+    coords: [48.153441, 17.115807]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Space for culture with theatre, concerts and workshops; only a ticketing link found, no
+    separate agenda page. Address source: own site.
+- id: ludus
+  name: Divadlo LUDUS
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://ludus-space.sk/divadlo-ludus/repertoar
+      channel: website-agenda
+  venue:
+    address: Palackého 22, 811 02 Bratislava
+    coords: [48.142435, 17.112158]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Youth theatre and drama school; part of the programme is aimed at young audiences, mixed
+    venue (the scanner skips children-only shows). Address source: own site.
+- id: funnylicious-theater
+  name: Funnylicious Theater
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://funnylicious.eu/
+      channel: website
+  venue:
+    address: Mickiewiczova 4, 811 07 Bratislava
+    coords: [48.149813, 17.115571]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    English-language comedy and improv theatre; agenda page to be confirmed (only the homepage
+    and a private-events page were found). Address source: own site.
+- id: silne-reci-comedy-club
+  name: Silné Reči Comedy Club
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://silnereci.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Stand-up comedy club; no street address on the site's homepage, open item. Slovak.
+- id: sluk
+  name: Slovenský ľudový umelecký kolektív (SĽUK)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.sluk.sk/repertoar/
+      channel: website-agenda
+  venue:
+    address: Balkánska 31/66, 853 08 Bratislava
+    coords: [48.053449, 17.150276]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National folk-art ensemble; performances at various Bratislava stages (address is the
+    ensemble's seat). Slovak. Address source: own site.
+- id: astorka-korzo-90
+  name: Divadlo Astorka Korzo '90
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.astorka.sk/
+      channel: website
+  venue:
+    address: Námestie SNP 33, 811 06 Bratislava
+    coords: [48.145414, 17.109497]
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Drama theatre in the old town. Plain fetch returns 429; the site opens in Chrome (checked
+    2026-10-13) but no agenda URL was identified, so the agenda page is an open item. Slovak.
+    Address source: OpenStreetMap (Nominatim).
+
+# Cinemas
+
+- id: cinema-city-aupark
+  name: Cinema City Aupark
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.cinemacity.sk/whatson
+      channel: website-agenda
+    - url: https://newsletter.cinemacity.sk/
+      channel: newsletter
+      note: >-
+        Cinema City Slovakia newsletter signup
+  venue:
+    address: Einsteinova 22, 851 01 Bratislava
+    coords: [48.133479, 17.10687]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Largest Cinema City in Slovakia (4DX, Superscreen). Address source: OpenStreetMap
+    (Nominatim).
+- id: cinema-city-eurovea
+  name: Cinema City Eurovea
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.cinemacity.sk/whatson
+      channel: website-agenda
+    - url: https://newsletter.cinemacity.sk/
+      channel: newsletter
+      note: >-
+        Cinema City Slovakia newsletter signup
+  venue:
+    address: Pribinova, 811 09 Bratislava
+    coords: [48.140346, 17.124302]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Cinema City at the Eurovea mall. Address source: OpenStreetMap (Nominatim).
+- id: kino-lumiere
+  name: Kino Lumière
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.kino-lumiere.sk/
+      channel: website-agenda
+  venue:
+    address: Špitálska 4, 811 08 Bratislava
+    coords: [48.146574, 17.116155]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Art-house cinema run by the Slovak Film Institute. Address source: own site.
+- id: kino-mladost
+  name: Kino Mladosť
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.kinomladost.sk/
+      channel: website-agenda
+  venue:
+    address: Hviezdoslavovo námestie 17, 811 02 Bratislava
+    coords: [48.141584, 17.106779]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cinema (programme and online tickets on the site). Address source: own site.
+- id: kino-film-europe
+  name: Kino Film Europe
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://www.filmeurope.sk/sk
+      channel: website
+  venue:
+    address: Štefánikova 834/25, 811 05 Bratislava
+    coords: [48.152144, 17.106415]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Art-house cinema and festival film distributor; programme pages to be checked. Address
+    source: OpenStreetMap (Nominatim).
+- id: kino-usmev
+  name: Kino Úsmev
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://kinousmev.sk/program/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cinema in Bratislava; programme page on the site. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Kino Úsmev', so no coordinates;
+    geocode by hand.
+
+# Festivals and further venues
+
+- id: febiofest
+  name: Febiofest (international film festival)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://febiofest.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    International film festival in Bratislava (Slovak and Czech editions); programme pages on
+    the site.
+- id: be2can
+  name: Be2Can (festival film showcase)
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://be2can.sk
+      channel: website
+  venue:
+    address: Matúškova 2148/10, 831 01 Bratislava
+    coords: [48.159744, 17.111121]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Showcase of films from the major festivals in Bratislava cinemas (14–18 October 2026);
+    address is the organiser's. Address source: own site.
+- id: red-cat-cabaret
+  name: Red Cat Cabaret
+  source_category: theatres-cinemas
+  city: bratislava
+  links:
+    - url: https://redcatcabaret.com/
+      channel: website
+  venue:
+    address: Obchodná 17, 811 06 Bratislava
+    coords: [48.147412, 17.109819]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cabaret theatre and night club; erotic show format, 18+. Address source: Visit Bratislava
+    place page.
+
+# ---------------------------------------------------------------- museums
+# National and municipal museums and galleries
+
+- id: sng-bratislava
+  name: Slovak National Gallery (SNG)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://sng.sk/sk/sng-bratislava/vystavy-programy
+      channel: website-agenda
+    - url: https://sng.sk/sk/sng-bratislava
+      channel: website
+  venue:
+    address: Rázusovo nábrežie 2, 815 13 Bratislava
+    coords: [48.140268, 17.109025]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Main SNG building (Esterházy Palace and Water Barracks branch); exhibitions, public
+    programmes and tours. Slovak and English. Address source: own site.
+- id: galeria-mesta-bratislavy
+  name: Galéria mesta Bratislavy (GMB)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://gmb.sk/vystavy
+      channel: website-agenda
+    - url: https://gmb.sk/#newsletter
+      channel: newsletter
+      note: >-
+        signup form on the homepage; no public archive found
+  venue:
+    address: Františkánske námestie 11, 815 35 Bratislava
+    coords: [48.144805, 17.107778]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    City gallery in Mirbach Palace; further venues (Pálffy Palace, Pasáž Mateja Kréna).
+    Exhibitions plus guided tours, concerts and education programmes. Address source: Visit
+    Bratislava place page.
+- id: muzeum-mesta-bratislavy
+  name: Múzeum mesta Bratislavy (Bratislava City Museum)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumbratislava.sk/prehlad-udalosti/aktualne-programy
+      channel: website-agenda
+    - url: https://muzeumbratislava.sk/prehlad-udalosti/aktualne-vystavy
+      channel: website-agenda
+      note: >-
+        exhibitions
+    - url: https://muzeumbratislava.sk/
+      channel: website
+  venue:
+    address: Primaciálne námestie 3, 811 01 Bratislava
+    coords: [48.143755, 17.108792]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City museum with the Old Town Hall, Apponyi Palace, Pharmacy at the Red Crayfish, Michael's
+    Tower, Gerulata (Rusovce) and other branches. Family programmes exist; adult programmes
+    stay. Slovak. Address source: own site.
+- id: hrad-devin
+  name: Devín Castle (Múzeum mesta Bratislavy)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumbratislava.sk/hrad-devin
+      channel: website
+  venue:
+    address: Muránska 10, 841 10 Bratislava
+    coords: [48.174548, 16.981109]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Guided talk for groups on request
+      link: https://muzeumbratislava.sk/hrad-devin
+      event_category: exhibitions
+      note: >-
+        lecturer-led talk on request for groups of up to 40 people: 25 EUR (free lecturer talk
+        for school groups on request); admission extra.
+  notes: >-
+    National cultural monument run by the City Museum; events and exhibitions are announced on
+    the museum's programme page (`muzeum-mesta-bratislavy`). Address source: Visit Bratislava
+    place page.
+- id: snm-historicke-muzeum-hrad
+  name: SNM — Historical Museum (Bratislava Castle)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/historicke-muzeum/historicke-muzeum/navstivte
+      channel: website
+  venue:
+    address: Bratislavský hrad, 811 06 Bratislava
+    coords: [48.142587, 17.100469]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch in Bratislava Castle (Treasury, exhibitions and events).
+    Address source: OpenStreetMap (Nominatim).
+- id: snm-muzeum-zidovskej-kultury
+  name: SNM — Museum of Jewish Culture
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-zidovskej-kultury/muzeum-zidovskej-kultury/navstivte
+      channel: website
+  venue:
+    address: Židovská 17, 811 01 Bratislava
+    coords: [48.144039, 17.103517]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch; programme announced on snm.sk. Address source: own site.
+- id: snm-archeologicke-muzeum
+  name: SNM — Archaeological Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/archeologicke-muzeum/archeologicke-muzeum/navstivte
+      channel: website
+  venue:
+    address: Žižkova 12, 810 06 Bratislava
+    coords: [48.140657, 17.097589]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch (entrance Žižkova 16). Address source: Visit Bratislava place
+    page.
+- id: snm-muzeum-kultury-madarov
+  name: SNM — Museum of Hungarian Culture in Slovakia
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-madarov-na-slovensku/muzeum-kultury-madarov-na-slovensku/navstivte
+      channel: website
+  venue:
+    address: Žižkova 18, 811 01 Bratislava
+    coords: [48.140647, 17.09706]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch. Address source: Visit Bratislava place page.
+- id: snm-muzeum-kultury-karpatskych-nemcov
+  name: SNM — Museum of Carpathian German Culture
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-karpatskych-nemcov/muzeum-kultury-karpatskych-nemcov/navstivte
+      channel: website
+  venue:
+    address: Žižkova 14, 810 06 Bratislava
+    coords: [48.140581, 17.097387]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch. Address source: Visit Bratislava place page.
+- id: snm-muzeum-kultury-chorvatov
+  name: SNM — Museum of Croatian Culture in Slovakia
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/muzeum-kultury-chorvatov-na-slovensku/muzeum-kultury-chorvatov-na-slovensku/navstivte
+      channel: website
+  venue:
+    address: Istrijská 68, 841 07 Bratislava
+    coords: [48.212283, 16.973673]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch in Devínska Nová Ves; also runs Croatian cultural events.
+    Address source: Visit Bratislava place page.
+- id: snm-prirodovedne-muzeum
+  name: SNM — Natural History Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/prirodovedne-muzeum/prirodovedne-muzeum/navstivte
+      channel: website
+  venue:
+    address: Vajanského nábrežie 2, 810 06 Bratislava
+    coords: [48.140203, 17.112876]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch with exhibitions and events. Address source: own site.
+- id: snm-hudobne-muzeum
+  name: SNM — Music Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.snm.sk/muzea-snm/hudobne-muzeum/hudobne-muzeum/navstivte
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Slovak National Museum branch (concerts and exhibitions). Address not confirmed, open item.
+- id: danubiana
+  name: Danubiana Meulensteen Art Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://danubiana.sk/vystavy/aktualne
+      channel: website-agenda
+  venue:
+    address: Poľná, 900 43 Bratislava
+    coords: [48.034896, 17.232195]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Modern art museum on the Danube peninsula in Čunovo. Address source: OpenStreetMap
+    (Nominatim).
+- id: kunsthalle-bratislava
+  name: Kunsthalle Bratislava (Dom umenia)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://kunsthallebratislava.sk/program/
+      channel: website-agenda
+  venue:
+    address: Námestie SNP 12, 812 34 Bratislava
+    coords: [48.145301, 17.111991]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary art exhibitions and events. Address source: own site.
+- id: muzeum-obchodu
+  name: Múzeum obchodu Bratislava
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://muzeumobchodu.sk/muzeum/archiv-vystav/
+      channel: website-agenda
+    - url: https://muzeumobchodu.sk/rock-v-muzeu/kalendar-koncertov/
+      channel: website-agenda
+      note: >-
+        concert calendar (Rock v múzeu)
+  venue:
+    address: Linzbothova 16, 821 06 Bratislava
+    coords: [48.128998, 17.20472]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Trade museum with exhibitions and a concert series. Address source: own site.
+- id: zoya-museum
+  name: ZOYA Museum
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://zoyamuseum.sk/eventy
+      channel: website-agenda
+  venue:
+    address: Ventúrska 1, 811 01 Bratislava
+    coords: [48.142101, 17.106092]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Interactive art museum; events page. Address source: Visit Bratislava place page.
+- id: zidovske-komunitne-muzeum
+  name: Jewish Community Museum (Židovské komunitné múzeum)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.synagogue.sk/en/home/
+      channel: website
+  venue:
+    address: Kozia 18, 814 47 Bratislava
+    coords: [48.147015, 17.102412]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Museum of the Bratislava Jewish community; no agenda page found. Address source: own site.
+- id: b-s-6-vrba
+  name: Private military museum B-S 6 Vrba
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.bs6.eu/akcie/
+      channel: website-agenda
+    - url: http://www.bs6.eu/odber-noviniek/
+      channel: newsletter
+      note: >-
+        signup page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Fortification (bunker) museum with a dated events page (open days and tours). Address to be
+    added. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:B-S 6 Vrba Bratislava', so no
+    coordinates; geocode by hand.
+- id: muzeum-skolstva-a-pedagogiky
+  name: Múzeum školstva a pedagogiky
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.msap.sk/vystavy/aktualne
+      channel: website-agenda
+  venue:
+    address: Charkovská 1, 841 07 Bratislava
+    coords: [48.211511, 16.977029]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Museum of schooling and pedagogy; current exhibitions page. Mixed audience (the museum runs
+    school programmes; the scanner skips children-only items). Address source: own site.
+- id: muzeum-dopravy
+  name: Múzeum dopravy v Bratislave
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://stm-ke.sk/sk/pobocky/muzeum-dopravy-v-bratislave/aktualne-vystavy
+      channel: website-agenda
+  venue:
+    address: Šancová 6419/1B, 811 04 Bratislava
+    coords: [48.156098, 17.10613]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Transport museum (branch of the Slovak Technical Museum). Address source: OpenStreetMap
+    (Nominatim).
+- id: vodarenske-muzeum
+  name: Vodárenské múzeum (BVS)
+  source_category: museums
+  city: bratislava
+  links:
+    - url: http://www.vodarenskemuzeum.sk
+      channel: website
+  venue:
+    address: Devínska cesta 1, 841 04 Bratislava
+    coords: [48.147691, 17.062765]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Waterworks museum in Karlova Ves. Address source: own site.
+- id: zeleznicne-muzeum
+  name: Železničné múzeum SR
+  source_category: museums
+  city: bratislava
+  links:
+    - url: https://www.zeleznicnemuzeum.sk/
+      channel: website
+  venue:
+    address: Rušňová, 832 02 Bratislava
+    coords: [48.199514, 17.15971]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Railway museum; open days and special trains; agenda page to be found. Address source:
+    OpenStreetMap (Nominatim).
+
+# ---------------------------------------------------------------- event-venues
+- id: slovenska-filharmonia
+  name: Slovak Philharmonic (Reduta)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.filharmonia.sk/koncerty
+      channel: website-agenda
+    - url: https://www.filharmonia.sk/kalendarium
+      channel: website-agenda
+      note: >-
+        calendar
+    - url: https://www.filharmonia.sk/newsletter
+      channel: newsletter
+      note: >-
+        signup page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Concert hall and orchestras (Slovak Philharmonic, Slovak Philharmonic Choir, chamber
+    orchestra). Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Námestie Eugena Suchoňa 1, 811 02
+    Bratislava', so no coordinates; geocode by hand.
+- id: stara-trznica
+  name: Stará tržnica
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://staratrznica.sk/sk/program
+      channel: website-agenda
+  venue:
+    address: Námestie SNP 25, 811 01 Bratislava
+    coords: [48.144585, 17.111252]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Market hall used as an event venue: street food days, markets, concerts, fairs. Address
+    source: own site.
+- id: nova-cvernovka
+  name: Nová Cvernovka
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://novacvernovka.eu/program
+      channel: website-agenda
+  venue:
+    address: Račianska 78, 831 02 Bratislava
+    coords: [48.183115, 17.131825]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Creative and cultural centre in a former thread factory: concerts, exhibitions, markets,
+    workshops. Address source: Visit Bratislava place page.
+- id: pakt-kulturne-centrum
+  name: P*AKT Kultúrne centrum
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://pakt.sk/eventy
+      channel: website-agenda
+    - url: https://pakt.sk/archiv-eventov/
+      channel: website-agenda
+      note: >-
+        archive
+  venue:
+    address: Pionierska 17, 831 02 Bratislava
+    coords: [48.169244, 17.124881]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Cultural centre with a mixed programme (concerts, theatre, parties). Some events (e.g. the
+    Drama Queer series) are LGBTQ+-centred; the scanner skips those. Address source: own site.
+- id: a4-priestor
+  name: A4 — Priestor súčasnej kultúry
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://a4.sk/events/
+      channel: website-agenda
+  venue:
+    address: Karpatská 2, 811 05 Bratislava
+    coords: [48.15683, 17.113587]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary culture centre in the YMCA building (concerts, film, talks, club nights).
+    Address source: own site.
+- id: lom-space
+  name: LOM space
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://space.lom.audio/past_events
+      channel: website-agenda
+    - url: http://eepurl.com/dFTh5H
+      channel: newsletter
+      note: >-
+        Mailchimp signup
+  venue:
+    address: Mlynarovičova 5, 851 03 Bratislava
+    coords: [48.126525, 17.119461]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Audio-culture venue; the page lists past events, upcoming ones to be confirmed. Address
+    source: own site.
+- id: incheba-expo
+  name: Incheba Expo Bratislava
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.incheba.sk/kalendar/
+      channel: website-agenda
+    - url: https://www.incheba.sk/eventy
+      channel: website-agenda
+      note: >-
+        events
+  venue:
+    address: Viedenská cesta 3-7, 851 01 Bratislava
+    coords: [48.134242, 17.101251]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Exhibition grounds and expo arena: trade fairs, concerts, festivals. Address source: own
+    site.
+- id: rivers-club
+  name: RIVERS CLUB
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.riversclub.sk/eventy/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Riverside event space on the Petržalka bank. Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Tyršovo nábrežie 12, 851 01 Bratislava',
+    so no coordinates; geocode by hand.
+- id: ponton
+  name: Ponton
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://ponton.sk/galeria/akcie
+      channel: website-agenda
+  venue:
+    address: Tyršovo nábrežie, 851 01 Bratislava
+    coords: [48.137229, 17.10852]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Riverside restaurant and event ship (Tyršovo nábrežie). The events page showed no 2026 dates
+    in plain HTML (checked 2026-10-13); open item. Address source: OpenStreetMap (Nominatim).
+- id: edison-park
+  name: Edison Park
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.edisonpark.sk/sk/
+      channel: website
+  venue:
+    address: Prievozská 3987/18, 821 09 Bratislava
+    coords: [48.148174, 17.147535]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Event place (Prievozská); programme block on the homepage. Address source: OpenStreetMap
+    (Nominatim).
+- id: kzp-petrzalka
+  name: Kultúrne zariadenia Petržalky (KZP)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://podujatia.kzp.sk
+      channel: website-agenda
+    - url: https://www.kzp.sk/podujatia/hudba
+      channel: website-agenda
+      note: >-
+        music
+  venue:
+    address: Rovniankova 3, 851 02 Bratislava
+    coords: [48.116871, 17.110783]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough cultural facilities in Petržalka (Zrkadlový háj hall, Dom kultúry Lúky and others).
+    Address source: own site.
+- id: dk-dubravka
+  name: Dom kultúry Dúbravka
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.dkdubravka.sk/event.php?work=events
+      channel: website-agenda
+  venue:
+    address: Saratovská 2898/2A, 841 02 Bratislava
+    coords: [48.186096, 17.038725]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture house with theatre, concerts and festivals. Address source: OpenStreetMap
+    (Nominatim).
+- id: stredisko-kultury-nove-mesto
+  name: Stredisko kultúry Bratislava-Nové Mesto
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.skvajnorska.sk/program/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture centre (Vajnorská): concerts, theatre, courses. Address source:
+    OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Stredisko kultúry Nové Mesto
+    Vajnorská', so no coordinates; geocode by hand.
+- id: cultus-ruzinov
+  name: CULTUS Ružinov
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.cultusruzinov.sk
+      channel: website
+  venue:
+    address: Kaštieľska 1131/30, 821 05 Bratislava
+    coords: [48.145978, 17.16843]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough culture centre of Ružinov (Spoločenský dom Nivy and other halls). Address source:
+    OpenStreetMap (Nominatim).
+- id: tu-ba
+  name: TU–BA (Bratislava urban lab and info point)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/cs/tu-ba/vzhkig/
+      channel: aggregator-page
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Open platform and venue on architecture and urban development: lectures, exhibitions,
+    screenings and workshops (GoOut venue page). Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Štúrova 12/4, Bratislava', so no
+    coordinates; geocode by hand.
+- id: pistoriho-palac
+  name: Pistoriho palác
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/en/pistoriho-palac/vzdvmd/
+      channel: aggregator-page
+  venue:
+    address: Štefánikova 25, Bratislava
+    coords: [48.15228, 17.106404]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Old Town cultural centre with a concert hall, exhibition spaces and a cinema (Film Europe).
+    Address source: own site.
+- id: amfiteater-strkovec
+  name: Amfiteáter pri Štrkoveckom jazere
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://goout.net/sk/bratislava/miesta/lvzxefnnne/
+      channel: aggregator-page
+      note: >-
+        GoOut city venue directory; the amphitheatre is listed there
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Open-air summer venue at Štrkovec lake. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Amfiteáter Štrkovec Bratislava', so
+    no coordinates; geocode by hand.
+- id: dvorana-vsmu
+  name: Koncertná sieň Dvorana (VŠMU)
+  source_category: event-venues
+  city: bratislava
+  links:
+    - url: https://www.vsmu.sk/umenie-veda-a-vyskum/prezentacia-studentskej-tvorby/koncertna-sien-dvorana/
+      channel: website-agenda
+  venue:
+    address: Zochova 1, Bratislava
+    coords: [48.145457, 17.103265]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Concert hall of the Academy of Performing Arts; concerts and student performances. Address
+    source: own site.
+
+# ---------------------------------------------------------------- culture-other
+- id: galeria-satelit-scd
+  name: Slovak Design Centre — Galéria Satelit
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://scd.sk/kalendar/
+      channel: website-agenda
+  venue:
+    address: Kollárovo námestie 10, 811 07 Bratislava
+    coords: [48.14912, 17.113869]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Design gallery and event programme of the Slovak Design Centre. Address source: own site.
+- id: sedf
+  name: Stredoeurópsky dom fotografie (SEDF)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.sedf.sk/vystavy-v-stredoeuropskom-dome-fotografie/
+      channel: website-agenda
+  venue:
+    address: Prepoštská 4, 811 01 Bratislava
+    coords: [48.143304, 17.106016]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Photography gallery with exhibitions and talks. Address source: Visit Bratislava place page.
+- id: galeria-19
+  name: Galéria 19
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.galeria19.sk
+      channel: website
+    - url: https://mailchi.mp/fc67a9b9962f/galeria19-newsletter
+      channel: newsletter
+      note: >-
+        Mailchimp newsletter page
+  venue:
+    address: Lazaretská 19, 811 09 Bratislava
+    coords: [48.145258, 17.120416]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Gallery; no separate agenda page found. Address source: Visit Bratislava place page.
+- id: atelier-xiii
+  name: ATELIER XIII
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.atelierxiii.com/category/events/
+      channel: website-agenda
+    - url: https://www.atelierxiii.com/newsletter/
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Panská 13, 811 01 Bratislava
+    coords: [48.142473, 17.107883]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Art space and gallery with an events page. Address source: Visit Bratislava place page.
+- id: galeria-michalsky-dvor
+  name: Galéria Michalský dvor
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://gallery.sk/aktualna-vystava
+      channel: website-agenda
+  venue:
+    address: Ventúrska 5, 811 01 Bratislava
+    coords: [48.14275, 17.106083]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery in the old town; current exhibition page. Address source: own site.
+- id: galeria-nedbalka
+  name: Galéria Nedbalka
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.nedbalka.sk
+      channel: website
+  venue:
+    address: Nedbalova 459/17, 811 01 Bratislava
+    coords: [48.144276, 17.111246]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery of modern Slovak art; no agenda page identified. Address source: OpenStreetMap
+    (Nominatim).
+- id: galeria-uluv
+  name: Galéria ÚĽUV
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://uluv.sk
+      channel: website
+  venue:
+    address: Obchodná 64, 816 11 Bratislava
+    coords: [48.148389, 17.112502]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery and shop of the Centre for Folk Art Production; exhibitions and workshops. Address
+    source: own site.
+- id: refinery-gallery
+  name: Refinery Gallery
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.refinerygallery.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery and event space in the Vlčie hrdlo industrial area. Address source: OpenStreetMap
+    (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Refinery Gallery Bratislava', so no
+    coordinates; geocode by hand.
+- id: institut-francais-slovaquie
+  name: Institut français de Slovaquie
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://institutfrancais.sk/
+      channel: website
+  venue:
+    address: Hlavné námestie, 812 83 Bratislava
+    coords: [48.143481, 17.10772]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    French cultural institute: events, cinema evenings and French courses. Address source:
+    OpenStreetMap (Nominatim).
+- id: bulharsky-kulturny-institut
+  name: Bulharský kultúrny inštitút (Bulkis)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bulkis.sk/
+      channel: website
+  venue:
+    address: Jesenského 7, 811 01 Bratislava
+    coords: [48.143191, 17.11241]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Bulgarian cultural institute with events. Address source: own site.
+- id: italsky-kulturny-institut
+  name: Istituto Italiano di Cultura Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://iicbratislava.esteri.it/it/
+      channel: website
+  venue:
+    address: Kapucínska 7, 811 03 Bratislava
+    coords: [48.144592, 17.104411]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Italian cultural institute: events and courses. Address source: own site.
+- id: rakuske-kulturne-forum
+  name: Rakúske kultúrne fórum Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bmeia.gv.at/kf-pressburg/
+      channel: website
+    - url: https://www.bmeia.gv.at/kf-pressburg/newsletter-und-kontakt
+      channel: newsletter
+      note: >-
+        newsletter signup (Mailchimp)
+  venue:
+    address: Hodžovo námestie, 811 06 Bratislava
+    coords: [48.148265, 17.106779]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Austrian Cultural Forum: events, concerts, talks. Address source: OpenStreetMap (Nominatim).
+- id: tranzit-sk
+  name: tranzit.sk
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://sk.tranzit.org/sk/kalendar/0
+      channel: website-agenda
+    - url: https://sk.tranzit.org/sk/newsletter/
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Beskydská 12, Bratislava
+    coords: [48.158002, 17.113861]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Contemporary art organisation with exhibitions, talks and screenings. Address source: own
+    site.
+- id: galeria-umelka-svu
+  name: Galéria Umelka (Slovenská výtvarná únia)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://svu.sk/sk/akcie/
+      channel: website-agenda
+  venue:
+    address: Dostojevského rad 2, 811 09 Bratislava
+    coords: [48.1411, 17.117567]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Gallery of the Slovak Union of Visual Artists; exhibitions and events. Address source: own
+    site.
+
+# Guided tour operators (listed in the Visit Bratislava services directory; no venue, bookables only)
+
+- id: authentic-slovakia
+  name: Authentic Slovakia
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.authenticslovakia.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Identity Bike Tour (guided cycling tour of Bratislava)
+      link: https://www.visitbratislava.com/sk/sluzby/cyklovylet-k-zeleznej-opone/
+      event_category: exhibitions
+      note: >-
+        with a local guide; 10% discount with Bratislava Card; price on the page.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Post-communist tour of Bratislava (car or minivan)
+      link: https://www.visitbratislava.com/sk/sluzby/postkomunisticka-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        concrete estates, abandoned factories, bunkers; 10% discount with Bratislava Card.
+      address: Bratislava (meeting point on booking)
+    - name: Devín hike and drink tour
+      link: https://www.visitbratislava.com/sk/sluzby/bratislava-hike-and-drink-tour/
+      event_category: exhibitions
+      note: >-
+        2.5–3 hours at Devín Castle and the former Iron Curtain zone.
+      address: Devín, Bratislava (meeting point on booking)
+    - name: Hike to the Carpathian castle ruins (Pajštún and Plavecký hrad)
+      link: https://www.visitbratislava.com/sk/sluzby/vylet-po-ruinach-karpatskych-hradov/
+      event_category: exhibitions
+      note: >-
+        year-round by arrangement, reservation required; from 50 EUR per person; 10% discount
+        with Bratislava Card.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Tour operator with private guided tours; bookables only (no dated events). Listed in the
+    Visit Bratislava services directory.
+- id: taste-bratislava
+  name: Taste Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.taste-bratislava.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Walking tour of Bratislava (2 h)
+      link: https://www.visitbratislava.com/sk/sluzby/pesia-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        with a local guide; price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Walking tour of Bratislava and the castle (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/pesia-prehliadka-bratislavy-a-hradu/
+      event_category: exhibitions
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Complete tour of Bratislava (7 h)
+      link: https://www.visitbratislava.com/sk/sluzby/kompletna-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        includes the castle, Devín Castle and a coffee or lunch break; price in the booking
+        flow.
+      address: Bratislava (meeting point on booking)
+    - name: Traditional Slovak specialities food tour (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-tradicnych-slovenskych-specialit/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Culinary tour with Slovak wine tasting
+      link: https://www.visitbratislava.com/sk/sluzby/kulinarska-prehliadka-s-ochutnavkou-slovenskych-vin/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Culinary tour with beer tasting
+      link: https://www.visitbratislava.com/sk/sluzby/kulinarska-prehliadka-s-pivnou-ochutnavkou/
+      event_category: food-drink
+      note: >-
+        price in the booking flow.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak craft beer tasting (10 beers at 2 craft pubs, 3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-slovenskych-remeselnych-piv/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak wine tasting (8 wines)
+      link: https://www.visitbratislava.com/sk/sluzby/wine-tasting-tour-taste-bratislava/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Slovak spirits tasting
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-slovenskych-destilatov/
+      event_category: food-drink
+      note: >-
+        price in the booking flow; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Brewery tour with beer tasting (private, 3 h, Kláštorný pivovar cellar)
+      link: https://www.visitbratislava.com/sk/sluzby/prehliadka-pivovaru-s-ochutnavkou-piva/
+      event_category: food-drink
+      note: >-
+        behind the scenes with the brewmaster and 6 craft beers; price in the booking flow; 18+.
+      address: Námestie SNP 8, Bratislava
+    - name: Small Carpathians wine tour with a guide
+      link: https://www.visitbratislava.com/sk/sluzby/vinna-cesta-do-malych-karpat-so-sprievodcom/
+      event_category: food-drink
+      note: >-
+        visits a historic cellar and two winemakers; price in the booking flow; 18+.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Food, beer and wine tour operator with local guides; bookables only. Listed in the Visit
+    Bratislava services directory.
+- id: ms-agency-bratislava-guide
+  name: MS Agency (Bratislava Guide)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bratislava-guide.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Coronation Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/korunovacna-bratislava/
+      event_category: exhibitions
+      note: >-
+        guided procession route from the castle to the Old Town; price on request.
+      address: Bratislava (meeting point on booking)
+    - name: Beer circuit through Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/pivny-okruh-bratislavou/
+      event_category: food-drink
+      note: >-
+        commented walk including the Michael's Gate tower; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Wine tour of Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/vinna-prehliadka-bratislavy/
+      event_category: food-drink
+      note: >-
+        historic courtyards and cellars with a tasting; 18+.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Musical Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/hudobna-bratislava/
+      event_category: exhibitions
+      note: >-
+        in the footsteps of Hummel, Liszt, Haydn and others.
+      address: Bratislava Old Town (meeting point on booking)
+    - name: Sightseeing tour by car or bus
+      link: https://www.visitbratislava.com/sk/sluzby/vyhliadkova-prehliadka-bratislavy/
+      event_category: exhibitions
+      note: >-
+        panoramic viewpoints and villa quarter.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Guided tour agency; bookables only. Listed in the Visit Bratislava services directory.
+- id: plus-tour-bratislava
+  name: PLUS TOUR
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.bratislava-tours.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Legends of Bratislava (evening walk, 2 h)
+      link: https://www.visitbratislava.com/sk/sluzby/legends-of-bratislava/
+      event_category: exhibitions
+      note: >-
+        ends at the UFO; admission to the UFO not included.
+      address: SND old building, Hviezdoslavovo námestie, Bratislava
+    - name: Danubiana modern art museum trip (3 h)
+      link: https://www.visitbratislava.com/sk/sluzby/modern-art-museum-danubiana/
+      event_category: exhibitions
+      note: >-
+        from 40 EUR per person (entrances included, min. 2); meets at the Opera on
+        Hviezdoslavovo námestie at 14:00.
+      address: Hviezdoslavovo námestie, Bratislava
+    - name: Jewish Bratislava tour
+      link: https://www.visitbratislava.com/sk/sluzby/jewish-bratislava-2/
+      event_category: exhibitions
+      note: >-
+        Chatam Sofer mausoleum, Jewish museum and former Jewish quarter; price on request.
+      address: Bratislava (meeting point on booking)
+  notes: >-
+    Tour operator; bookables only. Listed in the Visit Bratislava services directory.
+- id: tour4u
+  name: TOUR4U (Prešporáčik tourist train and excursions)
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.tour4u.sk/
+      channel: website
+  venue:
+    address: Panská 37, 811 01 Bratislava
+    coords: [48.141378, 17.105415]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Castle circuit by Prešporáčik Oldtimer tourist train
+      link: https://www.visitbratislava.com/sk/sluzby/hradny-okruh-presporacikom-oldtimer/
+      event_category: exhibitions
+      note: >-
+        train ride with a 20-minute stop at the castle courtyard; price on the page.
+    - name: Panoramic circuit by Prešporáčik
+      link: https://www.visitbratislava.com/sk/sluzby/panoramaticky-okruh-presporacik/
+      event_category: exhibitions
+      note: >-
+        viewpoints incl. Slavín.
+    - name: Devín Castle and Marianka pilgrimage site trip
+      link: https://www.visitbratislava.com/sk/sluzby/devin-history-slovak-religion/
+      event_category: exhibitions
+      note: >-
+        includes blackcurrant wine tasting; specialities on request.
+    - name: Speedboat ride on the Danube
+      link: https://www.visitbratislava.com/sk/sluzby/speedboat/
+      event_category: games-activities
+      note: >-
+        10% discount with Bratislava Card; price per boat on the page.
+  notes: >-
+    Operator of the Prešporáčik Oldtimer tourist train, speedboat rides and day trips. Listed in
+    the Visit Bratislava services directory. Address source: own site.
+- id: secret-city-trails
+  name: Secret City Trails
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.secretcitytrails.com/
+      channel: website
+  venue:
+    address: Hviezdoslavovo námestie 20, 811 02 Bratislava
+    coords: [48.142119, 17.107892]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Riddles through the Old Town (phone game for small teams)
+      link: https://www.visitbratislava.com/sk/sluzby/hadanky-mestom-hrane-v-malych-timoch-cez-telefon/
+      event_category: games-activities
+      note: >-
+        20 EUR per team; game link arrives by SMS after purchase.
+    - name: Riddles through green Bratislava
+      link: https://www.visitbratislava.com/sk/sluzby/hadanky-zelenou-bratislavou/
+      event_category: games-activities
+      note: >-
+        same format along the Danube bank and parks.
+  notes: >-
+    Self-guided city riddle games played on a phone; bookables only. Address source: own site.
+- id: ck-tripito
+  name: CK Tripito
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.tripito.eu/
+      channel: website
+  venue:
+    address: Zochova 16, 811 03 Bratislava
+    coords: [48.146374, 17.10056]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: 'Gadžo in the city: 2-hour crash course on Bratislava'
+      link: https://www.visitbratislava.com/sk/sluzby/2-hodinova-prehliadka-gadzo-v-meste/
+      event_category: exhibitions
+      note: >-
+        5 EUR, Saturdays and Sundays, for locals as well as visitors.
+    - name: Pub crawl through the pubs of the past
+      link: https://www.visitbratislava.com/sk/sluzby/po-krcmach-minulosti/
+      event_category: food-drink
+      note: >-
+        local and sometimes bizarre drinks; 18+; price on the page.
+    - name: Fruit wines tasting
+      link: https://www.visitbratislava.com/sk/sluzby/ovocna-nadielka/
+      event_category: food-drink
+      note: >-
+        tour of fruit wines; 18+.
+    - name: Wine tasting in the dark (via Tripito)
+      link: https://www.visitbratislava.com/sk/sluzby/ochutnavka-vin-v-tme/
+      event_category: food-drink
+      note: >-
+        35 EUR per person; minimum 12 people; 7+1 Slovak wines; about 2 hours.
+  notes: >-
+    Travel agency running pub-crawl, wine and city tours; bookables only. Listed in the Visit
+    Bratislava services directory. Address source: own site.
+- id: go-bratislava-food-tours
+  name: Go Bratislava Food Tours
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://www.gobratislava.com/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Go Bratislava Food Tours
+      link: https://www.visitbratislava.com/sk/sluzby/go-bratislava-food-tours/
+      event_category: food-drink
+      note: >-
+        tasting tour of local cuisine and landmarks; price on the operator's site.
+      address: Bratislava Old Town (meeting point on booking)
+  notes: >-
+    Guided gastronomic tours; bookables only. Listed in the Visit Bratislava services directory.
+- id: go-running-tours-bratislava
+  name: GO!RUNNING TOURS Bratislava
+  source_category: culture-other
+  city: bratislava
+  links:
+    - url: https://gorunningtours.com/p/slovakia/bratislava/
+      channel: website
+  venue:
+    address: Legionárska 1, 831 04 Bratislava
+    coords: [48.157439, 17.120454]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Running tours of Bratislava (5 to 21 km routes)
+      link: https://www.visitbratislava.com/sk/sluzby/spoznavaj-bratislavu-behom/
+      event_category: sport
+      note: >-
+        20% discount with Bratislava Card; price on the operator's site.
+  notes: >-
+    Guided running tours; bookables only. Address source: own site.
+
+# ---------------------------------------------------------------- sports-clubs
+- id: sk-slovan-bratislava
+  name: ŠK Slovan Bratislava (football)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.skslovan.com
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Professional football club; match calendar on the site. Matches at the National Football
+    Stadium.
+- id: hc-slovan-bratislava
+  name: HC Slovan Bratislava (ice hockey)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.hcslovan.sk/sk/
+      channel: website
+    - url: https://www.hcslovan.sk/sk/newsletter/index
+      channel: newsletter
+      note: >-
+        iSlovan newsletter signup
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Professional ice hockey club; match calendar on the site.
+- id: bk-slovan-bratislava
+  name: BK Slovan Bratislava
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.bkslovan.sk
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Basketball club; fixtures on the site.
+- id: bratislava-monarchs
+  name: Bratislava Monarchs
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.monarchs.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    American football club; home games and events.
+- id: nsk-1922-bratislava
+  name: NŠK 1922 Bratislava
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.nsk1922.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Football club with open events; match and event calendar.
+- id: becool-bezecke-podujatia
+  name: BECOOL Sport (Bratislava Marathon and running events)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://bratislavamarathon.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Organiser of running events in Bratislava (marathon, half marathon and others).
+- id: tenisovy-klub-lokomotiva
+  name: Tenisový klub Lokomotíva 1927
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.lokomotiva1927.sk/
+      channel: website
+  venue:
+    address: Žabotova 5, 811 04 Bratislava
+    coords: [48.156797, 17.107351]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Tennis club with news and events. Address source: own site.
+- id: tenis-petrzalka-tkp
+  name: Tenisová škola Petržalka (TKP)
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.tkp.sk/novinky/kalendar-tkp
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Tennis club with a calendar.
+- id: ruzinovsky-sportovy-klub
+  name: Ružinovský športový klub
+  source_category: sports-clubs
+  city: bratislava
+  links:
+    - url: https://www.rskruzinov.sk/
+      channel: website
+  venue:
+    address: Mierová 21, 827 05 Bratislava
+    coords: [48.149587, 17.163624]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Sports club running Trnávka hall events. Address source: own site.
+
+# ---------------------------------------------------------------- sports-venues
+- id: narodny-futbalovy-stadion
+  name: Národný futbalový štadión (Tehelné pole)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.narodnyfutbalovystadion.sk/
+      channel: website
+  venue:
+    address: Sasinkova 5, 811 08 Bratislava
+    coords: [48.151209, 17.1207]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    National stadium: football matches and concerts; event calendar on the site. Address source:
+    own site.
+- id: ntc-narodne-tenisove-centrum
+  name: Národné tenisové centrum (NTC)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.ntc.sk/podujatia.html
+      channel: website-agenda
+  venue:
+    address: Príkopova 6, 831 03 Bratislava
+    coords: [48.16244, 17.133219]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Tennis centre with tournaments and events. Address source: own site.
+- id: zavodisko-bratislava
+  name: Závodisko Bratislava
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://zavodisko.sk/
+      channel: website
+  venue:
+    address: Starohájska 29, 852 69 Bratislava
+    coords: [48.115996, 17.125202]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Horse racing track and event grounds. Address source: own site.
+- id: lezecke-centrum-vertigo
+  name: Lezecké centrum Vertigo
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://lezeckecentrum.sk/kurzy/
+      channel: website-agenda
+  venue:
+    address: Trenčianska 47, 821 09 Bratislava
+    coords: [48.152552, 17.13916]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Climbing centre with courses and events. Address source: own site.
+- id: wolf-arena-petrzalka
+  name: WOLF Aréna Petržalka
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.wolfarena.sk/oslavy-a-akcie/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Sports hall with parties and events page. Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Kopčianska 6211, 851 01 Bratislava', so
+    no coordinates; geocode by hand.
+- id: lanoland
+  name: Lanoland (rope centre at Koliba)
+  source_category: sports-venues
+  city: bratislava
+  links:
+    - url: https://www.lanoland.sk/teambuilding/
+      channel: website
+  venue:
+    address: Krivé Jarky Trail, 830 00 Bratislava
+    coords: [48.183061, 17.099601]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Group and team-building rope programmes
+      link: https://www.lanoland.sk/teambuilding/
+      event_category: games-activities
+      note: >-
+        price and group size on request.
+  notes: >-
+    Rope park; group and team-building offers. Address source: OpenStreetMap (Nominatim).
+
+# ---------------------------------------------------------------- parks
+- id: zoo-bratislava
+  name: ZOO Bratislava
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://www.zoobratislava.sk/kalendar-podujati/
+      channel: website-agenda
+  venue:
+    address: Mlynská dolina 1A, 842 27 Bratislava
+    coords: [48.164186, 17.067868]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Zoo with an events calendar (mixed audience; kids-only items are skipped). Address source:
+    own site.
+- id: mestske-lesy-bratislava
+  name: Mestské lesy v Bratislave
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://www.mestskelesy.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Manager of the Bratislava forest park (Koliba, Kamzík, Železná studnička); announcements.
+- id: rybnik-raca
+  name: Rybník Rača
+  source_category: parks
+  city: bratislava
+  links:
+    - url: https://rybnikraca.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Park and fishing pond in Rača; corporate and sport events page.
+
+# ---------------------------------------------------------------- networking
+- id: amcham-slovakia
+  name: AmCham Slovakia (American Chamber of Commerce)
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://amcham.sk/events
+      channel: website-agenda
+  venue:
+    address: Pekníkova 6, Bratislava
+    coords: [48.18708, 17.034613]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Business breakfasts, cocktails, Speed Business Meetings and conferences; English. Many
+    events are members' events, check per event. Address source: own site.
+- id: startup-grind-bratislava
+  name: Startup Grind Bratislava
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.startupgrind.com/bratislava/
+      channel: website-agenda
+    - url: https://sg.startupgrind.com/newsletters
+      channel: newsletter
+      note: >-
+        Startup Grind chapter newsletters (global signup)
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Local chapter of the global startup community (fireside chats and meetups).
+- id: ahk-slovakia
+  name: German-Slovak Chamber of Commerce (AHK Slovakia)
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://slowakei.ahk.de/de
+      channel: website
+  venue:
+    address: Zámocká 2, 811 06 Bratislava
+    coords: [48.142248, 17.099648]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Chamber of commerce with conferences and business meetings; events page not identified.
+    Address source: own site.
+- id: rotary-2240-kalendar
+  name: Rotary District 2240 — club meetings calendar
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.rotary2240.org/cs/kluby/kalendar
+      channel: website-agenda
+    - url: https://www.rotary2240.org/cs/media/newsletter
+      channel: newsletter
+      note: >-
+        newsletter page; archive status unknown
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Rotary clubs of Slovakia and Czechia; the calendar lists club meetings (many in Bratislava),
+    mostly members and guests.
+- id: bratislava-strategic-management-meetup
+  name: Bratislava Strategic Management Meetup
+  source_category: networking
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-strategic-management-meetup-group/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Business and strategy networking meetup group.
+
+# ---------------------------------------------------------------- industry
+- id: codecon-bratislava
+  name: 'CODECON #Bratislava'
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.codecon.sk/en/bratislava/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Annual developer conference (1,500+ developers).
+- id: nobullshit-camp
+  name: '#nobullshit.camp (Cloud & DevOps conference)'
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://nobullshit.camp
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Cloud and DevOps conference by Labyrinth Labs; 2026 edition on 23 September (past).
+- id: cloud-native-bratislava
+  name: Cloud Native / Kubernetes Bratislava (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/cloudnativesk/events/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Informal meetups for cloud-native people (e.g. at Kolkovňa Eurovea).
+- id: devops-slovensko
+  name: DevOps Slovensko (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/devops-slovensko/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    DevOps and cloud-native meetup group in Bratislava. Events render client-side; no 2026 dates
+    in plain HTML (checked 2026-10-13).
+- id: slovensko-digital
+  name: Slovensko.Digital
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://slovensko.digital/aktuality/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Civic-tech and digital-government community with meetups and conferences.
+- id: sario-events
+  name: SARIO — projects and events
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.sario.sk/en/about-us/projects-events
+      channel: website-agenda
+    - url: https://www.sario.sk/en/about-us/newsletter
+      channel: newsletter
+      note: >-
+        signup page
+  social_default: true
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Slovak Investment and Trade Development Agency: business forums and trade events. Address
+    source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:SARIO Bratislava', so no coordinates;
+    geocode by hand.
+- id: agile-bratislava
+  name: Agile Bratislava (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/agilebratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Agile and product practitioners' meetup in Bratislava (about 1,400 members on Meetup).
+- id: bratislava-hacking-infosec
+  name: Bratislava Hacking & Information Security Meetup
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-hacking-information-security-meetup/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Information security meetup group.
+- id: lfdt-slovakia
+  name: LF Decentralized Trust Slovakia (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/lfdt-slovakia/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Blockchain and decentralised-technology meetup group.
+- id: pycon-sk
+  name: PyCon SK (Meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/pyconsk/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Python community behind PyCon Slovakia and the Bratislava Python meetup (PyVo).
+- id: rubyslava
+  name: Rubyslava (monthly programmers' meetup)
+  source_category: industry
+  city: bratislava
+  links:
+    - url: http://rubyslava.sk/english.html
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Language-agnostic monthly tech talks meetup in Bratislava.
+- id: bratislava-rust-meetup
+  name: Bratislava Rust Meetup Group
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava-rust-meetup-group/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Rust programming meetup (about 200 members).
+- id: pydata-slovakia-bratislava
+  name: PyData Slovakia & Bratislava
+  source_category: industry
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/pydata-slovakia-bratislava/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Data science and Python meetup.
+
+# ---------------------------------------------------------------- coworking-hubs
+- id: coworking-cvernovka
+  name: Coworking Cvernovka
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://novacvernovka.eu/atelier/coworking-cvernovka
+      channel: website
+  venue:
+    address: Račianska 78, 831 02 Bratislava
+    coords: [48.183115, 17.131825]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking in Nová Cvernovka; events are on the Cvernovka programme (`nova-cvernovka`).
+    Address source: own site.
+- id: space-up
+  name: SPACE UP coworking & events
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.space-up.sk/
+      channel: website
+  venue:
+    address: Záhradnícka 95, 821 08 Bratislava
+    coords: [48.156098, 17.140239]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking and event space; workshop and event hire. Address source: own site.
+- id: the-spot-cowork
+  name: The Spot cowork
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://thespotcowork.com/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Coworking with community events. Address source: OpenStreetMap (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:The Spot cowork Bratislava', so no
+    coordinates; geocode by hand.
+- id: hubhub
+  name: HubHub (event space)
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.hubhub.com/event-space/
+      channel: website
+  venue:
+    address: Mlynské nivy 18890/5, 821 09 Bratislava
+    coords: [48.146162, 17.129794]
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    One of the largest coworking spaces in Bratislava; event space page. Address source:
+    OpenStreetMap (Nominatim).
+- id: campus-cowork
+  name: Campus Cowork (Campus Mlyny and Campus City)
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://www.campus-cowork.com/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Startup campus with coworking at two sites (Staré Grunty). Address source: OpenStreetMap
+    (Nominatim).
+    Open item: no OpenStreetMap match for the address 'OSM:Campus Mlyny Bratislava', so no
+    coordinates; geocode by hand.
+- id: startup-centrum-uvp
+  name: Startup centrum UVP Technicom
+  source_category: coworking-hubs
+  city: bratislava
+  links:
+    - url: https://startupcentrum.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    University science park startup centre with startup workshops (product development, company
+    setup). Address to be added.
+
+# ---------------------------------------------------------------- universities
+- id: uniba
+  name: Comenius University in Bratislava (UK)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://uniba.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Largest university; public lectures and events are spread over faculty sites and the news
+    portal.
+- id: stuba
+  name: Slovak University of Technology (STU)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.stuba.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Technical university; events on faculty sites.
+- id: euba
+  name: University of Economics in Bratislava (EUBA)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.euba.sk/aktivity-a-media/aktuality
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    News and events of the economics university.
+- id: vsmu
+  name: Academy of Performing Arts (VŠMU) — student presentations
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.vsmu.sk/umenie-veda-a-vyskum/prezentacia-studentskej-tvorby/koncertna-sien-dvorana/
+      channel: website-agenda
+  venue:
+    address: Ventúrska 3, 813 01 Bratislava
+    coords: [48.142506, 17.106306]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Concerts, theatre and film presentations by students. Address source: own site.
+- id: vsvu
+  name: Academy of Fine Arts and Design (VŠVU)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.vsvu.sk/sk/
+      channel: website
+    - url: https://www.vsvu.sk/sk/o-nas/media/newsletter/
+      channel: newsletter
+      note: >-
+        newsletter page; archive status unknown
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Exhibitions and events of the art academy.
+- id: bisla
+  name: Bratislava International School of Liberal Arts (BISLA)
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.bisla.sk/events/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    English-language liberal arts college; public events page.
+- id: paneuropska-vysoka-skola
+  name: Paneuropean University
+  source_category: universities
+  city: bratislava
+  links:
+    - url: https://www.paneurouni.com/aktuality/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Private university; news and events.
+
+# ---------------------------------------------------------------- community-groups
+- id: quiznight-sk
+  name: Quiz Night.SK
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://quiznight.sk/category/upcoming-events/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Organiser of pub quiz nights in Bratislava (English quizzes at U Zlatého Bažanta and other
+    venues, roughly monthly).
+- id: blabla-bratislava
+  name: BlaBla and Make Friends Bratislava
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.blablacommunity.com/events/blabla-and-make-friends-bratislava
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Language-exchange and mingling nights run by BlaBla Community. Dates are announced on
+    Telegram and Facebook only (links not found in the plain HTML; page opened in Chrome
+    2026-10-13).
+- id: bratislava-social-language-exchange
+  name: Bratislava Social and Language Exchange (Make New Friends)
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.eventbrite.com/e/bratislava-social-and-language-exchange-make-new-friends-tickets-1992611547779
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Recurring Friday social and language exchange on Eventbrite (also a Tech/AI mixer series).
+- id: toastmasters-slovensko
+  name: Toastmasters Slovensko
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://toastmasters.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Public-speaking clubs; Bratislava clubs listed on the site.
+- id: literarny-klub
+  name: Literárny klub
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://literarnyklub.sk/kalendar
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Literary events and festivals (Month of Author Reading and others).
+- id: kst-klub-slovenskych-turistov
+  name: Klub slovenských turistov (KST)
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://www.kst.sk
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Hiking club with group hikes; Bratislava branches.
+- id: cyklokoalicia
+  name: Cyklokoalícia
+  source_category: community-groups
+  city: bratislava
+  links:
+    - url: https://cyklokoalicia.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Cycling advocacy group; group rides and events.
+
+# ---------------------------------------------------------------- diaspora-expat
+- id: internationals-bratislava
+  name: Internationals Bratislava
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://internationals.sk/events/
+      channel: website-agenda
+    - url: https://internationals.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Non-profit connecting internationals and locals: social nights, International Night, speed
+    dating in English.
+- id: events-in-bratislava-meetup
+  name: Events in Bratislava (Meetup group)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.meetup.com/bratislava/events/
+      channel: aggregator-page
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    International-community social events group on Meetup.
+- id: slovak-friends
+  name: Slovak Friends Language school — monthly event
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://slovakfriends.com/monthly-event/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Language school with a monthly community event for internationals.
+- id: mareena
+  name: Mareena
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://mareena.sk/podujatia-update
+      channel: website-agenda
+    - url: https://mareena.sk/kurzy
+      channel: website-agenda
+      note: >-
+        courses
+    - url: https://mareena.sk/workshopy
+      channel: website-agenda
+      note: >-
+        workshops
+  venue:
+    address: Kýčerského 8, 811 05 Bratislava
+    coords: [48.155476, 17.111356]
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Community events, courses and workshops for people from abroad (including Ukrainians) and
+    locals. No 2026 dates in the plain HTML of the events pages (checked 2026-10-13); events
+    probably render client-side, browser check pending. Checked in Chrome 2026-10-13: the page
+    lists regular events with weekly or fortnightly patterns (e.g. Language café every second
+    Wednesday 17:00 at Staré lýceum, Konventná 15), not dated items; full dates are on its
+    Facebook page. Address source: own site.
+- id: ukrajinske-kulturne-centrum
+  name: Ukrajinské kultúrne centrum (UKC)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.ukc.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    Independent Ukrainian cultural centre (founded 2022): exhibitions, literary readings, film
+    evenings, Ukrainian classes. Events listed as dated posts; no agenda page found. Ukrainian
+    community.
+- id: sme-spolu
+  name: SME SPOLU o.z. (Ukrainian and Slovak House)
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://smespolu.org/events/
+      channel: website-agenda
+  venue:
+    address: Ovručská 5, 831 02 Bratislava
+    coords: [48.16487, 17.12467]
+  social_default: true
+  fetch_status: ok
+  reading_hint: browser
+  notes: >-
+    Association of Ukrainians in Slovakia running the Ukrainian-Slovak community house in Nové
+    Mesto (about 200 events a month for children and adults, per the site). Ukrainian community.
+    No 2026 dates in the plain HTML of the events page (checked 2026-10-13); browser check
+    pending. Checked in Chrome 2026-10-13: the events page describes the Ukrainian school in
+    evacuation; no dated agenda found. Address source: own site.
+- id: adra-komunitne-centrum-ukrajina
+  name: ADRA Slovensko — community centre for people from Ukraine
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://www.adra.sk/
+      channel: website
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    ADRA community centre in Bratislava (conversation clubs, workshops, counselling); no
+    separate events page identified. Ukrainian community.
+- id: expatsk-quiz-night
+  name: ExpatSK — Bratislava Pub Quiz Night
+  source_category: diaspora-expat
+  city: bratislava
+  links:
+    - url: https://expatsk.com/quiz-night/
+      channel: website-agenda
+  social_default: true
+  fetch_status: ok
+  notes: >-
+    English pub quiz nights run by an expat services agency.
+
+# ---------------------------------------------------------------- libraries-community-centres
+- id: mestska-kniznica-bratislava
+  name: Mestská knižnica v Bratislave
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.mestskakniznica.sk/zazite/podujatia
+      channel: website-agenda
+  venue:
+    address: Klariská 16, 814 79 Bratislava
+    coords: [48.1447, 17.105121]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City library network with events, lectures and workshops; also hosts a Ukrainian library
+    fund and community use of premises. Address source: OpenStreetMap (Nominatim).
+- id: kniznica-ruzinov
+  name: Knižnica Ružinov
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kniznica-ruzinov.sk/kalendar/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Borough library with an events calendar.
+- id: staromestska-kniznica
+  name: Staromestská knižnica
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://starlib.sk/
+      channel: website
+    - url: https://starlib.sk/odber-newslettra/
+      channel: newsletter
+      note: >-
+        signup page
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Old Town borough library network; announcements category.
+- id: kniznica-nove-mesto
+  name: Knižnica Bratislava – Nové Mesto
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.kbnm.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Nové Mesto library with events.
+- id: bod-kulturno-komunitne-centrum
+  name: BOD — Kultúrno-komunitné centrum
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kulturnybod.sk/bod/podujatia
+      channel: website-agenda
+    - url: https://preview.mailerlite.io/forms/2414471/189695534004438306/share
+      channel: newsletter
+      note: >-
+        MailerLite signup form
+  venue:
+    address: Hraničná 38, 841 05 Bratislava
+    coords: [48.142867, 17.15801]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Cultural and community centre in Podunajské Biskupice with a dated events calendar. Address
+    source: own site.
+- id: klub-machovisko
+  name: Klub Machovisko
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://www.klubmachovisko.sk/program-klubu-machovisko/
+      channel: website-agenda
+  venue:
+    address: Na vŕšku 6, 811 01 Bratislava
+    coords: [48.144291, 17.104531]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Club space with a programme page. Address source: own site.
+- id: kreativny-klub-luna
+  name: Kreatívny klub Luna
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://klubluna.sk/131/kalendar.html
+      channel: website-agenda
+  venue:
+    address: 29. augusta, 811 09 Bratislava
+    coords: [48.145919, 17.122282]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Creative club with a calendar of courses and events. Address source: OpenStreetMap
+    (Nominatim).
+- id: kpbunt
+  name: kpBUNT — komunitný priestor
+  source_category: libraries-community-centres
+  city: bratislava
+  links:
+    - url: https://kpbunt.org/
+      channel: website
+    - url: https://kpbunt.org/newsletter/prihlasit-sa/
+      channel: newsletter
+      note: >-
+        signup page
+    - url: https://kpbunt.org/newsletter/
+      channel: website
+      note: >-
+        public newsletter archive (monthly issues)
+  venue:
+    address: Jungmannova 16-18, 851 01 Bratislava
+    coords: [48.124819, 17.113998]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Community space; no agenda page identified. Address source: OpenStreetMap (Nominatim).
+
+# ---------------------------------------------------------------- markets-festivals
+- id: bratislavske-vianoce
+  name: Bratislavské Vianoce (Christmas markets)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://bratislavskevianoce.sk/program/
+      channel: website-agenda
+    - url: https://bratislavskevianoce.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Christmas markets on Main Square and Hviezdoslav Square, 26 November 2026 to 3 January 2027,
+    daily 10:00–22:00 (except 24–25 December), plus a programme on stages.
+- id: festival-mladeho-vina
+  name: Festival mladého vína (Young Wine Festival)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.visitbratislava.com/sk/podujatia/festival-mladeho-vina/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Young wine festival in the historic centre, 6–7 November 2026.
+- id: konvergencie
+  name: Konvergencie (festival of chamber music)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.konvergencie.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    International chamber music festival in October.
+- id: bratislavske-hudobne-slavnosti
+  name: Bratislavské hudobné slávnosti
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bhsfestival.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Classical music festival.
+- id: bratislava-v-pohybe
+  name: Bratislava v pohybe
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bratislavavpohybe.sk/predstavenia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Contemporary dance and movement festival (October).
+- id: biela-noc
+  name: Biela noc
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.bielanoc.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Night of art and culture across the city.
+- id: noc-muzei-a-galerii
+  name: Noc múzeí a galérií
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.nmag.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Annual Night of Museums and Galleries.
+- id: dobry-trh
+  name: Dobrý trh
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.dobrytrh.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Farmers' and craft markets at several Bratislava locations.
+- id: trhovisko-mileticka
+  name: Trhovisko Miletičova
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: http://mileticka.com/podujatia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Market hall with an events page.
+- id: jeden-svet
+  name: Jeden svet (One World human-rights documentary festival)
+  source_category: markets-festivals
+  city: bratislava
+  links:
+    - url: https://www.jedensvet.sk/programova-rada/
+      channel: website-agenda
+  venue:
+    address: Baštová 343/5, 811 03 Bratislava
+    coords: [48.144736, 17.105965]
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Documentary film festival; address is the organiser's. Address source: own site.
+
+# ---------------------------------------------------------------- municipality
+# City of Bratislava
+
+- id: mesto-bratislava-podujatia
+  name: City of Bratislava — events
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://bratislava.sk/kultura-a-komunity/podujatia
+      channel: website-agenda
+    - url: https://bratislava.sk/kultura-a-komunity/podujatia/mestske-podujatia
+      channel: website-agenda
+      note: >-
+        city-organised events
+    - url: https://bratislava.sk/en/culture-and-communities/events
+      channel: website-agenda
+      note: >-
+        English version
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official events pages of the capital city (city-organised and supported events).
+
+# Boroughs (mestské časti)
+
+- id: mc-stare-mesto
+  name: Staré Mesto (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.staremesto.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; events are announced in its news feed. Agenda page not identified.
+- id: mc-ruzinov
+  name: Ružinov (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.ruzinov.sk/sk/podujatia
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough events page.
+- id: mc-vrakuna
+  name: Vrakuňa (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.vrakuna.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-podunajske-biskupice
+  name: Podunajské Biskupice (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.biskupice.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; culture and sport department pages, no events page identified.
+- id: mc-nove-mesto
+  name: Nové Mesto (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://banm.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; events are published in its news. Culture centre events are under
+    `stredisko-kultury-nove-mesto`.
+- id: mc-raca
+  name: Rača (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.raca.sk/zivot-v-raci/kulturne-strediska/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; culture centres page (German Culture House, Žárnovička).
+- id: mc-vajnory
+  name: Vajnory (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.vajnory.sk/news/kulturne-spolocenske-podujatia-oktober
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; monthly "cultural and social events" news item (October 2026 edition
+    linked).
+- id: mc-dubravka
+  name: Dúbravka (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.dubravka.sk/sk/Podujatia.html
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough events page.
+- id: mc-lamac
+  name: Lamač (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.lamac.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-devin
+  name: Devín (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.devin.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-devinska-nova-ves
+  name: Devínska Nová Ves (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.devinskanovaves.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site; no events page identified.
+- id: mc-zahorska-bystrica
+  name: Záhorská Bystrica (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://zahorskabystrica.sk/kulturne-podujatia/
+      channel: website-agenda
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough cultural events page.
+- id: mc-petrzalka
+  name: Petržalka (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.petrzalka.sk/podujatia/
+      channel: website-agenda
+    - url: https://www.petrzalka.sk/newsletter/
+      channel: newsletter
+      note: >-
+        borough newsletter signup
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  notes: >-
+    Official borough events page.
+- id: mc-jarovce
+  name: Jarovce (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: http://www.jarovce.sk/?page=news
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site (news and notice board).
+- id: mc-rusovce
+  name: Rusovce (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.bratislava-rusovce.sk/kulturne-akcie
+      channel: website-agenda
+    - url: https://www.bratislava-rusovce.sk/kalendar
+      channel: website-agenda
+      note: >-
+        calendar
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough cultural events and calendar.
+- id: mc-cunovo
+  name: Čunovo (borough)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://www.cunovo.eu/zivot-v-obci/aktuality
+      channel: website
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    Official borough site (cunovo.eu); news feed.
+- id: starz-bratislava
+  name: STaRZ — Správa telovýchovných a rekreačných zariadení (city sports facilities)
+  source_category: municipality
+  city: bratislava
+  links:
+    - url: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/podujatia
+      channel: website-agenda
+    - url: https://bratislava.sk/vzdelavanie-a-volny-cas/starz/prevadzky-sportoviska
+      channel: website
+      note: >-
+        facilities
+  social_default: false
+  fetch_status: ok
+  notes: >-
+    City organisation running municipal pools, ice rinks and sports grounds; events such as the
+    24h swimming marathon and public skating.
+
+# ---------------------------------------------------------------- activities
+# Escape rooms
+
+- id: trapped-escape-room
+  name: Trapped Escape Room
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.trapped.sk
+      channel: website
+  venue:
+    address: Rybárska brána 1, 811 01 Bratislava
+    coords: [48.143077, 17.108734]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Escape rooms (booking page)
+      link: https://www.trapped.sk
+      event_category: games-activities
+      note: >-
+        price in the booking flow; discount of 10 EUR for teams of two.
+  notes: >-
+    Escape rooms in the old town; teams of 2 or more (10 EUR discount for teams of two, per the
+    site FAQ). Address source: own site.
+- id: questum-escape-room
+  name: Questum Escape Room
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://questum.sk/sk/
+      channel: website
+  venue:
+    address: Záhradnícka 72, 821 08 Bratislava
+    coords: [48.155611, 17.141371]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Escape rooms
+      link: https://questum.sk/sk/
+      event_category: games-activities
+      note: >-
+        price and group size in the booking flow.
+  notes: >-
+    Escape rooms. Address source: own site.
+- id: brainteaselava
+  name: Brainteaselava
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://brainteaselava.sk/
+      channel: website
+  venue:
+    address: Obchodná, 811 06 Bratislava
+    coords: [48.146087, 17.108154]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Escape room and mystery dinner
+      link: https://brainteaselava.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Escape rooms, mystery dinners and team-building games. Address source: OpenStreetMap
+    (Nominatim).
+- id: izba-cislo-13
+  name: Izba číslo 13
+  source_category: activities
+  city: bratislava
+  links:
+    - url: http://www.izbacislo13.sk/
+      channel: website
+  venue:
+    address: Cintorínska, 811 08 Bratislava
+    coords: [48.14693, 17.118026]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Escape room
+      link: http://www.izbacislo13.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Escape room. Address source: OpenStreetMap (Nominatim).
+- id: mystery-room
+  name: Mystery Room
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://mysteryroom.sk/
+      channel: website
+  venue:
+    address: Kupeckého 526/17, 821 08 Bratislava
+    coords: [48.154933, 17.129793]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Escape rooms
+      link: https://mysteryroom.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Escape rooms. Address source: own site.
+- id: goescape
+  name: GoEscape.sk
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://goescape.sk/sk/
+      channel: website
+    - url: https://goescape.sk/sk/odber-noviniek
+      channel: newsletter
+      note: >-
+        signup page
+  venue:
+    address: Molecova, 900 32 Bratislava
+    coords: [48.149738, 17.059065]
+  social_default: false
+  fetch_status: ok
+  newsletter_subscribed: false
+  bookables:
+    - name: Escape rooms and VR escape
+      link: https://goescape.sk/sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Escape rooms and virtual-reality escape. Address source: OpenStreetMap (Nominatim).
+- id: zazito-divne-hry
+  name: Divný bus / Divný dom / Divná basa (Zážito)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.zazito.ooo/hra/divny-dom/
+      channel: website
+    - url: https://www.zazito.ooo/hra/divny-bus/
+      channel: website
+      note: >-
+        Divný bus
+    - url: https://www.zazito.ooo/hra/divna-basa/
+      channel: website
+      note: >-
+        Divná basa
+  venue:
+    address: Medveďovej 1486/40, 851 04 Bratislava
+    coords: [48.12153, 17.131478]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Divný dom, Divný bus, Divná basa
+      link: https://www.zazito.ooo/hra/divny-dom/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Story-driven escape games (Divný dom at this address; the bus and Divná basa are other
+    locations). Address source: own site.
+
+# Virtual reality and arcade
+
+- id: vrba-vr-bar
+  name: VRBA — Virtuálna realita Bratislava (VR bar)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.vrbratislava.sk/events.html
+      channel: website-agenda
+    - url: https://www.vrbratislava.sk/
+      channel: website
+  venue:
+    address: Panenská 675/23, 811 03 Bratislava
+    coords: [48.148098, 17.104985]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: VR sessions
+      link: https://www.vrbratislava.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    VR bar and arcade with an events page. The events page had no 2026 dates in plain HTML on
+    2026-10-13; open item. Address source: OpenStreetMap (Nominatim).
+- id: timeshift-vr
+  name: TimeShift VR
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://timeshift.space/
+      channel: website
+  venue:
+    address: Grösslingová 6642/7, 811 09 Bratislava
+    coords: [48.143657, 17.11407]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: VR sessions
+      link: https://timeshift.space/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    VR arcade (Grösslingova). Address source: OpenStreetMap (Nominatim).
+- id: gamestate-bratislava
+  name: Gamestate Bratislava
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.gamestate.com/sk
+      channel: website
+  venue:
+    address: Protinapoleónsky val, 851 01 Bratislava
+    coords: [48.133266, 17.10711]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Arcade play
+      link: https://www.gamestate.com/sk
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Arcade and gaming venue. Address source: OpenStreetMap (Nominatim).
+- id: gamerslab
+  name: GamersLab
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://gamerslab.eu/
+      channel: website
+  venue:
+    address: Dunajská 14, 811 08 Bratislava
+    coords: [48.144486, 17.115412]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Gaming room rental
+      link: https://gamerslab.eu/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Gaming lounge (VIP gaming rooms); address from OSM (Dunajská 7495/14). Address source: own
+    site.
+- id: galaxia-vr
+  name: Galaxia centrum zábavy
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://galaxiavr.sk/
+      channel: website
+  venue:
+    address: Studená 4/B, 821 04 Bratislava
+    coords: [48.183369, 17.179767]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: VR and escape room
+      link: https://galaxiavr.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Billiards, VR and escape room. Address source: own site.
+
+# Bowling, minigolf, karting, billiards, shooting, paintball
+
+- id: bowling-narodne-centrum
+  name: Bowlingové Národné Centrum
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.bnc-sk.sk/bowling
+      channel: website
+  venue:
+    address: Turbínová, 830 08 Bratislava
+    coords: [48.172742, 17.156948]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Bowling lanes
+      link: https://www.bnc-sk.sk/bowling
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Bowling lanes; leagues and open play. Address source: OpenStreetMap (Nominatim).
+- id: petrzalka-bowling-center
+  name: Petržalka Bowling Center (PBC)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.bowlingpbc.sk/
+      channel: website
+  venue:
+    address: Tupolevova 7A, 851 01 Bratislava
+    coords: [48.115874, 17.104406]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Bowling lanes
+      link: https://www.bowlingpbc.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Bowling and billiards in Petržalka. Address source: own site.
+- id: minigolf-strkovec
+  name: Minigolf Štrkovec
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.minigolfstrkovec.sk/
+      channel: website
+  venue:
+    address: Drieňová 9, 821 01 Bratislava
+    coords: [48.158316, 17.144905]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Minigolf rounds
+      link: https://www.minigolfstrkovec.sk/
+      event_category: games-activities
+      note: >-
+        walk-in; price on the site.
+  notes: >-
+    Minigolf at Štrkovec lake. Address source: own site.
+- id: minigolf-karlovka
+  name: Minigolf Karlovka
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.minigolfkarlovka.sk/
+      channel: website
+  venue:
+    address: Janotova 12, 841 05 Bratislava
+    coords: [48.149876, 17.057604]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Minigolf rounds
+      link: https://www.minigolfkarlovka.sk/
+      event_category: games-activities
+      note: >-
+        walk-in; price on the site.
+  notes: >-
+    Minigolf in Karlova Ves (own site: Janotova 12). Address source: own site.
+- id: kart-one-arena
+  name: Kart One Arena
+  source_category: activities
+  city: bratislava
+  links:
+    - url: http://www.kartarena.sk
+      channel: website
+  venue:
+    address: Kopčianska 82A, 851 01 Bratislava
+    coords: [48.111683, 17.090268]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Karting sessions
+      link: http://www.kartarena.sk
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Indoor karting. Address source: own site.
+- id: max-60-motokary
+  name: Max 60 (motokáry)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.motokary.sk/
+      channel: website
+  venue:
+    address: Vajnorská 127A, 831 04 Bratislava
+    coords: [48.180988, 17.153523]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Karting sessions
+      link: https://www.motokary.sk/
+      event_category: games-activities
+      note: >-
+        price in the booking flow.
+  notes: >-
+    Go-karting. Address source: own site.
+- id: colt-club-strelnica
+  name: Colt Club Strelnica
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.coltclub-strelnica.sk/sk
+      channel: website
+  venue:
+    address: Oeserov rad, 811 01 Bratislava
+    coords: [48.140643, 17.100846]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Shooting experience
+      link: https://www.coltclub-strelnica.sk/sk
+      event_category: games-activities
+      note: >-
+        price and booking on the site.
+  notes: >-
+    Shooting range open to non-members. Address source: OpenStreetMap (Nominatim).
+- id: bullseye-strelnica
+  name: BullsEye shooting range
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://bullseye.sk/
+      channel: website
+  venue:
+    address: Palkovičova 225/7, 821 08 Bratislava
+    coords: [48.158504, 17.137614]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Beginner pistol course
+      link: https://bullseye.sk/strelecky-kurz-zaklady-pistol/
+      event_category: games-activities
+      note: >-
+        price on the page.
+  notes: >-
+    Shooting range with basic pistol courses for beginners. Address source: OpenStreetMap
+    (Nominatim).
+- id: strelnica-chicago
+  name: Strelnica Chicago
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.chicago.sk/
+      channel: website
+  venue:
+    address: Kukučínova 50, 831 03 Bratislava
+    coords: [48.172787, 17.129562]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Shooting experience
+      link: https://www.chicago.sk/
+      event_category: games-activities
+      note: >-
+        price on the site.
+  notes: >-
+    Shooting range. Address source: own site.
+- id: hunter-club
+  name: Hunter Club
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://hunterclub.sk
+      channel: website
+  venue:
+    address: Kamenné námestie 1A, 811 02 Bratislava
+    coords: [48.145456, 17.114371]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Shooting experience
+      link: https://hunterclub.sk
+      event_category: games-activities
+      note: >-
+        price on the site.
+  notes: >-
+    Shooting range in the centre (OSM: Kamenné námestie 2392/1A). Address source: own site.
+- id: billiard-club-lavos
+  name: Billiard Club Lavos
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://lavos.sk/oslavy-events/
+      channel: website-agenda
+    - url: https://lavos.sk/
+      channel: website
+  venue:
+    address: Plynárenská 6, 821 09 Bratislava
+    coords: [48.143304, 17.140881]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Billiard tables
+      link: https://lavos.sk/
+      event_category: games-activities
+      note: >-
+        price on the site.
+  notes: >-
+    Billiards, snooker and events. Address source: own site.
+- id: biliard-predator
+  name: Biliardový klub Predator
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://biliardklubpredator.sk/
+      channel: website
+  venue:
+    address: Budatínska 1A, 851 06 Bratislava
+    coords: [48.10856, 17.098823]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Billiard tables
+      link: https://biliardklubpredator.sk/
+      event_category: games-activities
+      note: >-
+        price on the site.
+  notes: >-
+    Billiards club open to the public. Address source: own site.
+- id: hero-factory
+  name: Hero Factory
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://herofactory.sk/
+      channel: website
+  venue:
+    address: Vajnorská 108, 831 04 Bratislava
+    coords: [48.176448, 17.148073]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Park entry
+      link: https://herofactory.sk/
+      event_category: games-activities
+      note: >-
+        price on the site.
+  notes: >-
+    Trampoline and ninja-style activity park (mixed audience; kids-only slots are skipped).
+    Address source: own site.
+- id: hot-chilli-lode
+  name: Hot chilli lode
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://hotchillilode.sk/
+      channel: website
+  venue:
+    address: Komárovská 47, 821 06 Bratislava
+    coords: [48.134267, 17.200092]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Bratislava sightseeing by motorboat
+      link: https://www.visitbratislava.com/sk/sluzby/prehliadka-bratislavy-z-paluby-motoroveho-clna/
+      event_category: games-activities
+      note: >-
+        from 150 EUR, 1 hour or more, 2 to 9 people, bottle of sparkling wine included; 10%
+        discount with Bratislava Card; boarding at Vlčie hrdlo harbour or Dunajský pivovar.
+      address: Vlčie hrdlo, Bratislava
+    - name: Bratislava from a party boat
+      link: https://www.visitbratislava.com/sk/sluzby/prehliadka-bratislavy-z-paluby-party-lode/
+      event_category: games-activities
+      note: >-
+        bottle of sparkling wine included; price on request.
+      address: Vlčie hrdlo, Bratislava
+    - name: Jet-ski safari
+      link: https://www.visitbratislava.com/sk/sluzby/safari-jazda-na-vodnych-skutroch/
+      event_category: games-activities
+      note: >-
+        with an instructor; wetsuits, vests and helmets provided.
+      address: Vlčie hrdlo, Bratislava
+  notes: >-
+    Motorboat and jet-ski operator on the Danube. Listed in the Visit Bratislava services
+    directory. Address source: own site.
+- id: slovenska-plavba-a-pristavy-lod
+  name: Slovenská plavba a prístavy (SPaP-LOD)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.lod.sk/
+      channel: website
+    - url: https://www.lod.sk/plavby/kalendar-plavieb
+      channel: website-agenda
+      note: >-
+        cruise calendar
+  venue:
+    address: Fajnorovo nábrežie 2, 811 02 Bratislava
+    coords: [48.139795, 17.11256]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Sightseeing cruises (Bratislava circuit, Devín Castle)
+      link: https://www.visitbratislava.com/sk/sluzby/plavby-po-dunaji/
+      event_category: exhibitions
+      note: >-
+        regular departures from the passenger port; price on the page.
+  notes: >-
+    Danube passenger ships from the Bratislava passenger port: sightseeing cruises, Twin City
+    Liner to Vienna, event boat Harmónia (see also https://www.lod.sk/eventova-lod-harmonia).
+    Address source: own site.
+- id: ufo-skywalk
+  name: UFO watch.taste.groove (Skywalk)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.u-f-o.sk
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: 'Skywalk: secured 60 m walk around the observation deck at 85 m'
+      link: https://www.visitbratislava.com/sk/sluzby/skywalk-prechadzka-v-oblakoch/
+      event_category: games-activities
+      note: >-
+        with an instructor; price on the operator's site.
+      address: 'Most SNP 1, 851 01 Bratislava'
+  notes: >-
+    Observation tower, bar and restaurant on the SNP Bridge pylon. Address source: own site.
+    Open item: no OpenStreetMap match for the address 'Most SNP 1, 851 01 Bratislava', so no
+    coordinates; geocode by hand.
+- id: divoka-voda-s-r-o
+  name: Divoká Voda (water sports area, Čunovo) — activities
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://www.divokavoda.sk/
+      channel: website
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Rafting for 6 people
+      link: https://www.visitbratislava.com/sk/sluzby/rafting-pre-6-osob/
+      event_category: games-activities
+      note: >-
+        price on the page.
+      address: 'Vodné dielo Čunovo, 850 09 Bratislava'
+    - name: Hydrospeed
+      link: https://www.visitbratislava.com/sk/sluzby/hydrospeed/
+      event_category: games-activities
+      note: >-
+        price on the page.
+      address: 'Vodné dielo Čunovo, 850 09 Bratislava'
+    - name: Jet-ski ride at Divoká Voda
+      link: https://www.visitbratislava.com/sk/sluzby/jazda-na-vodnom-skutri/
+      event_category: games-activities
+      note: >-
+        with an instructor; licensed drivers may ride alone.
+      address: 'Vodné dielo Čunovo, 850 09 Bratislava'
+  notes: >-
+    Whitewater and water-sports centre; the venue is also recorded under sports-venues (`divoka-
+    voda-cunovo`). Address source: Visit Bratislava place page.
+    Open item: no OpenStreetMap match for the address 'Vodné dielo Čunovo, 850 09 Bratislava',
+    so no coordinates; geocode by hand.
+- id: wakelake-zlate-piesky
+  name: Wakelake (Zlaté piesky)
+  source_category: activities
+  city: bratislava
+  links:
+    - url: https://wakelake.sk
+      channel: website
+  venue:
+    address: Cesta na Senec 12, 821 04 Bratislava
+    coords: [48.184913, 17.184962]
+  social_default: false
+  fetch_status: ok
+  bookables:
+    - name: Wakeboard cable, flyboard and SUP sessions
+      link: https://www.visitbratislava.com/sk/sluzby/wakelake/
+      event_category: games-activities
+      note: >-
+        price on the operator's site.
+  notes: >-
+    Wakeboard cable park, flyboard, beach volleyball and stand-up paddle at Zlaté piesky;
+    parties. Listed in the Visit Bratislava services directory. Address source: own site.

@@ -16,11 +16,7 @@ SOURCE_CATEGORIES = [
     "industry", "coworking-hubs", "universities", "community-groups", "diaspora-expat",
     "libraries-community-centres", "markets-festivals", "municipality", "activities",
 ]
-CITIES = ["rotterdam", "the-hague", "delft", "leiden", "amsterdam", "utrecht"]
-# Culture-only scan areas (taxonomy §5): allowed only with these source categories (aggregators
-# only when they list culture, which the validator can't check).
-CULTURE_ONLY_CITIES = {"leiden", "amsterdam", "utrecht"}
-CULTURE_CATEGORIES = {"aggregators", "theatres-cinemas", "museums", "event-venues", "culture-other"}
+CITIES = ["bratislava"]
 CHANNELS = {
     "website-agenda", "website", "aggregator-page", "ticketing", "telegram",
     "link-hub", "pdf", "instagram", "facebook", "newsletter", "other",
@@ -36,8 +32,9 @@ EVENT_CATEGORIES = {
 REQUIRED = {"id", "name", "source_category", "city", "links", "social_default", "fetch_status"}
 OPTIONAL = {"venue", "reading_hint", "notes", "newsletter_subscribed", "bookables"}
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-# Sanity box around the six scan areas; catches swapped lat/lng, not a geocode.
-LAT_RANGE, LNG_RANGE = (51.8, 52.45), (4.0, 5.25)
+# Sanity box around the Bratislava municipality (OSM extent 48.007-48.265 N, 16.946-17.285 E);
+# catches swapped lat/lng, not a geocode.
+LAT_RANGE, LNG_RANGE = (48.00, 48.30), (16.90, 17.40)
 
 
 def validate(entries):
@@ -70,8 +67,6 @@ def validate(entries):
             errors.append(f"{where}: invalid source_category '{e['source_category']}'")
         if "city" in e and e["city"] not in CITIES:
             errors.append(f"{where}: invalid city '{e['city']}'")
-        elif e.get("city") in CULTURE_ONLY_CITIES and e.get("source_category") not in CULTURE_CATEGORIES:
-            errors.append(f"{where}: city '{e['city']}' is culture-only; '{e.get('source_category')}' not allowed")
         if "social_default" in e and not isinstance(e["social_default"], bool):
             errors.append(f"{where}: social_default must be true/false")
         if "fetch_status" in e and e["fetch_status"] not in FETCH_STATUSES:
